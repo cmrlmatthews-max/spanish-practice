@@ -22,6 +22,7 @@ GitHub Pages hosts it. The main file is `index.html`.
 2. Add the file name to `lessons/index.json`.
 3. Open the tool. The lesson list shows the lesson.
 4. If the file has a problem, the lesson list shows it under "Lesson file problems".
+5. `lessons/lesson.schema.json` holds the format rules. A JSON Schema tool can check a lesson file against it.
 
 ## The Azure key
 

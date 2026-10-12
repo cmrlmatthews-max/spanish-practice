@@ -359,6 +359,13 @@ window.SP = window.SP || {};
     box.appendChild(make('p', 'run-count', t('runExerciseOf', { n: index + 1, m: total })));
     box.appendChild(makeProgressBar(index, total));
     if (needsAudio && typeKnown) { box.appendChild(makeAudioRow(exercise)); }
+    // An optional picture shows the meaning (not for listen_choose, which has its own pictures).
+    if (exercise.image && exercise.type !== 'listen_choose') {
+      var picture = make('img', 'run-image');
+      picture.src = exercise.image;
+      picture.alt = '';
+      box.appendChild(picture);
+    }
     box.appendChild(view.area);
     if (state.lang === 'en' && exercise.meaningEn && typeKnown) {
       view.english = makeEnglishBlock(exercise, view);

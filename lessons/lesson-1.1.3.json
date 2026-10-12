@@ -1,0 +1,283 @@
+{
+  "lessonId": "1.1.3",
+  "level": 1,
+  "unit": 1,
+  "stage": 1,
+  "title": "En la reunión",
+  "titleEn": "In the meeting",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "1.1.3.1",
+      "type": "listen_choose",
+      "text": "La mesa.",
+      "meaningEn": "The table.",
+      "choices": [
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": true
+        },
+        {
+          "image": "images/plano.webp",
+          "label": "drawing",
+          "correct": false
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.3.2",
+      "type": "listen_choose",
+      "text": "La silla.",
+      "meaningEn": "The chair.",
+      "choices": [
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/agua.webp",
+          "label": "water",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.3.3",
+      "type": "listen_choose",
+      "text": "El café.",
+      "meaningEn": "The coffee.",
+      "choices": [
+        {
+          "image": "images/cafe.webp",
+          "label": "coffee",
+          "correct": true
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/boleto.webp",
+          "label": "ticket",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.3.4",
+      "type": "repeat",
+      "text": "La mesa.",
+      "meaningEn": "The table.",
+      "image": "images/mesa.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.3.5",
+      "type": "listen_choose",
+      "text": "La computadora.",
+      "meaningEn": "The computer.",
+      "choices": [
+        {
+          "image": "images/computadora.webp",
+          "label": "computer",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/plano.webp",
+          "label": "drawing",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, people say computadora. In Spain, people say ordenador.",
+        "es": "En México se dice computadora. En España se dice ordenador."
+      }
+    },
+    {
+      "exerciseId": "1.1.3.6",
+      "type": "listen_choose",
+      "text": "El teléfono.",
+      "meaningEn": "The telephone.",
+      "choices": [
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": true
+        },
+        {
+          "image": "images/computadora.webp",
+          "label": "computer",
+          "correct": false
+        },
+        {
+          "image": "images/cafe.webp",
+          "label": "coffee",
+          "correct": false
+        },
+        {
+          "image": "images/pasaporte.webp",
+          "label": "passport",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "The accent mark on teléfono shows the stressed syllable: te-LÉ-fo-no.",
+        "es": "El acento escrito de teléfono marca la sílaba fuerte: te-LÉ-fo-no."
+      }
+    },
+    {
+      "exerciseId": "1.1.3.7",
+      "type": "listen_choose",
+      "text": "La pluma.",
+      "meaningEn": "The pen.",
+      "choices": [
+        {
+          "image": "images/pluma.webp",
+          "label": "pen",
+          "correct": true
+        },
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, pluma means pen. It also means feather.",
+        "es": "En México, pluma es lo que usas para escribir. También significa la pluma de un ave."
+      }
+    },
+    {
+      "exerciseId": "1.1.3.8",
+      "type": "listen_choose",
+      "text": "El cuaderno.",
+      "meaningEn": "The notebook.",
+      "choices": [
+        {
+          "image": "images/cuaderno.webp",
+          "label": "notebook",
+          "correct": true
+        },
+        {
+          "image": "images/pluma.webp",
+          "label": "pen",
+          "correct": false
+        },
+        {
+          "image": "images/computadora.webp",
+          "label": "computer",
+          "correct": false
+        },
+        {
+          "image": "images/cafe.webp",
+          "label": "coffee",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.3.9",
+      "type": "repeat",
+      "text": "El café.",
+      "meaningEn": "The coffee.",
+      "image": "images/cafe.webp"
+    },
+    {
+      "exerciseId": "1.1.3.10",
+      "type": "repeat",
+      "text": "La computadora.",
+      "meaningEn": "The computer.",
+      "image": "images/computadora.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.3.11",
+      "type": "read_aloud",
+      "text": "La silla.",
+      "meaningEn": "The chair.",
+      "image": "images/silla.webp"
+    },
+    {
+      "exerciseId": "1.1.3.12",
+      "type": "listen_type",
+      "text": "El teléfono.",
+      "meaningEn": "The telephone.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.3.13",
+      "type": "repeat",
+      "text": "El plano.",
+      "meaningEn": "The floor plan.",
+      "image": "images/plano.webp"
+    },
+    {
+      "exerciseId": "1.1.3.14",
+      "type": "read_aloud",
+      "text": "La puerta.",
+      "meaningEn": "The door.",
+      "image": "images/puerta.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.3.15",
+      "type": "listen_type",
+      "text": "La pluma.",
+      "meaningEn": "The pen."
+    }
+  ]
+}

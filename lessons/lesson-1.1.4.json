@@ -1,0 +1,243 @@
+{
+  "lessonId": "1.1.4",
+  "level": 1,
+  "unit": 1,
+  "stage": 1,
+  "title": "Los sonidos",
+  "titleEn": "The sounds",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "1.1.4.1",
+      "type": "listen_choose",
+      "text": "La casa.",
+      "meaningEn": "The house.",
+      "choices": [
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": true
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Spanish has five vowels: a, e, i, o, u. Each vowel has one short, clear sound. It does not change.",
+        "es": "El español tiene cinco vocales: a, e, i, o, u. Cada vocal tiene un solo sonido corto y claro. No cambia."
+      }
+    },
+    {
+      "exerciseId": "1.1.4.2",
+      "type": "listen_choose",
+      "text": "El perro.",
+      "meaningEn": "The dog.",
+      "choices": [
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": true
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "suitcase",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.4.3",
+      "type": "listen_choose",
+      "text": "El carro.",
+      "meaningEn": "The car.",
+      "choices": [
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": true
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.4.4",
+      "type": "repeat",
+      "text": "El perro.",
+      "meaningEn": "The dog.",
+      "image": "images/perro.webp",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Rr is a trill. Your tongue taps many times, very fast. A single r between vowels is one quick tap.",
+        "es": "La rr es vibrante. La lengua golpea muchas veces, muy rápido. Una sola r entre vocales es un golpe rápido."
+      }
+    },
+    {
+      "exerciseId": "1.1.4.5",
+      "type": "repeat",
+      "text": "Pero.",
+      "meaningEn": "But.",
+      "note": {
+        "en": "Pero has one quick tap. It means but. Perro has a trill. It means dog.",
+        "es": "Pero lleva un solo golpe de lengua. Significa \"but\". Perro lleva vibración. Significa \"dog\"."
+      }
+    },
+    {
+      "exerciseId": "1.1.4.6",
+      "type": "listen_type",
+      "text": "Pero.",
+      "meaningEn": "But.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.4.7",
+      "type": "listen_choose",
+      "text": "La silla.",
+      "meaningEn": "The chair.",
+      "choices": [
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": true
+        },
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.4.8",
+      "type": "repeat",
+      "text": "Caro.",
+      "meaningEn": "Expensive.",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Caro has one quick tap. It means expensive. Carro has a trill. It means car.",
+        "es": "Caro lleva un solo golpe de lengua. Significa \"expensive\". Carro lleva vibración. Significa \"car\"."
+      }
+    },
+    {
+      "exerciseId": "1.1.4.9",
+      "type": "repeat",
+      "text": "El carro.",
+      "meaningEn": "The car.",
+      "image": "images/carro.webp"
+    },
+    {
+      "exerciseId": "1.1.4.10",
+      "type": "listen_type",
+      "text": "Caro.",
+      "meaningEn": "Expensive."
+    },
+    {
+      "exerciseId": "1.1.4.11",
+      "type": "listen_type",
+      "text": "El carro.",
+      "meaningEn": "The car.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.4.12",
+      "type": "read_aloud",
+      "text": "La casa.",
+      "meaningEn": "The house.",
+      "image": "images/casa.webp"
+    },
+    {
+      "exerciseId": "1.1.4.13",
+      "type": "listen_choose",
+      "text": "La mesa.",
+      "meaningEn": "The table.",
+      "choices": [
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": true
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.4.14",
+      "type": "repeat",
+      "text": "La puerta.",
+      "meaningEn": "The door.",
+      "image": "images/puerta.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.4.15",
+      "type": "read_aloud",
+      "text": "El carro.",
+      "meaningEn": "The car.",
+      "image": "images/carro.webp",
+      "voice": "es-MX-JorgeNeural"
+    }
+  ]
+}
