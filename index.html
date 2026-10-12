@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Spanish test page</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Spanish test">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Spanish test page</h1>
+    <p class="note">This page is a test. It checks speech scores and voices. Version 1 of the tool comes after the test.</p>
+
+    <!-- SETTINGS -->
+    <section id="settings">
+      <h2>1. Settings</h2>
+      <p class="warn">Warning: Type the key on this device only. Never type the key in a chat or an email.</p>
+      <label for="profile">Profile</label>
+      <select id="profile">
+        <option value="cade">Cade</option>
+        <option value="casey">Casey</option>
+      </select>
+
+      <label for="azureKey">Azure key</label>
+      <input id="azureKey" type="password" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+
+      <label for="azureRegion">Azure region (example: eastus)</label>
+      <input id="azureRegion" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+
+      <div class="row">
+        <button id="saveSettings" type="button">Save settings</button>
+        <button id="clearKey" type="button" class="secondary">Delete key from this device</button>
+      </div>
+      <p id="settingsStatus" class="status" role="status"></p>
+      <p class="note">Privacy: The page keeps the key in the storage of this browser. The page sends your voice recordings to Microsoft for the speech scores. The page does not keep recordings.</p>
+    </section>
+
+    <!-- FUNCTION 1: SPEECH SCORE -->
+    <section id="scoreTest">
+      <h2>2. Speech score test</h2>
+      <p>Choose a sentence. Tap Record. Say the sentence. Stop at the end of the sentence.</p>
+
+      <label for="sentence">Sentence</label>
+      <select id="sentence"></select>
+
+      <p id="sentenceText" class="sentence" lang="es-MX"></p>
+      <p id="sentenceCount" class="note"></p>
+
+      <label for="silenceMs">Silence timeout (milliseconds)</label>
+      <select id="silenceMs">
+        <option value="">SDK default</option>
+        <option value="1000">1000</option>
+        <option value="2000">2000</option>
+        <option value="3000">3000</option>
+      </select>
+      <p class="note">Use the default first. Change this value only if a pause stops the recording too early.</p>
+
+      <button id="recordBtn" type="button" class="big">Record</button>
+      <p id="recordStatus" class="status" role="status"></p>
+      <p id="busy" class="busy" hidden>Waiting for the result from Azure…</p>
+
+      <div id="resultBox" hidden>
+        <h3>Result</h3>
+        <p id="verdict" class="verdict"></p>
+        <p id="scoreWarning" class="warn" hidden></p>
+        <table class="scores">
+          <tbody>
+            <tr><th>Pronunciation score</th><td id="sPron">-</td></tr>
+            <tr><th>Accuracy</th><td id="sAcc">-</td></tr>
+            <tr><th>Fluency</th><td id="sFlu">-</td></tr>
+            <tr><th>Completeness</th><td id="sCom">-</td></tr>
+            <tr><th>Omitted words</th><td id="sOmit">-</td></tr>
+            <tr><th>Inserted words</th><td id="sIns">-</td></tr>
+            <tr><th>Words in the sentence</th><td id="sWords">-</td></tr>
+            <tr><th>Time: tap to result</th><td id="tTotal">-</td></tr>
+            <tr><th>Time: end of speech to result</th><td id="tWait">-</td></tr>
+            <tr><th>Length of audio</th><td id="tAudio">-</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Pass rule in this test: accuracy 75 or more, fluency 70 or more, and no omitted word.</p>
+
+        <h3>Words</h3>
+        <p class="note">Green is 80 or more. Yellow is 60 to 79. Red is less than 60. Tap a word to see its score.</p>
+        <div id="words" class="words"></div>
+        <p id="wordDetail" class="status" role="status"></p>
+
+        <h3>Text that Azure heard</h3>
+        <p id="heard" lang="es-MX"></p>
+
+        <details>
+          <summary>All results from Azure (raw)</summary>
+          <pre id="rawJson"></pre>
+        </details>
+      </div>
+    </section>
+
+    <!-- FUNCTION 2: VOICES -->
+    <section id="voiceTest">
+      <h2>3. Voice test</h2>
+      <p>Choose a sentence. Tap Load voices. Then tap each play button. Listen to all four.</p>
+
+      <label for="voiceSentence">Sentence</label>
+      <select id="voiceSentence"></select>
+
+      <button id="loadVoices" type="button">Load voices</button>
+      <p id="voiceStatus" class="status" role="status"></p>
+
+      <div class="grid">
+        <button type="button" class="play" data-voice="es-MX-DaliaNeural" data-rate="1" disabled>Dalia, normal</button>
+        <button type="button" class="play" data-voice="es-MX-DaliaNeural" data-rate="0.85" disabled>Dalia, slow</button>
+        <button type="button" class="play" data-voice="es-MX-JorgeNeural" data-rate="1" disabled>Jorge, normal</button>
+        <button type="button" class="play" data-voice="es-MX-JorgeNeural" data-rate="0.85" disabled>Jorge, slow</button>
+      </div>
+      <audio id="player" playsinline></audio>
+    </section>
+
+    <!-- LOG -->
+    <section id="logSection">
+      <h2>4. Test log</h2>
+      <p>The page adds one line for each recording. Use the log to fill in the results form. The log has no key.</p>
+      <p id="logCount" class="status"></p>
+      <div class="row">
+        <button id="copyLog" type="button">Copy log</button>
+        <button id="clearLog" type="button" class="secondary">Clear log</button>
+      </div>
+      <textarea id="logText" rows="6" readonly hidden></textarea>
+      <p id="logStatus" class="status" role="status"></p>
+    </section>
+  </main>
+
+  <script src="js/vendor/microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script>
+  <script src="js/test.js"></script>
+</body>
+</html>

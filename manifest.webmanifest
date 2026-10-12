@@ -1,0 +1,9 @@
+{
+  "name": "Spanish test page",
+  "short_name": "Spanish test",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
