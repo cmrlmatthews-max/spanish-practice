@@ -1,0 +1,98 @@
+{
+  "lessonId": "4.1.1",
+  "level": 4,
+  "unit": 1,
+  "stage": 4,
+  "title": "Lectura en voz alta: viajes y planta",
+  "titleEn": "Read aloud: travel and the plant",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.1.1.1",
+      "type": "read_aloud",
+      "text": "Disculpe, ¿sabe usted a qué hora sale el próximo autobús hacia el aeropuerto de la Ciudad de México?",
+      "meaningEn": "Excuse me, do you know what time the next bus to the Mexico City airport leaves?",
+      "voice": "es-MX-DaliaNeural"
+    },
+    {
+      "exerciseId": "4.1.1.2",
+      "type": "read_aloud",
+      "text": "Ojalá que nuestro vuelo no se retrase, porque necesito llegar al hotel antes de que cierre la recepción.",
+      "meaningEn": "I hope our flight isn't delayed, because I need to get to the hotel before the front desk closes.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.1.3",
+      "type": "read_aloud",
+      "text": "Cuando llegues a la esquina, da vuelta a la derecha y sigue derecho hasta que veas la gasolinera.",
+      "meaningEn": "When you get to the corner, turn right and keep going straight until you see the gas station.",
+      "voice": "es-MX-DaliaNeural"
+    },
+    {
+      "exerciseId": "4.1.1.4",
+      "type": "read_aloud",
+      "text": "Nos avisaron que el vuelo a Monterrey se retrasó, así que perdimos la conexión y tuvimos que esperar tres horas.",
+      "meaningEn": "They told us the flight to Monterrey was delayed, so we missed the connection and had to wait three hours.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.1.5",
+      "type": "read_aloud",
+      "text": "Antes de que arranque el turno, necesito que todos revisen su equipo de protección y se pongan los lentes.",
+      "meaningEn": "Before the shift starts, I need everyone to check their protective equipment and put on their safety glasses.",
+      "voice": "es-MX-DaliaNeural"
+    },
+    {
+      "exerciseId": "4.1.1.6",
+      "type": "read_aloud",
+      "text": "Les pido que no manejen el montacargas si no tienen la certificación vigente, porque es un riesgo para todos.",
+      "meaningEn": "I ask that you not drive the forklift if you don't have a current certification, because it is a risk for everyone.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.1.7",
+      "type": "read_aloud",
+      "text": "Si la pieza no cumple con las especificaciones, sepárenla y avísenle al supervisor antes de que llegue otro lote.",
+      "meaningEn": "If the part doesn't meet the specifications, set it aside and tell the supervisor before another batch arrives.",
+      "voice": "es-MX-DaliaNeural"
+    },
+    {
+      "exerciseId": "4.1.1.8",
+      "type": "read_aloud",
+      "text": "La línea dos se detuvo porque falló un sensor; llamen a mantenimiento para que la revisen lo antes posible.",
+      "meaningEn": "Line two stopped because a sensor failed; call maintenance so they check it as soon as possible.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.1.9",
+      "type": "read_aloud",
+      "text": "Quiero que me avisen de inmediato si ven algo peligroso, aunque parezca poca cosa, porque más vale prevenir que lamentar.",
+      "meaningEn": "I want you to tell me right away if you see anything dangerous, even if it seems minor, because better safe than sorry.",
+      "voice": "es-MX-DaliaNeural"
+    },
+    {
+      "exerciseId": "4.1.1.10",
+      "type": "read_aloud",
+      "text": "Pablito clavó un clavito en la calva de un calvito. En la calva de un calvito un clavito clavó Pablito.",
+      "meaningEn": "Little Pablo drove a little nail into a little bald man's bald spot. Into a little bald man's bald spot, Little Pablo drove a little nail. (Tongue twister.)",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.1.11",
+      "type": "read_aloud",
+      "text": "Tres tristes tigres tragaban trigo en un trigal, en tres tristes trastos, tragaban trigo tres tristes tigres.",
+      "meaningEn": "Three sad tigers were swallowing wheat in a wheat field, in three sad pots, three sad tigers were swallowing wheat. (Tongue twister.)",
+      "voice": "es-MX-DaliaNeural"
+    },
+    {
+      "exerciseId": "4.1.1.12",
+      "type": "read_aloud",
+      "text": "El perro de San Roque no tiene rabo porque Ramón Ramírez se lo ha cortado.",
+      "meaningEn": "Saint Roch's dog has no tail because Ramón Ramírez has cut it off. (Tongue twister.)",
+      "voice": "es-MX-JorgeNeural"
+    }
+  ]
+}

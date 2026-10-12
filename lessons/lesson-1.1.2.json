@@ -1,0 +1,275 @@
+{
+  "lessonId": "1.1.2",
+  "level": 1,
+  "unit": 1,
+  "stage": 1,
+  "title": "En la obra",
+  "titleEn": "At the construction site",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "1.1.2.1",
+      "type": "listen_choose",
+      "text": "El casco.",
+      "meaningEn": "The hard hat.",
+      "choices": [
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/agua.webp",
+          "label": "water",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.2.2",
+      "type": "listen_choose",
+      "text": "El plano.",
+      "meaningEn": "The floor plan.",
+      "choices": [
+        {
+          "image": "images/plano.webp",
+          "label": "drawing",
+          "correct": true
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/boleto.webp",
+          "label": "ticket",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "suitcase",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.2.3",
+      "type": "listen_choose",
+      "text": "La puerta.",
+      "meaningEn": "The door.",
+      "choices": [
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": true
+        },
+        {
+          "image": "images/plano.webp",
+          "label": "drawing",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.2.4",
+      "type": "repeat",
+      "text": "El casco.",
+      "meaningEn": "The hard hat.",
+      "image": "images/casco.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.2.5",
+      "type": "listen_choose",
+      "text": "La ventana.",
+      "meaningEn": "The window.",
+      "choices": [
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": true
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/agua.webp",
+          "label": "water",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.2.6",
+      "type": "listen_choose",
+      "text": "La pared.",
+      "meaningEn": "The wall.",
+      "choices": [
+        {
+          "image": "images/pared.webp",
+          "label": "wall",
+          "correct": true
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/pasaporte.webp",
+          "label": "passport",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Pared does not end in -a, but it is feminine. Learn it with la.",
+        "es": "Pared no termina en -a, pero es femenina. Aprende la palabra con la."
+      }
+    },
+    {
+      "exerciseId": "1.1.2.7",
+      "type": "listen_choose",
+      "text": "La escalera.",
+      "meaningEn": "The stairs.",
+      "choices": [
+        {
+          "image": "images/escalera.webp",
+          "label": "stairs",
+          "correct": true
+        },
+        {
+          "image": "images/pared.webp",
+          "label": "wall",
+          "correct": false
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/plano.webp",
+          "label": "drawing",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.2.8",
+      "type": "repeat",
+      "text": "La puerta.",
+      "meaningEn": "The door.",
+      "image": "images/puerta.webp"
+    },
+    {
+      "exerciseId": "1.1.2.9",
+      "type": "listen_choose",
+      "text": "El martillo.",
+      "meaningEn": "The hammer.",
+      "choices": [
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": true
+        },
+        {
+          "image": "images/escalera.webp",
+          "label": "stairs",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.1.2.10",
+      "type": "read_aloud",
+      "text": "El plano.",
+      "meaningEn": "The floor plan.",
+      "image": "images/plano.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.2.11",
+      "type": "repeat",
+      "text": "La llave.",
+      "meaningEn": "The key.",
+      "image": "images/llave.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.2.12",
+      "type": "listen_type",
+      "text": "La ventana.",
+      "meaningEn": "The window."
+    },
+    {
+      "exerciseId": "1.1.2.13",
+      "type": "read_aloud",
+      "text": "El agua.",
+      "meaningEn": "The water.",
+      "image": "images/agua.webp"
+    },
+    {
+      "exerciseId": "1.1.2.14",
+      "type": "listen_type",
+      "text": "El martillo.",
+      "meaningEn": "The hammer.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.1.2.15",
+      "type": "repeat",
+      "text": "La escalera.",
+      "meaningEn": "The stairs.",
+      "image": "images/escalera.webp"
+    }
+  ]
+}

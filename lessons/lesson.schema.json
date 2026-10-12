@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lesson.schema.json",
+  "title": "Spanish practice lesson",
+  "description": "Format rules for one lesson file. Each lesson is one JSON object with 1 to 15 exercises. Checks that this schema cannot express, and that js/lessons.js also enforces: (1) the file name must be lesson-<lessonId>.json; (2) level must equal the first part of lessonId, and unit must equal the second part; (3) each exerciseId must start with the lessonId and a dot; (4) exerciseId values must be unique within the lesson; (5) audience values must not repeat. The lesson index lessons/index.json lists the lesson files in order. Across files, each lessonId must be unique, and all lessons in one level must use the same stage.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lessonId",
+    "level",
+    "unit",
+    "stage",
+    "title",
+    "titleEn",
+    "audience",
+    "language",
+    "exercises"
+  ],
+  "properties": {
+    "lessonId": {
+      "description": "Level, unit, and lesson numbers joined with dots, for example 1.2.3.",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "level": {
+      "description": "Whole number. Must equal the first part of lessonId.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "unit": {
+      "description": "Whole number. Must equal the second part of lessonId.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "stage": {
+      "description": "Difficulty band from 1 to 4.",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4
+    },
+    "title": {
+      "description": "Lesson title in Spanish. Must not be empty.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "titleEn": {
+      "description": "Lesson title in English. Shown only when the explanation language is English. Must not be empty.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "audience": {
+      "description": "Profiles that can see this lesson. Each profile appears at most once.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["cade", "casey"]
+      }
+    },
+    "language": {
+      "description": "Always es-MX.",
+      "const": "es-MX"
+    },
+    "exercises": {
+      "description": "Exercises in the order shown. A lesson has 1 to 15 exercises.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 15,
+      "items": {
+        "$ref": "#/$defs/exercise"
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyText": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "exercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["exerciseId", "type", "text", "meaningEn"],
+      "properties": {
+        "exerciseId": {
+          "description": "The lessonId, a dot, and an exercise number of 1 or more.",
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+\\.[1-9]\\d*$"
+        },
+        "type": {
+          "description": "Exercise type.",
+          "enum": ["listen_choose", "listen_type", "repeat", "read_aloud"]
+        },
+        "text": {
+          "description": "The Spanish sentence. The voice says it, and Azure scores against it.",
+          "$ref": "#/$defs/nonEmptyText"
+        },
+        "meaningEn": {
+          "description": "English meaning. Keeps the tense of the Spanish sentence.",
+          "$ref": "#/$defs/nonEmptyText"
+        },
+        "choices": {
+          "description": "Four image choices. Required for listen_choose only.",
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/choice"
+          },
+          "contains": {
+            "required": ["correct"],
+            "properties": {
+              "correct": { "const": true }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        "image": {
+          "description": "One image that shows the meaning. Not allowed for listen_choose.",
+          "$ref": "#/$defs/nonEmptyText"
+        },
+        "voice": {
+          "description": "Azure voice name for Mexican Spanish, for example es-MX-JorgeNeural. The default voice is used when this field is absent.",
+          "type": "string",
+          "pattern": "^es-MX-"
+        },
+        "note": {
+          "description": "Short grammar or usage note, in English (en) and Spanish (es).",
+          "$ref": "#/$defs/note"
+        },
+        "pass": {
+          "description": "Pass values for the speech score. Allowed for repeat and read_aloud only.",
+          "$ref": "#/$defs/pass"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": { "const": "listen_choose" }
+            },
+            "required": ["type"]
+          },
+          "then": {
+            "required": ["choices"],
+            "not": { "required": ["image"] }
+          },
+          "else": {
+            "not": { "required": ["choices"] }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": { "enum": ["repeat", "read_aloud"] }
+            },
+            "required": ["type"]
+          },
+          "then": {},
+          "else": {
+            "not": { "required": ["pass"] }
+          }
+        }
+      ]
+    },
+    "choice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["image", "label", "correct"],
+      "properties": {
+        "image": {
+          "$ref": "#/$defs/nonEmptyText"
+        },
+        "label": {
+          "description": "English description for the authors. The tool does not show it.",
+          "$ref": "#/$defs/nonEmptyText"
+        },
+        "correct": {
+          "description": "True for the one correct choice. Exactly one choice per exercise is true.",
+          "type": "boolean"
+        }
+      }
+    },
+    "note": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "es"],
+      "properties": {
+        "en": { "$ref": "#/$defs/nonEmptyText" },
+        "es": { "$ref": "#/$defs/nonEmptyText" }
+      }
+    },
+    "pass": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["accuracy", "fluency"],
+      "properties": {
+        "accuracy": {
+          "description": "Minimum accuracy score from 0 to 100.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "fluency": {
+          "description": "Minimum fluency score from 0 to 100.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    }
+  }
+}
