@@ -1,6 +1,6 @@
 {
-  "name": "Spanish test page",
-  "short_name": "Spanish test",
+  "name": "Spanish practice",
+  "short_name": "Spanish",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

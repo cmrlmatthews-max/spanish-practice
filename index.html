@@ -1,139 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Spanish test page</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Spanish test">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Spanish">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="css/styles.css">
+  <title>Spanish practice</title>
 </head>
 <body>
-  <main>
-    <h1>Spanish test page</h1>
-    <p class="note">This page is a test. It checks speech scores and voices. Version 1 of the tool comes after the test.</p>
+<main>
+  <!-- Shows when Safari cannot save data. -->
+  <p id="banner-storage" class="banner" role="alert" data-t="storageBlocked" hidden></p>
 
-    <!-- SETTINGS -->
-    <section id="settings">
-      <h2>1. Settings</h2>
-      <p class="warn">Warning: Type the key on this device only. Never type the key in a chat or an email.</p>
-      <label for="profile">Profile</label>
-      <select id="profile">
-        <option value="cade">Cade</option>
-        <option value="casey">Casey</option>
-      </select>
+  <!-- Screen 1: choose a profile. -->
+  <section id="screen-profile" hidden>
+    <h1 data-t="appTitle"></h1>
+    <h2 data-t="chooseProfile"></h2>
+    <p class="note" data-t="chooseProfileHint"></p>
+    <div class="stack">
+      <button type="button" class="big" data-profile="cade"></button>
+      <button type="button" class="big" data-profile="casey"></button>
+    </div>
+  </section>
 
-      <label for="azureKey">Azure key</label>
-      <input id="azureKey" type="password" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+  <!-- Screen 2: list of lessons. -->
+  <section id="screen-lessons" hidden>
+    <header class="topbar">
+      <div>
+        <h1 data-t="appTitle"></h1>
+        <p id="lessons-profile" class="note"></p>
+      </div>
+      <button type="button" id="btn-settings" class="secondary" data-t="settings"></button>
+    </header>
+    <p id="lessons-status" class="status" role="status"></p>
+    <button type="button" id="btn-retry" data-t="retry" hidden></button>
+    <div id="lessons-list" class="stack"></div>
+    <details id="lessons-problems" hidden>
+      <summary id="lessons-problems-title"></summary>
+      <div id="lessons-problems-body"></div>
+    </details>
+  </section>
 
-      <label for="azureRegion">Azure region (example: eastus)</label>
-      <input id="azureRegion" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+  <!-- Screen 3: one lesson. -->
+  <section id="screen-lesson" hidden>
+    <button type="button" id="btn-lesson-back" class="secondary" data-t="back"></button>
+    <h1 id="lesson-title"></h1>
+    <p id="lesson-title-en" class="note"></p>
+    <h2 data-t="exercises"></h2>
+    <ol id="exercise-list" class="exercise-list"></ol>
+    <p class="note" data-t="exercisesNotReady"></p>
+  </section>
 
+  <!-- Screen 4: settings. -->
+  <section id="screen-settings" hidden>
+    <button type="button" id="btn-settings-back" class="secondary" data-t="back" hidden></button>
+    <h1 data-t="settings"></h1>
+    <p id="settings-notice" class="warn" hidden></p>
+
+    <label for="sel-profile" data-t="profile"></label>
+    <select id="sel-profile"></select>
+
+    <label for="sel-lang" data-t="explanationLang"></label>
+    <select id="sel-lang">
+      <option value="en" data-t="langEnglish"></option>
+      <option value="es" data-t="langSpanish"></option>
+    </select>
+
+    <label for="inp-key" data-t="azureKey"></label>
+    <input id="inp-key" type="text" class="secret" autocomplete="off" autocapitalize="off"
+           autocorrect="off" spellcheck="false">
+
+    <label for="inp-region" data-t="azureRegion"></label>
+    <input id="inp-region" type="text" autocomplete="off" autocapitalize="off"
+           autocorrect="off" spellcheck="false">
+    <p class="note" data-t="regionHint"></p>
+
+    <div class="row">
+      <button type="button" id="btn-save" data-t="save"></button>
+      <button type="button" id="btn-delete-key" class="secondary" data-t="deleteKey"></button>
+    </div>
+    <p id="settings-status" class="status" role="status"></p>
+
+    <h2 data-t="privacyTitle"></h2>
+    <p data-t="privacyNote"></p>
+    <p data-t="homeScreenTip"></p>
+
+    <h2 data-t="backupTitle"></h2>
+    <p class="note" data-t="backupHint"></p>
+    <div class="row">
+      <button type="button" id="btn-backup-save" class="secondary" data-t="backupSave"></button>
+      <!-- A label opens the file chooser. This works on iPhone without a script. -->
+      <label for="inp-backup-file" id="btn-backup-load" class="button secondary" data-t="backupLoad"></label>
+    </div>
+    <input id="inp-backup-file" type="file" accept=".json,application/json" class="visually-hidden">
+    <div id="backup-confirm" class="confirm" hidden>
+      <p data-t="backupConfirmReplace"></p>
       <div class="row">
-        <button id="saveSettings" type="button">Save settings</button>
-        <button id="clearKey" type="button" class="secondary">Delete key from this device</button>
+        <button type="button" id="btn-backup-yes" data-t="backupConfirmYes"></button>
+        <button type="button" id="btn-backup-no" class="secondary" data-t="cancel"></button>
       </div>
-      <p id="settingsStatus" class="status" role="status"></p>
-      <p class="note">Privacy: The page keeps the key in the storage of this browser. The page sends your voice recordings to Microsoft for the speech scores. The page does not keep recordings.</p>
-    </section>
+    </div>
+    <p id="backup-status" class="status" role="status"></p>
+  </section>
+</main>
 
-    <!-- FUNCTION 1: SPEECH SCORE -->
-    <section id="scoreTest">
-      <h2>2. Speech score test</h2>
-      <p>Choose a sentence. Tap Record. Say the sentence. Stop at the end of the sentence.</p>
-
-      <label for="sentence">Sentence</label>
-      <select id="sentence"></select>
-
-      <p id="sentenceText" class="sentence" lang="es-MX"></p>
-      <p id="sentenceCount" class="note"></p>
-
-      <label for="silenceMs">Silence timeout (milliseconds)</label>
-      <select id="silenceMs">
-        <option value="">SDK default</option>
-        <option value="1000">1000</option>
-        <option value="2000">2000</option>
-        <option value="3000">3000</option>
-      </select>
-      <p class="note">Use the default first. Change this value only if a pause stops the recording too early.</p>
-
-      <button id="recordBtn" type="button" class="big">Record</button>
-      <p id="recordStatus" class="status" role="status"></p>
-      <p id="busy" class="busy" hidden>Waiting for the result from Azure…</p>
-
-      <div id="resultBox" hidden>
-        <h3>Result</h3>
-        <p id="verdict" class="verdict"></p>
-        <p id="scoreWarning" class="warn" hidden></p>
-        <table class="scores">
-          <tbody>
-            <tr><th>Pronunciation score</th><td id="sPron">-</td></tr>
-            <tr><th>Accuracy</th><td id="sAcc">-</td></tr>
-            <tr><th>Fluency</th><td id="sFlu">-</td></tr>
-            <tr><th>Completeness</th><td id="sCom">-</td></tr>
-            <tr><th>Omitted words</th><td id="sOmit">-</td></tr>
-            <tr><th>Inserted words</th><td id="sIns">-</td></tr>
-            <tr><th>Words in the sentence</th><td id="sWords">-</td></tr>
-            <tr><th>Time: tap to result</th><td id="tTotal">-</td></tr>
-            <tr><th>Time: end of speech to result</th><td id="tWait">-</td></tr>
-            <tr><th>Length of audio</th><td id="tAudio">-</td></tr>
-          </tbody>
-        </table>
-        <p class="note">Pass rule in this test: accuracy 75 or more, fluency 70 or more, and no omitted word.</p>
-
-        <h3>Words</h3>
-        <p class="note">Green is 80 or more. Yellow is 60 to 79. Red is less than 60. Tap a word to see its score.</p>
-        <div id="words" class="words"></div>
-        <p id="wordDetail" class="status" role="status"></p>
-
-        <h3>Text that Azure heard</h3>
-        <p id="heard" lang="es-MX"></p>
-
-        <details>
-          <summary>All results from Azure (raw)</summary>
-          <pre id="rawJson"></pre>
-        </details>
-      </div>
-    </section>
-
-    <!-- FUNCTION 2: VOICES -->
-    <section id="voiceTest">
-      <h2>3. Voice test</h2>
-      <p>Choose a sentence. Tap Load voices. Then tap each play button. Listen to all four.</p>
-
-      <label for="voiceSentence">Sentence</label>
-      <select id="voiceSentence"></select>
-
-      <button id="loadVoices" type="button">Load voices</button>
-      <p id="voiceStatus" class="status" role="status"></p>
-
-      <div class="grid">
-        <button type="button" class="play" data-voice="es-MX-DaliaNeural" data-rate="1" disabled>Dalia, normal</button>
-        <button type="button" class="play" data-voice="es-MX-DaliaNeural" data-rate="0.85" disabled>Dalia, slow</button>
-        <button type="button" class="play" data-voice="es-MX-JorgeNeural" data-rate="1" disabled>Jorge, normal</button>
-        <button type="button" class="play" data-voice="es-MX-JorgeNeural" data-rate="0.85" disabled>Jorge, slow</button>
-      </div>
-      <audio id="player" playsinline></audio>
-    </section>
-
-    <!-- LOG -->
-    <section id="logSection">
-      <h2>4. Test log</h2>
-      <p>The page adds one line for each recording. Use the log to fill in the results form. The log has no key.</p>
-      <p id="logCount" class="status"></p>
-      <div class="row">
-        <button id="copyLog" type="button">Copy log</button>
-        <button id="clearLog" type="button" class="secondary">Clear log</button>
-      </div>
-      <textarea id="logText" rows="6" readonly hidden></textarea>
-      <p id="logStatus" class="status" role="status"></p>
-    </section>
-  </main>
-
-  <script src="js/vendor/microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script>
-  <script src="js/test.js"></script>
+<script src="js/config.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/text.js"></script>
+<script src="js/lessons.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

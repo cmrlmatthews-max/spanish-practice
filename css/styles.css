@@ -1,4 +1,4 @@
-/* Spanish test page - styles. Plain CSS, no framework. */
+/* Spanish practice - styles. Plain CSS, no framework. */
 
 :root {
   --bg: #ffffff;
@@ -11,6 +11,7 @@
   --yellow: #f2b600;
   --red: #d93025;
   --warn-bg: #fff4d6;
+  --card-bg: #f4f6f8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,12 +23,15 @@
     --accent: #5b9dff;
     --accent-fg: #0b0b0b;
     --warn-bg: #3b3115;
+    --card-bg: #1e1f22;
   }
 }
 
 * { box-sizing: border-box; }
 
 html { -webkit-text-size-adjust: 100%; }
+
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
@@ -43,34 +47,33 @@ main {
   padding: 16px;
 }
 
-h1 { font-size: 1.5rem; margin: 0 0 8px; }
-h2 { font-size: 1.2rem; margin: 0 0 8px; }
-h3 { font-size: 1.05rem; margin: 20px 0 6px; }
-
-section {
-  border-top: 1px solid var(--line);
-  padding: 16px 0 20px;
-}
+h1 { font-size: 1.5rem; margin: 12px 0 4px; }
+h2 { font-size: 1.2rem; margin: 24px 0 8px; }
+p { margin: 8px 0; }
 
 label {
   display: block;
-  margin: 12px 0 4px;
+  margin: 16px 0 4px;
   font-weight: 600;
 }
 
-input, select, textarea {
+/* 17px or more stops the zoom on iPhone. */
+input, select {
   width: 100%;
-  font: inherit; /* 17px or more stops zoom on iPhone */
+  font: inherit;
+  font-size: 17px;
   padding: 10px;
+  min-height: 44px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--bg);
   color: var(--fg);
 }
 
-textarea { font-family: ui-monospace, Menlo, monospace; font-size: 13px; margin-top: 8px; }
+/* A text input that hides the characters. Safari then offers no password autofill. */
+input.secret { -webkit-text-security: disc; }
 
-button {
+button, label.button {
   font: inherit;
   font-weight: 600;
   min-height: 44px;
@@ -83,64 +86,77 @@ button {
   touch-action: manipulation;
 }
 
-button.secondary {
+button.secondary, label.button.secondary {
   background: transparent;
   color: var(--accent);
   border: 1px solid var(--accent);
 }
 
-button.big { width: 100%; min-height: 56px; margin-top: 12px; font-size: 1.15rem; }
-button.recording { background: var(--red); color: #ffffff; }
+button.big { width: 100%; min-height: 64px; font-size: 1.25rem; }
 button:disabled { opacity: 0.4; cursor: default; }
 
+.stack { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
 .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.topbar h1 { margin-top: 0; }
 
 .note { color: var(--muted); font-size: 0.9rem; }
 .status { min-height: 1.4em; margin: 8px 0 0; }
 .status.error { color: var(--red); font-weight: 600; }
-.warn { background: var(--warn-bg); padding: 8px 10px; border-radius: 8px; }
+.warn, .banner { background: var(--warn-bg); padding: 10px 12px; border-radius: 8px; }
+.banner { font-weight: 600; }
 
-.sentence {
-  font-size: 1.35rem;
-  font-weight: 600;
-  margin: 12px 0 2px;
-}
-
-.busy { font-weight: 600; }
-
-.verdict { font-size: 1.15rem; font-weight: 700; }
-.verdict.pass { color: var(--green); }
-.verdict.fail { color: var(--red); }
-
-table.scores { width: 100%; border-collapse: collapse; margin: 8px 0; }
-table.scores th, table.scores td { text-align: left; padding: 6px 4px; border-bottom: 1px solid var(--line); font-weight: 400; }
-table.scores td { font-weight: 700; text-align: right; }
-
-.words { display: flex; flex-wrap: wrap; gap: 6px; }
-.word {
-  min-height: 40px;
-  padding: 6px 10px;
+.confirm {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
   border-radius: 8px;
-  border: 2px solid transparent;
-  background: var(--line);
+  background: var(--card-bg);
+}
+.confirm p { margin-top: 0; }
+
+/* Lesson list: each lesson is one large button. */
+button.lesson-item {
+  display: block;
+  width: 100%;
+  min-height: 72px;
+  padding: 14px 16px;
+  text-align: left;
+  font-weight: 400;
+  background: var(--card-bg);
   color: var(--fg);
-  font-weight: 600;
+  border: 1px solid var(--line);
 }
-.word.green { background: var(--green); color: #ffffff; }
-.word.yellow { background: var(--yellow); color: #1c1c1e; }
-.word.red { background: var(--red); color: #ffffff; }
-.word.omitted { text-decoration: line-through; border-color: var(--fg); }
-.word.inserted { border-style: dashed; border-color: var(--fg); }
+.lesson-item .lesson-title { display: block; font-size: 1.15rem; font-weight: 700; }
+.lesson-item .lesson-title-en { display: block; color: var(--muted); }
+.lesson-item .lesson-meta { display: block; margin-top: 6px; font-size: 0.9rem; color: var(--muted); }
 
-details { margin-top: 16px; }
-pre {
-  white-space: pre-wrap;
-  word-break: break-word;
-  font-size: 12px;
-  background: var(--line);
-  padding: 10px;
-  border-radius: 8px;
-  max-height: 360px;
-  overflow: auto;
+.exercise-list { padding-left: 0; list-style: none; }
+.exercise-list li {
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card-bg);
+}
+.exercise-list .exercise-type { color: var(--muted); }
+
+details { margin-top: 20px; }
+summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; }
+.problem-file { font-weight: 600; margin: 12px 0 4px; word-break: break-word; }
+.problem-list { margin: 0; padding-left: 20px; font-size: 0.9rem; }
+
+/* A label that looks like a button. It opens the file chooser. */
+label.button { display: inline-flex; align-items: center; justify-content: center; margin: 0; font-weight: 600; }
+
+/* Hide an element on screen but keep it usable. */
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
