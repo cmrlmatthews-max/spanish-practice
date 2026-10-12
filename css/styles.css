@@ -194,3 +194,68 @@ label.button { display: inline-flex; align-items: center; justify-content: cente
 .run-spanish { font-size: 1.25rem; font-weight: 600; }
 
 .run-nav button { flex: 1 1 140px; }
+
+/* ---------- Score view (js/score-view.js) ---------- */
+.sv-root { margin-top: 12px; }
+.sv-main { text-align: center; margin: 8px 0; }
+.sv-main-number { display: block; font-size: 2.6rem; font-weight: 800; line-height: 1.1; }
+.sv-main-label { display: block; color: var(--muted); font-size: 0.9rem; }
+.sv-small-row { display: flex; justify-content: center; gap: 24px; margin: 8px 0 16px; }
+.sv-small { text-align: center; }
+.sv-small-number { display: block; font-size: 1.3rem; font-weight: 700; }
+.sv-small-label { display: block; color: var(--muted); font-size: 0.85rem; }
+.sv-words-title { font-size: 1rem; margin: 12px 0 6px; }
+.sv-words { display: flex; flex-wrap: wrap; gap: 6px; }
+button.sv-word {
+  min-height: 40px; padding: 6px 10px; border-radius: 8px;
+  border: 2px solid transparent; background: var(--line); color: var(--fg);
+}
+button.sv-word.sv-green { background: var(--green); color: #ffffff; }
+button.sv-word.sv-yellow { background: var(--yellow); color: #1c1c1e; }
+button.sv-word.sv-red { background: var(--red); color: #ffffff; }
+button.sv-word.sv-omitted { text-decoration: line-through; border-color: var(--fg); }
+button.sv-word.sv-inserted { border-style: dashed; border-color: var(--fg); }
+button.sv-word.sv-selected { outline: 3px solid var(--accent); outline-offset: 2px; }
+.sv-detail { min-height: 1.4em; margin: 8px 0; font-weight: 600; }
+.sv-legend { display: flex; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: 0.85rem; }
+.sv-legend-item { display: inline-flex; align-items: center; gap: 4px; }
+.sv-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 3px; }
+.sv-swatch.sv-green { background: var(--green); }
+.sv-swatch.sv-yellow { background: var(--yellow); }
+.sv-swatch.sv-red { background: var(--red); }
+.sv-error { color: var(--red); font-weight: 600; }
+
+/* ---------- Listen and choose (js/ex-listen-choose.js) ---------- */
+.lc-prompt { margin: 0 0 12px; color: var(--muted); }
+.lc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+button.lc-choice { position: relative; padding: 6px; min-height: 0; background: var(--card-bg); border: 2px solid var(--line); border-radius: 12px; cursor: pointer; line-height: 0; }
+.lc-image { width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block; border-radius: 8px; pointer-events: none; }
+button.lc-choice:disabled { cursor: default; opacity: 1; }
+button.lc-choice.lc-wrong { opacity: 0.35; border-color: var(--red); }
+.lc-wrong::after { content: "\2715"; position: absolute; top: 6px; right: 10px; font-size: 1.6rem; line-height: 1; color: var(--red); }
+button.lc-choice.lc-correct { border-color: var(--green); border-width: 4px; }
+.lc-correct::after { content: "\2713"; position: absolute; top: 6px; right: 10px; font-size: 1.8rem; line-height: 1; font-weight: 700; color: var(--green); }
+
+/* ---------- Listen and type (js/ex-listen-type.js) ---------- */
+.lt-prompt { margin: 0 0 12px; color: var(--muted); }
+.lt-form { display: flex; gap: 8px; align-items: stretch; }
+input.lt-input { flex: 1 1 auto; min-width: 0; width: auto; }
+button.lt-check { flex: 0 0 auto; }
+.lt-check:disabled, .lt-input:disabled { opacity: 0.6; cursor: default; }
+.lt-feedback { margin-top: 12px; }
+.lt-line { margin: 4px 0; }
+.lt-line-label { color: var(--muted); }
+.lt-line-value { font-weight: 600; }
+.lt-info { margin: 6px 0; padding: 8px 10px; background: var(--warn-bg); border-radius: 8px; }
+
+/* ---------- Record flow: repeat and read aloud (js/ex-repeat.js, js/ex-read-aloud.js) ---------- */
+.rp-flow { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.rp-hint { margin: 0; }
+.rp-flow[data-state="listening"] .rp-record,
+.rp-flow[data-state="processing"] .rp-record { background: transparent; color: var(--red); border: 2px solid var(--red); }
+.rp-busy { align-self: center; width: 28px; height: 28px; border: 4px solid var(--line); border-top-color: var(--accent); border-radius: 50%; animation: rp-spin 0.9s linear infinite; }
+@keyframes rp-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .rp-busy { animation: none; border-right-color: var(--accent); } }
+.rp-status { text-align: center; }
+.rp-result { margin-top: 4px; }
+.ra-text { margin: 16px 0 0; font-size: 1.75rem; font-weight: 700; line-height: 1.3; text-align: center; overflow-wrap: anywhere; }

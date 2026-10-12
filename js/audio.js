@@ -274,7 +274,8 @@ SP.addText({
 
   // Load all clips of a lesson, one after another.
   // Resolve to {ok:true} or {ok:false, error:'key'|'network'|'busy'|'other'}.
-  async function prepareLesson(lesson, onProgress) {
+  // shouldContinue (optional) returns false when the user leaves. Then the loading stops.
+  async function prepareLesson(lesson, onProgress, shouldContinue) {
     var clips = clipsOfLesson(lesson);
     dropUnusedUrls(clips.map(function (clip) { return clip.id; }));
     var total = clips.length;
@@ -282,6 +283,7 @@ SP.addText({
     try {
       for (var i = 0; i < clips.length; i++) {
         var clip = clips[i];
+        if (shouldContinue && !shouldContinue()) { return { ok: false, error: 'cancelled' }; }
         if (!urls[clip.id]) {
           var found = await getBlob(clip);
           if (!found.ok) { return { ok: false, error: found.error }; }
@@ -315,6 +317,8 @@ SP.addText({
   function play(exercise, slow) {
     var url = exercise ? urls[clipId(exercise)] : null;
     if (!url) { return Promise.resolve(false); }
+    // Do not play into the microphone while a recording runs.
+    if (SP.speech && SP.speech.isActive && SP.speech.isActive()) { return Promise.resolve(false); }
     var rate = slow ? SP.config.slowRate : 1;
     var started;
     try {

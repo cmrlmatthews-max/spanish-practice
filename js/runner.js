@@ -18,6 +18,7 @@ window.SP = window.SP || {};
       runNeedKey: 'Add the Azure key and the region in Settings first. The voices and the speech scores need them.',
       runGoSettings: 'Go to Settings',
       runLoadingVoices: 'Loading voices {done} of {total}',
+      runLoadingStart: 'Loading voices…',
       runRetry: 'Retry',
       runReady: 'The voices are ready. Tap Begin. The first sound plays.',
       runBegin: 'Begin',
@@ -45,6 +46,7 @@ window.SP = window.SP || {};
       runNeedKey: 'Primero agrega la clave y la región de Azure en Ajustes. Las voces y las puntuaciones las necesitan.',
       runGoSettings: 'Ir a Ajustes',
       runLoadingVoices: 'Cargando voces {done} de {total}',
+      runLoadingStart: 'Cargando voces…',
       runRetry: 'Reintentar',
       runReady: 'Las voces están listas. Toca Comenzar. Se reproduce el primer sonido.',
       runBegin: 'Comenzar',
@@ -169,12 +171,12 @@ window.SP = window.SP || {};
     if (!SP.storage.hasCredentials()) { showNeedKey(); return; }
     var id = runId;
     var box = clearRoot();
-    var status = make('p', 'status', t('runLoadingVoices', { done: 0, total: state.lesson.exercises.length }));
+    var status = make('p', 'status', t('runLoadingStart'));
     status.setAttribute('role', 'status');
     box.appendChild(status);
     SP.audio.prepareLesson(state.lesson, function (done, total) {
       if (isCurrent(id)) { status.textContent = t('runLoadingVoices', { done: done, total: total }); }
-    }).then(function (result) {
+    }, function () { return isCurrent(id); }).then(function (result) {
       if (!isCurrent(id)) { return; }
       if (result && result.ok) { showBegin(); } else { showPrepareError(result ? result.error : 'other'); }
     }, function () {
@@ -299,7 +301,8 @@ window.SP = window.SP || {};
     state.finished = true;
     var result = outcome || {};
     saveAttempt(exercise, result, state.hintUsed);
-    state.passedNow[state.index] = Boolean(result.passed);
+    // "Passed in this run" means passed at least one time.
+    state.passedNow[state.index] = state.passedNow[state.index] || Boolean(result.passed);
     if (view.english) { view.english.hidden = true; }
     fillResult(view.result, exercise, result);
     view.nav.hidden = false;

@@ -129,7 +129,8 @@ window.SP = window.SP || {};
       finished = true;
       ctx.finish({
         passed: SP.speech.passes(res, ctx.exercise),
-        textShown: true,
+        // Repeat shows no text before. The runner then shows the exact sentence with the score.
+        textShown: hintKey !== 'rpHintRepeat',
         scores: {
           accuracy: res.scores.accuracy,
           fluency: res.scores.fluency,

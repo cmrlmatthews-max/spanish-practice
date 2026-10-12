@@ -35,6 +35,12 @@ SP.addText({
   // The recording that is active now. A new recording cancels it.
   var current = null;
 
+  // The longest wait for one recording and its score, in milliseconds.
+  var MAX_WAIT_MS = 40000;
+
+  // Return true while a recording runs.
+  function isActive() { return current !== null; }
+
   // ---------- Small helpers ----------
 
   // Return the value if it is a finite number. Return null if not.
@@ -172,6 +178,7 @@ SP.addText({
     var recognizer = null;
     var audioConfig = null;
     var resolveDone = null;
+    var timer = null;
     var done = new Promise(function (resolve) { resolveDone = resolve; });
 
     // Close the recognizer and the audio config. Ignore errors.
@@ -188,6 +195,7 @@ SP.addText({
     function finish(result) {
       if (settled) { return; }
       settled = true;
+      clearTimeout(timer);
       if (current === handle) { current = null; }
       closeAll();
       resolveDone(result);
@@ -268,6 +276,8 @@ SP.addText({
     } else if (!window.SpeechSDK) {
       fail('other');
     } else {
+      // Stop a recording that gets no answer, for example when the network stalls.
+      timer = setTimeout(function () { fail('network'); }, MAX_WAIT_MS);
       try {
         start(creds);
       } catch (e) {
@@ -288,7 +298,9 @@ SP.addText({
     if (accuracyMin === null) { accuracyMin = SP.config.pass.accuracy; }
     if (fluencyMin === null) { fluencyMin = SP.config.pass.fluency; }
     var omitted = (result.words || []).some(function (w) { return w.errorType === 'Omission'; });
-    return result.scores.accuracy >= accuracyMin && result.scores.fluency >= fluencyMin && !omitted;
+    // Compare the rounded scores, because the screen shows rounded scores.
+    return Math.round(result.scores.accuracy) >= accuracyMin &&
+      Math.round(result.scores.fluency) >= fluencyMin && !omitted;
   }
 
   // ---------- Error text ----------
@@ -310,6 +322,7 @@ SP.addText({
   }
 
   SP.speech = {
+    isActive: isActive,
     record: record,
     passes: passes,
     errorText: errorText
