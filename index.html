@@ -50,9 +50,8 @@
     <button type="button" id="btn-lesson-back" class="secondary" data-t="back"></button>
     <h1 id="lesson-title"></h1>
     <p id="lesson-title-en" class="note"></p>
-    <h2 data-t="exercises"></h2>
-    <ol id="exercise-list" class="exercise-list"></ol>
-    <p class="note" data-t="exercisesNotReady"></p>
+    <!-- runner.js draws the lesson here: start, exercises, and the end. -->
+    <div id="lesson-runner"></div>
   </section>
 
   <!-- Screen 4: settings. -->
@@ -112,6 +111,15 @@
 <script src="js/storage.js"></script>
 <script src="js/text.js"></script>
 <script src="js/lessons.js"></script>
+<script src="js/vendor/microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/score-view.js"></script>
+<script src="js/ex-listen-choose.js"></script>
+<script src="js/ex-listen-type.js"></script>
+<script src="js/ex-repeat.js"></script>
+<script src="js/ex-read-aloud.js"></script>
+<script src="js/runner.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

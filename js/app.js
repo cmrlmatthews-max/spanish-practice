@@ -8,12 +8,6 @@ window.SP = window.SP || {};
 (function () {
   'use strict';
 
-  var TYPE_TEXT = {
-    listen_choose: 'typeListenChoose',
-    listen_type: 'typeListenType',
-    repeat: 'typeRepeat',
-    read_aloud: 'typeReadAloud'
-  };
   var SCREENS = ['profile', 'lessons', 'lesson', 'settings'];
 
   var loadState = 'loading';       // 'loading', 'ok', or 'error'
@@ -82,6 +76,7 @@ window.SP = window.SP || {};
   // Show one screen and hide the others.
   function showScreen(name) {
     currentScreen = name;
+    if (name !== 'lesson') { SP.runner.close(); }
     SCREENS.forEach(function (s) { $('screen-' + s).hidden = (s !== name); });
   }
 
@@ -210,21 +205,14 @@ window.SP = window.SP || {};
 
   // ---------- Lesson screen ----------
 
-  // Show one lesson. The list shows no sentence, so it does not spoil the listening.
+  // Show one lesson. The runner draws the start view, the exercises, and the end.
   function renderLesson(lesson) {
     showScreen('lesson');
     $('lesson-title').textContent = lesson.title;
     var en = $('lesson-title-en');
     en.hidden = (lang() !== 'en');
     en.textContent = lesson.titleEn;
-    var list = $('exercise-list');
-    clear(list);
-    lesson.exercises.forEach(function (ex, i) {
-      var item = make('li');
-      item.appendChild(make('strong', '', t('exerciseNumber', { n: i + 1 })));
-      item.appendChild(make('span', 'exercise-type', ' · ' + t(TYPE_TEXT[ex.type])));
-      list.appendChild(item);
-    });
+    SP.runner.open(lesson, profileId());
   }
 
   // ---------- Settings screen ----------

@@ -119,6 +119,13 @@ window.SP = window.SP || {};
 
   SP.text = { en: en, es: es };
 
+  // Add more texts. Other files call this with {en: {...}, es: {...}}.
+  SP.addText = function (more) {
+    ['en', 'es'].forEach(function (lang) {
+      if (more && more[lang]) { Object.assign(SP.text[lang], more[lang]); }
+    });
+  };
+
   // Return the text for a key in a language.
   // Use English if the language lacks the key. Use the key itself if English lacks it too.
   SP.t = function (key, lang, vars) {

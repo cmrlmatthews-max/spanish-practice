@@ -33,6 +33,14 @@ window.SP = window.SP || {};
     maxExercises: 15,
     // The exercise types that a lesson file can use.
     exerciseTypes: ['listen_choose', 'listen_type', 'repeat', 'read_aloud'],
+    // The exercise types that play a voice clip.
+    audioTypes: ['listen_choose', 'listen_type', 'repeat'],
+    // The exercise types that record the user and get a speech score.
+    scoredTypes: ['repeat', 'read_aloud'],
+    // The output format of the voice clips (MP3 plays in Safari).
+    clipFormat: 'Audio16Khz32KBitRateMonoMp3',
+    // The waits in milliseconds before each new try after "too many requests".
+    retryWaitsMs: [2000, 4000, 8000],
     // The version number of the progress backup file.
     backupVersion: 1
   };
