@@ -1,5 +1,6 @@
 /* score-view.js - draw the speech score of one recording.
- * SP.scoreView.render(container, result, lang) clears the container and draws the score.
+ * SP.scoreView.render(container, result, lang, options) clears the container and draws the score.
+ * options is optional: {voice} is the voice that says single words.
  * The view shows only what Azure returned.
  */
 window.SP = window.SP || {};
@@ -22,7 +23,11 @@ SP.addText({
     svLegendYellow: 'Yellow: {a} to {b}',
     svLegendRed: 'Red: below {n}',
     svLegendOmission: 'Struck through: omitted',
-    svLegendInsertion: 'Dashed line: inserted'
+    svLegendInsertion: 'Dashed line: inserted',
+    svHear: 'Hear it',
+    svSlow: 'Slow',
+    svLoading: 'Loading...',
+    svHearFail: 'The tool cannot play this word now.'
   },
   es: {
     svPron: 'Puntuación de pronunciación',
@@ -41,12 +46,19 @@ SP.addText({
     svLegendYellow: 'Amarillo: de {a} a {b}',
     svLegendRed: 'Rojo: menos de {n}',
     svLegendOmission: 'Tachada: omitida',
-    svLegendInsertion: 'Línea punteada: añadida'
+    svLegendInsertion: 'Línea punteada: añadida',
+    svHear: 'Escuchar',
+    svSlow: 'Lento',
+    svLoading: 'Cargando…',
+    svHearFail: 'No se puede reproducir esta palabra ahora.'
   }
 });
 
 (function () {
   'use strict';
+
+  // The largest number of words that the view loads in the background.
+  var MAX_PREPARED_WORDS = 8;
 
   // The text keys for the error types that the tool translates.
   var TYPE_KEYS = {
@@ -107,8 +119,60 @@ SP.addText({
     return box;
   }
 
+  // Return true if the tool can say this word. An inserted word is not in the sentence.
+  function canHear(word) {
+    var hasAudio = !!SP.audio && typeof SP.audio.playWord === 'function';
+    return hasAudio && word.errorType !== 'Insertion' && String(word.word || '').trim() !== '';
+  }
+
+  // Draw the "Hear it" and "Slow" buttons. Return {row, show(word), hide()}.
+  function buildHearRow(detail, lang, voice) {
+    var row = makeEl('div', 'sv-hear');
+    row.hidden = true;
+    var normal = makeEl('button', 'secondary', SP.t('svHear', lang));
+    var slow = makeEl('button', 'secondary', SP.t('svSlow', lang));
+    normal.type = 'button';
+    slow.type = 'button';
+    row.appendChild(normal);
+    row.appendChild(slow);
+    var current = null;
+
+    // Put both buttons back to their normal state.
+    function setIdle() {
+      normal.textContent = SP.t('svHear', lang);
+      slow.textContent = SP.t('svSlow', lang);
+      normal.disabled = false;
+      slow.disabled = false;
+    }
+
+    // Play the current word. The call to playWord must stay inside the tap.
+    function tap(button, isSlow) {
+      var word = current;
+      if (!word) { return; }
+      var wait = SP.audio.wordStatus(word.word, voice) !== 'ready';
+      var promise = SP.audio.playWord(word.word, voice, isSlow);
+      if (wait) {
+        normal.disabled = true;
+        slow.disabled = true;
+        button.textContent = SP.t('svLoading', lang);
+      }
+      promise.then(function (started) {
+        if (wait) { setIdle(); }
+        if (!started && current === word) { detail.textContent = SP.t('svHearFail', lang); }
+      });
+    }
+
+    normal.addEventListener('click', function () { tap(normal, false); });
+    slow.addEventListener('click', function () { tap(slow, true); });
+    return {
+      row: row,
+      show: function (word) { current = word; setIdle(); row.hidden = false; },
+      hide: function () { current = null; row.hidden = true; }
+    };
+  }
+
   // Draw one tappable word button.
-  function buildWordButton(word, detail, lang, buttons) {
+  function buildWordButton(word, parts, lang, buttons) {
     var btn = makeEl('button', 'sv-word', word.word);
     btn.type = 'button';
     btn.setAttribute('aria-pressed', 'false');
@@ -122,27 +186,46 @@ SP.addText({
       });
       btn.classList.add('sv-selected');
       btn.setAttribute('aria-pressed', 'true');
-      detail.textContent = detailText(word, lang);
+      parts.detail.textContent = detailText(word, lang);
+      if (!parts.hear) { return; }
+      if (canHear(word)) { parts.hear.show(word); } else { parts.hear.hide(); }
     });
     return btn;
   }
 
-  // Draw the word buttons and the detail line.
-  function buildWords(words, lang) {
+  // Draw the word buttons, the detail line, and the hear buttons.
+  function buildWords(words, lang, voice) {
     var section = makeEl('div', 'sv-words-section');
     section.appendChild(makeEl('div', 'sv-words-title', SP.t('svWordsTitle', lang)));
     var list = makeEl('div', 'sv-words');
     var detail = makeEl('p', 'sv-detail', SP.t('svTapHint', lang));
     detail.setAttribute('role', 'status');
+    var hasAudio = !!SP.audio && typeof SP.audio.playWord === 'function';
+    var parts = { detail: detail, hear: hasAudio ? buildHearRow(detail, lang, voice) : null };
     var buttons = [];
     words.forEach(function (word) {
-      var btn = buildWordButton(word, detail, lang, buttons);
+      var btn = buildWordButton(word, parts, lang, buttons);
       buttons.push(btn);
       list.appendChild(btn);
     });
     section.appendChild(list);
     section.appendChild(detail);
+    if (parts.hear) { section.appendChild(parts.hear.row); }
     return section;
+  }
+
+  // Load the voice clips of the weak words in the background. Use at most 8 words.
+  function prepareWeakWords(words, voice) {
+    if (!SP.audio || typeof SP.audio.prepareWords !== 'function') { return; }
+    var texts = [];
+    words.forEach(function (word) {
+      if (!canHear(word) || texts.length >= MAX_PREPARED_WORDS) { return; }
+      var weak = word.errorType === 'Omission' ||
+        (word.accuracy !== null && Math.round(word.accuracy) < SP.config.wordColors.green);
+      if (weak && texts.indexOf(word.word) === -1) { texts.push(word.word); }
+    });
+    if (texts.length === 0) { return; }
+    try { SP.audio.prepareWords(texts, voice); } catch (e) { /* the buttons still work */ }
   }
 
   // Draw one legend item with a color swatch.
@@ -180,7 +263,8 @@ SP.addText({
   // ---------- Public function ----------
 
   // Clear the container and draw the score of a result.
-  function render(container, result, lang) {
+  function render(container, result, lang, options) {
+    var voice = (options && options.voice) || SP.config.defaultVoice;
     container.innerHTML = '';
     if (!result || !result.ok) {
       container.appendChild(makeEl('p', 'sv-error', SP.speech.errorText(result && result.error, lang)));
@@ -196,12 +280,13 @@ SP.addText({
 
     var words = result.words || [];
     if (words.length > 0) {
-      root.appendChild(buildWords(words, lang));
+      root.appendChild(buildWords(words, lang, voice));
       root.appendChild(buildLegend(lang));
       var marks = buildMarkLegend(words, lang);
       if (marks) { root.appendChild(marks); }
     }
     container.appendChild(root);
+    prepareWeakWords(words, voice);
   }
 
   SP.scoreView = { render: render };

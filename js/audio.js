@@ -1,6 +1,7 @@
 /* audio.js - voice clips: get them from Azure, keep them, and play them.
  * SP.audio.prepareLesson loads all clips of a lesson before the first exercise.
  * SP.audio.play starts a clip at once. Safari needs the call inside a tap.
+ * SP.audio.prepareWords and SP.audio.playWord handle single words of a score view.
  * The code never shows the Azure key or the raw error details of the SDK.
  */
 window.SP = window.SP || {};
@@ -35,6 +36,14 @@ SP.addText({
   var memoryBlobs = {};
   // The open database as a promise. It resolves to null if IndexedDB does not work.
   var dbPromise = null;
+  // Ids of single-word clips. A new lesson keeps their object URLs. Key: clip id.
+  var wordIds = {};
+  // The end of the word request queue. Word requests run one after another.
+  var wordQueue = Promise.resolve();
+  // A number that grows with each word tap. An old tap stops when a new tap starts.
+  var wordTap = 0;
+  // A silent WAV clip. A tap plays it to unlock the audio element in Safari.
+  var SILENT_WAV = 'data:audio/wav;base64,UklGRiwAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQgAAACAgICAgICAgA==';
 
   // ---------- Clip ids ----------
 
@@ -248,7 +257,7 @@ SP.addText({
   // Free the object URLs of clips that the new lesson does not need.
   function dropUnusedUrls(keepIds) {
     Object.keys(urls).forEach(function (id) {
-      if (keepIds.indexOf(id) === -1) {
+      if (keepIds.indexOf(id) === -1 && !wordIds[id]) {
         try { URL.revokeObjectURL(urls[id]); } catch (e) { /* ignore */ }
         delete urls[id];
       }
@@ -312,13 +321,8 @@ SP.addText({
     return player;
   }
 
-  // Start the clip of an exercise at once. Call this inside a tap handler.
-  // Return a promise that resolves to true if the sound started. It never rejects.
-  function play(exercise, slow) {
-    var url = exercise ? urls[clipId(exercise)] : null;
-    if (!url) { return Promise.resolve(false); }
-    // Do not play into the microphone while a recording runs.
-    if (SP.speech && SP.speech.isActive && SP.speech.isActive()) { return Promise.resolve(false); }
+  // Start the sound of an object URL at once. Resolve to true if the sound started.
+  function startUrl(url, slow) {
     var rate = slow ? SP.config.slowRate : 1;
     var started;
     try {
@@ -338,6 +342,21 @@ SP.addText({
     return Promise.resolve(true);
   }
 
+  // Return true while a recording runs.
+  function recordingActive() {
+    return !!(SP.speech && SP.speech.isActive && SP.speech.isActive());
+  }
+
+  // Start the clip of an exercise at once. Call this inside a tap handler.
+  // Return a promise that resolves to true if the sound started. It never rejects.
+  function play(exercise, slow) {
+    var url = exercise ? urls[clipId(exercise)] : null;
+    if (!url) { return Promise.resolve(false); }
+    // Do not play into the microphone while a recording runs.
+    if (recordingActive()) { return Promise.resolve(false); }
+    return startUrl(url, slow);
+  }
+
   // Stop the sound and go back to the start of the clip.
   function stop() {
     if (!player) { return; }
@@ -345,6 +364,92 @@ SP.addText({
       player.pause();
       player.currentTime = 0;
     } catch (e) { /* ignore */ }
+  }
+
+  // ---------- Single words ----------
+
+  // Remove spaces and marks at the start and at the end of a word.
+  function cleanWord(text) {
+    return String(text || '').replace(/^[\s\u00bf?\u00a1!.,;:"\u00ab\u00bb]+|[\s\u00bf?\u00a1!.,;:"\u00ab\u00bb]+$/g, '');
+  }
+
+  // Return the clip of a word: {id, voice, text}.
+  function wordClip(text, voice) {
+    var name = voice || SP.config.defaultVoice;
+    var word = cleanWord(text);
+    return { id: name + '|' + word, voice: name, text: word };
+  }
+
+  // Run a task after all earlier word tasks. The queue never breaks.
+  function enqueueWord(task) {
+    var run = wordQueue.then(task).catch(function () { return { ok: false, error: 'other' }; });
+    wordQueue = run;
+    return run;
+  }
+
+  // Make the object URL of a word clip. Resolve to {ok:true} or {ok:false, error}.
+  async function ensureWordUrl(clip) {
+    if (urls[clip.id]) { return { ok: true }; }
+    var found = await getBlob(clip);
+    if (!found.ok) { return found; }
+    urls[clip.id] = URL.createObjectURL(found.blob);
+    wordIds[clip.id] = true;
+    return { ok: true };
+  }
+
+  // Get and keep the clips of some words, one after another. It never rejects.
+  function prepareWords(texts, voice) {
+    var clips = [];
+    var seen = {};
+    (texts || []).forEach(function (text) {
+      var clip = wordClip(text, voice);
+      if (!clip.text || seen[clip.id]) { return; }
+      seen[clip.id] = true;
+      clips.push(clip);
+    });
+    return enqueueWord(async function () {
+      for (var i = 0; i < clips.length; i++) {
+        var outcome = await ensureWordUrl(clips[i]);
+        // A key, network, or busy error will repeat for the next word. Stop here.
+        if (!outcome.ok && outcome.error !== 'other') { break; }
+      }
+      return { ok: true };
+    }).then(function () { return undefined; }, function () { return undefined; });
+  }
+
+  // Return 'ready' if the clip of the word can start at once. Else return 'missing'.
+  function wordStatus(text, voice) {
+    var clip = wordClip(text, voice);
+    return clip.text && urls[clip.id] ? 'ready' : 'missing';
+  }
+
+  // Unlock the audio element with a silent clip. Call this inside the tap itself.
+  function unlockPlayer() {
+    try {
+      var element = getPlayer();
+      element.src = SILENT_WAV;
+      var started = element.play();
+      if (started && typeof started.catch === 'function') { started.catch(function () { /* ignore */ }); }
+    } catch (e) { /* ignore */ }
+  }
+
+  // Get a word clip that is not ready, then play it. The tap number must still be current.
+  async function fetchAndPlayWord(clip, slow, tap) {
+    var outcome = await enqueueWord(function () { return ensureWordUrl(clip); });
+    if (!outcome.ok || tap !== wordTap || recordingActive()) { return false; }
+    return startUrl(urls[clip.id], slow);
+  }
+
+  // Play one word. Call this inside a tap handler. It never rejects.
+  // Resolve to true if the sound started.
+  function playWord(text, voice, slow) {
+    var clip = wordClip(text, voice);
+    if (!clip.text || recordingActive()) { return Promise.resolve(false); }
+    wordTap += 1;
+    var tap = wordTap;
+    if (urls[clip.id]) { return startUrl(urls[clip.id], slow); }
+    unlockPlayer();
+    return fetchAndPlayWord(clip, slow, tap).catch(function () { return false; });
   }
 
   // ---------- Error texts ----------
@@ -359,6 +464,9 @@ SP.addText({
     needsAudio: needsAudio,
     prepareLesson: prepareLesson,
     play: play,
+    prepareWords: prepareWords,
+    playWord: playWord,
+    wordStatus: wordStatus,
     stop: stop,
     errorText: errorText
   };

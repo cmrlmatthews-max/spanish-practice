@@ -124,7 +124,7 @@ window.SP = window.SP || {};
     // Show the score view and finish the exercise.
     function showScore(res) {
       setState('done');
-      if (SP.scoreView) { SP.scoreView.render(result, res, ctx.lang); }
+      if (SP.scoreView) { SP.scoreView.render(result, res, ctx.lang, { voice: ctx.exercise.voice || SP.config.defaultVoice }); }
       if (finished) { return; }
       finished = true;
       ctx.finish({
