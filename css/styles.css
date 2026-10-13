@@ -269,3 +269,15 @@ button.lt-check { flex: 0 0 auto; }
 
 /* The English gloss of a tapped word, under the detail line (js/score-view.js). */
 .sv-gloss { margin: 4px 0; font-weight: 600; color: var(--fg); }
+
+/* The exercise grid and the exercise header (js/runner.js). */
+.run-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: 12px 0 6px; }
+.run-head .run-count { margin: 0; }
+.run-head button { min-height: 40px; padding: 6px 12px; flex: 0 0 auto; }
+.run-jump-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; margin-top: 8px; }
+button.run-jump { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 56px; padding: 6px 4px; line-height: 1.15; }
+.run-jump-num { font-size: 1.4rem; font-weight: 700; }
+.run-jump-type { font-size: 0.7rem; font-weight: 600; text-align: center; overflow-wrap: anywhere; }
+button.run-jump-passed { border: 2px solid var(--green); }
+.run-jump-check { position: absolute; top: 2px; right: 5px; font-size: 0.8rem; font-weight: 700; color: var(--green); }
+button.run-jump-current { outline: 3px solid var(--accent); outline-offset: 2px; }

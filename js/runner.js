@@ -1,8 +1,9 @@
 /* runner.js - runs one lesson: start, voices, exercises, and the end.
  * SP.runner.open(lesson, profileId) draws into #lesson-runner.
  * SP.runner.close() stops sound and clears the runner.
- * Safari rule: every sound starts inside a tap handler. Begin, Next, Try again, and
- * Do it again draw the exercise and play its clip in the same handler, with no await.
+ * Safari rule: every sound starts inside a tap handler. Begin, Next, Try again, Do it again,
+ * the exercise grid buttons, and Back to exercise draw the exercise and play its clip
+ * in the same handler, with no await.
  * The code never logs the Azure key.
  */
 window.SP = window.SP || {};
@@ -37,7 +38,11 @@ window.SP = window.SP || {};
       runAgain: 'Do it again',
       runBackToLessons: 'Back to lessons',
       runMissingType: 'This tool cannot show the exercise type "{type}". Tap Next to skip it.',
-      runModuleError: 'This exercise has an error. Tap Next to skip it.'
+      runModuleError: 'This exercise has an error. Tap Next to skip it.',
+      runJumpTitle: 'Or choose an exercise',
+      runExercisesBtn: 'Exercises',
+      runBackToExercise: 'Back to exercise {n}',
+      runJumpPassedLabel: 'passed'
     },
     es: {
       runExercisesIn: 'Esta lección tiene {n} ejercicios.',
@@ -65,7 +70,11 @@ window.SP = window.SP || {};
       runAgain: 'Hacerla otra vez',
       runBackToLessons: 'Volver a las lecciones',
       runMissingType: 'La herramienta no puede mostrar el tipo de ejercicio "{type}". Toca Siguiente para saltarlo.',
-      runModuleError: 'Este ejercicio tiene un error. Toca Siguiente para saltarlo.'
+      runModuleError: 'Este ejercicio tiene un error. Toca Siguiente para saltarlo.',
+      runJumpTitle: 'O elige un ejercicio',
+      runExercisesBtn: 'Ejercicios',
+      runBackToExercise: 'Volver al ejercicio {n}',
+      runJumpPassedLabel: 'aprobado'
     }
   });
 
@@ -164,6 +173,7 @@ window.SP = window.SP || {};
     var row = make('div', 'row');
     row.appendChild(makeButton(t('runBegin'), beginLesson));
     box.appendChild(row);
+    appendJumpGrid(box, null);
   }
 
   // Load the voice clips of the lesson. Show the progress.
@@ -186,8 +196,91 @@ window.SP = window.SP || {};
 
   // Start at the first exercise. This runs inside the tap on Begin.
   function beginLesson() {
-    state.passedNow = {};
-    showExercise(0);
+    state.started = false;
+    startAt(0);
+  }
+
+  // Start at one exercise. Reset the run only if it has not started. Runs inside a tap.
+  function startAt(index) {
+    if (!state.started) {
+      state.passedNow = {};
+      state.started = true;
+    }
+    showExercise(index);
+  }
+
+  // ---------- Exercise grid ----------
+
+  // The text key of each exercise type name.
+  var TYPE_KEYS = {
+    listen_choose: 'typeListenChoose',
+    listen_type: 'typeListenType',
+    repeat: 'typeRepeat',
+    read_aloud: 'typeReadAloud'
+  };
+
+  // Return the name of an exercise type in the interface language.
+  function typeName(type) {
+    return Object.prototype.hasOwnProperty.call(TYPE_KEYS, type) ? t(TYPE_KEYS[type]) : String(type);
+  }
+
+  // Return true if the profile passed the exercise before or in this run.
+  function isPassed(exercise, index, progress) {
+    var record = progress[exercise.exerciseId];
+    return Boolean((record && record.passes > 0) || state.passedNow[index]);
+  }
+
+  // Make the button for one exercise. It shows the number and the type, never the sentence.
+  function makeJumpButton(index, progress, currentIndex) {
+    var exercise = state.lesson.exercises[index];
+    var passed = isPassed(exercise, index, progress);
+    var button = makeButton('', function () { startAt(index); }, true);
+    button.className = 'secondary run-jump' + (passed ? ' run-jump-passed' : '') +
+      (index === currentIndex ? ' run-jump-current' : '');
+    var label = t('exerciseNumber', { n: index + 1 }) + ', ' + typeName(exercise.type);
+    button.setAttribute('aria-label', label + (passed ? ', ' + t('runJumpPassedLabel') : ''));
+    if (index === currentIndex) { button.setAttribute('aria-current', 'true'); }
+    button.appendChild(make('span', 'run-jump-num', String(index + 1)));
+    button.appendChild(make('span', 'run-jump-type', typeName(exercise.type)));
+    if (passed) {
+      var check = make('span', 'run-jump-check', '\u2713');
+      check.setAttribute('aria-hidden', 'true');
+      button.appendChild(check);
+    }
+    return button;
+  }
+
+  // Add the heading and the grid of exercise buttons. currentIndex is null before the run.
+  function appendJumpGrid(box, currentIndex) {
+    var progress = SP.storage.getProgress(state.profileId) || {};
+    box.appendChild(make('h2', '', t('runJumpTitle')));
+    var grid = make('div', 'run-jump-grid');
+    state.lesson.exercises.forEach(function (exercise, index) {
+      grid.appendChild(makeJumpButton(index, progress, currentIndex));
+    });
+    box.appendChild(grid);
+  }
+
+  // Show the grid during a run, with a button back to the current exercise.
+  function showJumpView() {
+    var box = clearRoot();
+    var row = make('div', 'row');
+    row.appendChild(makeButton(t('runBackToExercise', { n: state.index + 1 }), function () {
+      showExercise(state.index);
+    }));
+    box.appendChild(row);
+    appendJumpGrid(box, state.index);
+  }
+
+  // Make the line with "Exercise N of M" and the Exercises button.
+  function makeExerciseHeader(index, total) {
+    var head = make('div', 'run-head');
+    head.appendChild(make('p', 'run-count', t('runExerciseOf', { n: index + 1, m: total })));
+    head.appendChild(makeButton(t('runExercisesBtn'), function () {
+      leaveExercise();
+      showJumpView();
+    }, true));
+    return head;
   }
 
   // ---------- Progress ----------
@@ -356,7 +449,7 @@ window.SP = window.SP || {};
 
     var box = clearRoot();
     var view = { area: make('div', 'run-area'), result: makeResultPanel(), english: null };
-    box.appendChild(make('p', 'run-count', t('runExerciseOf', { n: index + 1, m: total })));
+    box.appendChild(makeExerciseHeader(index, total));
     box.appendChild(makeProgressBar(index, total));
     if (needsAudio && typeKnown) { box.appendChild(makeAudioRow(exercise)); }
     // An optional picture shows the meaning (not for listen_choose, which has its own pictures).
@@ -414,6 +507,7 @@ window.SP = window.SP || {};
       handle: null,
       finished: false,
       hintUsed: false,
+      started: false,
       passedNow: {}
     };
     showStart();
