@@ -1,0 +1,311 @@
+{
+  "lessonId": "2.1.3",
+  "level": 2,
+  "unit": 1,
+  "stage": 2,
+  "title": "¿Cuántos hay?",
+  "titleEn": "How many are there?",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.1.3.1",
+      "type": "listen_choose",
+      "text": "Hay dos ladrillos.",
+      "meaningEn": "There are two bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-2.webp",
+          "label": "2 bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-5.webp",
+          "label": "5 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-8.webp",
+          "label": "8 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillo.webp",
+          "label": "1 brick",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Hay means there is or there are. The h is silent. Hay is the same for one thing or many things.",
+        "es": "Hay significa \"there is\" o \"there are\". La h no se pronuncia. Hay es igual para una cosa o para muchas."
+      }
+    },
+    {
+      "exerciseId": "2.1.3.2",
+      "type": "listen_choose",
+      "text": "Hay tres ladrillos.",
+      "meaningEn": "There are three bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillo.webp",
+          "label": "1 brick",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-5.webp",
+          "label": "5 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-3.webp",
+          "label": "3 bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-7.webp",
+          "label": "7 bricks",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.3.3",
+      "type": "repeat",
+      "text": "Hay dos ladrillos.",
+      "meaningEn": "There are two bricks.",
+      "glosses": {
+        "hay": "there is, there are (one form for both)",
+        "dos": "two",
+        "ladrillos": "bricks (plural of ladrillo)"
+      },
+      "image": "images/ladrillos-2.webp",
+      "note": {
+        "en": "Add -s to make the plural of a noun that ends in a vowel: ladrillo, ladrillos; maleta, maletas.",
+        "es": "Para el plural de un sustantivo que termina en vocal, agrega -s: ladrillo, ladrillos; maleta, maletas."
+      }
+    },
+    {
+      "exerciseId": "2.1.3.4",
+      "type": "listen_choose",
+      "text": "Hay cuatro ladrillos.",
+      "meaningEn": "There are four bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-2.webp",
+          "label": "2 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-4.webp",
+          "label": "4 bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-6.webp",
+          "label": "6 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-8.webp",
+          "label": "8 bricks",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.3.5",
+      "type": "listen_choose",
+      "text": "Hay cinco ladrillos.",
+      "meaningEn": "There are five bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-3.webp",
+          "label": "3 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-7.webp",
+          "label": "7 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillo.webp",
+          "label": "1 brick",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-5.webp",
+          "label": "5 bricks",
+          "correct": true
+        }
+      ],
+      "note": {
+        "en": "Numbers such as dos, tres, and cuatro do not change for gender: dos ladrillos, dos maletas. The exception is uno: un ladrillo, una maleta.",
+        "es": "Números como dos, tres y cuatro no cambian con el género: dos ladrillos, dos maletas. La excepción es uno: un ladrillo, una maleta."
+      }
+    },
+    {
+      "exerciseId": "2.1.3.6",
+      "type": "repeat",
+      "text": "Tengo tres maletas.",
+      "meaningEn": "I have three suitcases.",
+      "glosses": {
+        "tengo": "I have — 1st person of tener (irregular)",
+        "tres": "three",
+        "maletas": "suitcases (plural of maleta)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.3.7",
+      "type": "listen_choose",
+      "text": "Hay seis ladrillos.",
+      "meaningEn": "There are six bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-6.webp",
+          "label": "6 bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-2.webp",
+          "label": "2 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-4.webp",
+          "label": "4 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-7.webp",
+          "label": "7 bricks",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.3.8",
+      "type": "listen_choose",
+      "text": "Hay siete ladrillos.",
+      "meaningEn": "There are seven bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-2.webp",
+          "label": "2 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-4.webp",
+          "label": "4 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-7.webp",
+          "label": "7 bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-6.webp",
+          "label": "6 bricks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.3.9",
+      "type": "listen_choose",
+      "text": "Hay ocho ladrillos.",
+      "meaningEn": "There are eight bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-3.webp",
+          "label": "3 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-8.webp",
+          "label": "8 bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-5.webp",
+          "label": "5 bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillo.webp",
+          "label": "1 brick",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.3.10",
+      "type": "read_aloud",
+      "text": "Hay cinco ladrillos.",
+      "meaningEn": "There are five bricks.",
+      "glosses": {
+        "hay": "there is, there are (one form for both)",
+        "cinco": "five",
+        "ladrillos": "bricks (plural of ladrillo)"
+      },
+      "image": "images/ladrillos-5.webp"
+    },
+    {
+      "exerciseId": "2.1.3.11",
+      "type": "repeat",
+      "text": "Uno, dos, tres, cuatro.",
+      "meaningEn": "One, two, three, four.",
+      "glosses": {
+        "uno": "one (counting form; un before masculine, una before feminine)",
+        "dos": "two",
+        "tres": "three",
+        "cuatro": "four"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Uno becomes un before a masculine noun (un ladrillo) and una before a feminine noun (una maleta). When you count, say uno.",
+        "es": "Uno se vuelve un antes de un sustantivo masculino (un ladrillo) y una antes de uno femenino (una maleta). Al contar, se dice uno."
+      }
+    },
+    {
+      "exerciseId": "2.1.3.12",
+      "type": "listen_type",
+      "text": "Hay seis ladrillos.",
+      "meaningEn": "There are six bricks."
+    },
+    {
+      "exerciseId": "2.1.3.13",
+      "type": "read_aloud",
+      "text": "Necesito ocho ladrillos.",
+      "meaningEn": "I need eight bricks.",
+      "glosses": {
+        "necesito": "I need — 1st person of necesitar",
+        "ocho": "eight",
+        "ladrillos": "bricks (plural of ladrillo)"
+      },
+      "image": "images/ladrillos-8.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.3.14",
+      "type": "listen_type",
+      "text": "Tengo siete cascos.",
+      "meaningEn": "I have seven hard hats.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.3.15",
+      "type": "listen_type",
+      "text": "Hay tres puertas.",
+      "meaningEn": "There are three doors."
+    }
+  ]
+}

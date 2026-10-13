@@ -1,0 +1,301 @@
+{
+  "lessonId": "1.2.2",
+  "level": 1,
+  "unit": 2,
+  "stage": 1,
+  "title": "Los materiales",
+  "titleEn": "The materials",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "1.2.2.1",
+      "type": "listen_choose",
+      "text": "El cemento.",
+      "meaningEn": "The cement.",
+      "choices": [
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/cemento.webp",
+          "label": "cement bag",
+          "correct": true
+        },
+        {
+          "image": "images/agua.webp",
+          "label": "water",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "The letter c before e or i sounds like s. Cemento sounds like se-MEN-to.",
+        "es": "La c antes de e o i suena como s. Cemento suena como se-MEN-to."
+      }
+    },
+    {
+      "exerciseId": "1.2.2.2",
+      "type": "listen_choose",
+      "text": "La madera.",
+      "meaningEn": "The wood.",
+      "choices": [
+        {
+          "image": "images/cemento.webp",
+          "label": "cement bag",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/madera.webp",
+          "label": "wood planks",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.2.3",
+      "type": "listen_choose",
+      "text": "El ladrillo.",
+      "meaningEn": "The brick.",
+      "choices": [
+        {
+          "image": "images/ladrillo.webp",
+          "label": "brick",
+          "correct": true
+        },
+        {
+          "image": "images/madera.webp",
+          "label": "wood planks",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/calle.webp",
+          "label": "street",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "In Mexico, ll sounds like y in the English word yes. Ladrillo sounds like la-DRI-yo.",
+        "es": "En México, la ll suena como la y de yo. Ladrillo suena como la-DRI-yo."
+      }
+    },
+    {
+      "exerciseId": "1.2.2.4",
+      "type": "repeat",
+      "text": "El cemento.",
+      "meaningEn": "The cement.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cemento": "cement"
+      },
+      "image": "images/cemento.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.2.5",
+      "type": "listen_choose",
+      "text": "La columna.",
+      "meaningEn": "The column.",
+      "choices": [
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillo.webp",
+          "label": "brick",
+          "correct": false
+        },
+        {
+          "image": "images/columna.webp",
+          "label": "column",
+          "correct": true
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.2.6",
+      "type": "listen_choose",
+      "text": "La viga.",
+      "meaningEn": "The beam.",
+      "choices": [
+        {
+          "image": "images/plano.webp",
+          "label": "drawing",
+          "correct": false
+        },
+        {
+          "image": "images/viga.webp",
+          "label": "steel beam",
+          "correct": true
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/escalera.webp",
+          "label": "stairs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.2.2.7",
+      "type": "listen_choose",
+      "text": "La grúa.",
+      "meaningEn": "The crane.",
+      "choices": [
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/viga.webp",
+          "label": "steel beam",
+          "correct": false
+        },
+        {
+          "image": "images/calle.webp",
+          "label": "street",
+          "correct": false
+        },
+        {
+          "image": "images/grua.webp",
+          "label": "tower crane",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "The accent mark on grúa puts the stress on the u: GRÚ-a. Because of the accent, u and a are two syllables.",
+        "es": "El acento de grúa pone la fuerza en la u: GRÚ-a. Por el acento, la u y la a son dos sílabas."
+      }
+    },
+    {
+      "exerciseId": "1.2.2.8",
+      "type": "repeat",
+      "text": "La madera.",
+      "meaningEn": "The wood.",
+      "glosses": {
+        "la": "the (feminine)",
+        "madera": "wood, lumber"
+      },
+      "image": "images/madera.webp"
+    },
+    {
+      "exerciseId": "1.2.2.9",
+      "type": "listen_choose",
+      "text": "El martillo.",
+      "meaningEn": "The hammer.",
+      "choices": [
+        {
+          "image": "images/viga.webp",
+          "label": "steel beam",
+          "correct": false
+        },
+        {
+          "image": "images/grua.webp",
+          "label": "tower crane",
+          "correct": false
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": true
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.2.2.10",
+      "type": "repeat",
+      "text": "El ladrillo.",
+      "meaningEn": "The brick.",
+      "glosses": {
+        "el": "the (masculine)",
+        "ladrillo": "brick"
+      },
+      "image": "images/ladrillo.webp"
+    },
+    {
+      "exerciseId": "1.2.2.11",
+      "type": "read_aloud",
+      "text": "La pared.",
+      "meaningEn": "The wall.",
+      "glosses": {
+        "la": "the (feminine)",
+        "pared": "wall (feminine, uses la)"
+      },
+      "image": "images/pared.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.2.12",
+      "type": "listen_type",
+      "text": "La viga.",
+      "meaningEn": "The beam."
+    },
+    {
+      "exerciseId": "1.2.2.13",
+      "type": "read_aloud",
+      "text": "El plano.",
+      "meaningEn": "The floor plan.",
+      "glosses": {
+        "el": "the (masculine)",
+        "plano": "floor plan"
+      },
+      "image": "images/plano.webp"
+    },
+    {
+      "exerciseId": "1.2.2.14",
+      "type": "listen_type",
+      "text": "El mapa.",
+      "meaningEn": "The map.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.2.15",
+      "type": "listen_type",
+      "text": "La calle.",
+      "meaningEn": "The street."
+    }
+  ]
+}

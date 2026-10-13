@@ -1,0 +1,288 @@
+{
+  "lessonId": "1.2.4",
+  "level": 1,
+  "unit": 2,
+  "stage": 1,
+  "title": "Más sonidos",
+  "titleEn": "More sounds",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "1.2.4.1",
+      "type": "listen_choose",
+      "text": "El piso.",
+      "meaningEn": "The floor.",
+      "choices": [
+        {
+          "image": "images/piso.webp",
+          "label": "floor",
+          "correct": true
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Piso means floor. It also means a floor level of a building, such as el segundo piso.",
+        "es": "Piso significa suelo. También significa el nivel de un edificio, como el segundo piso."
+      }
+    },
+    {
+      "exerciseId": "1.2.4.2",
+      "type": "listen_choose",
+      "text": "El peso.",
+      "meaningEn": "The peso.",
+      "choices": [
+        {
+          "image": "images/piso.webp",
+          "label": "floor",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/peso.webp",
+          "label": "coin",
+          "correct": true
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "El peso is the money of Mexico. Peso also means weight.",
+        "es": "El peso es la moneda de México. Peso también significa el peso de algo."
+      }
+    },
+    {
+      "exerciseId": "1.2.4.3",
+      "type": "listen_choose",
+      "text": "El gato.",
+      "meaningEn": "The cat.",
+      "choices": [
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "image": "images/gato.webp",
+          "label": "cat",
+          "correct": true
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.2.4.4",
+      "type": "listen_choose",
+      "text": "El pato.",
+      "meaningEn": "The duck.",
+      "choices": [
+        {
+          "image": "images/gato.webp",
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        },
+        {
+          "image": "images/pato.webp",
+          "label": "duck",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.4.5",
+      "type": "repeat",
+      "text": "El piso.",
+      "meaningEn": "The floor.",
+      "glosses": {
+        "el": "the (masculine)",
+        "piso": "floor"
+      },
+      "image": "images/piso.webp",
+      "note": {
+        "en": "Piso has the vowel i. Peso has the vowel e. Say each vowel short and clear.",
+        "es": "Piso lleva la vocal i. Peso lleva la vocal e. Di cada vocal corta y clara."
+      }
+    },
+    {
+      "exerciseId": "1.2.4.6",
+      "type": "repeat",
+      "text": "El peso.",
+      "meaningEn": "The peso.",
+      "glosses": {
+        "el": "the (masculine)",
+        "peso": "peso (Mexican money), weight"
+      },
+      "image": "images/peso.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.4.7",
+      "type": "listen_choose",
+      "text": "El piso.",
+      "meaningEn": "The floor.",
+      "choices": [
+        {
+          "image": "images/peso.webp",
+          "label": "coin",
+          "correct": false
+        },
+        {
+          "image": "images/piso.webp",
+          "label": "floor",
+          "correct": true
+        },
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        },
+        {
+          "image": "images/calle.webp",
+          "label": "street",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.2.4.8",
+      "type": "listen_choose",
+      "text": "El gato.",
+      "meaningEn": "The cat.",
+      "choices": [
+        {
+          "image": "images/pato.webp",
+          "label": "duck",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/gato.webp",
+          "label": "cat",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Gato starts with a g, as in the English word go. Pato starts with a p. Listen for the first sound.",
+        "es": "Gato empieza con g, como en go en inglés. Pato empieza con p. Escucha el primer sonido."
+      }
+    },
+    {
+      "exerciseId": "1.2.4.9",
+      "type": "repeat",
+      "text": "El pato.",
+      "meaningEn": "The duck.",
+      "glosses": {
+        "el": "the (masculine)",
+        "pato": "duck"
+      },
+      "image": "images/pato.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.4.10",
+      "type": "listen_type",
+      "text": "El peso.",
+      "meaningEn": "The peso."
+    },
+    {
+      "exerciseId": "1.2.4.11",
+      "type": "listen_type",
+      "text": "El pato.",
+      "meaningEn": "The duck.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.4.12",
+      "type": "read_aloud",
+      "text": "El baño.",
+      "meaningEn": "The bathroom.",
+      "glosses": {
+        "el": "the (masculine)",
+        "baño": "bathroom, restroom"
+      },
+      "image": "images/bano.webp"
+    },
+    {
+      "exerciseId": "1.2.4.13",
+      "type": "repeat",
+      "text": "Pero.",
+      "meaningEn": "But.",
+      "glosses": {
+        "pero": "but"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.4.14",
+      "type": "listen_type",
+      "text": "Caro.",
+      "meaningEn": "Expensive."
+    },
+    {
+      "exerciseId": "1.2.4.15",
+      "type": "read_aloud",
+      "text": "La calle.",
+      "meaningEn": "The street.",
+      "glosses": {
+        "la": "the (feminine)",
+        "calle": "street"
+      },
+      "image": "images/calle.webp",
+      "voice": "es-MX-JorgeNeural"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "lessonId": "4.1.4",
+  "level": 4,
+  "unit": 1,
+  "stage": 4,
+  "title": "Lectura en voz alta: de viaje",
+  "titleEn": "Read aloud: on the road",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.1.4.1",
+      "type": "read_aloud",
+      "text": "Disculpe, ¿podría decirme si hay algún vuelo directo de la Ciudad de México a Oaxaca que salga antes del mediodía?",
+      "meaningEn": "Excuse me, could you tell me whether there is a direct flight from Mexico City to Oaxaca that leaves before noon?",
+      "glosses": {
+        "disculpe": "excuse me — usted command of disculpar",
+        "podría": "(you) could — conditional of poder, usted",
+        "decirme": "tell me — infinitive decir + me",
+        "si": "if, whether",
+        "hay": "there is — impersonal form of haber",
+        "algún": "any, some (masculine, before a noun)",
+        "vuelo": "flight",
+        "directo": "direct, nonstop",
+        "de": "from, of (Ciudad de México = Mexico City)",
+        "la": "the (feminine)",
+        "ciudad": "city",
+        "méxico": "Mexico",
+        "a": "to",
+        "oaxaca": "Oaxaca (state and city in southern Mexico)",
+        "que": "that (a flight that leaves — relative clause)",
+        "salga": "(it) leaves — present subjunctive of salir",
+        "antes": "before",
+        "del": "of the (antes del mediodía = before noon)",
+        "mediodía": "noon"
+      },
+      "note": {
+        "en": "In México and Oaxaca, the x sounds like the Spanish j. Say MEH-hee-co and wa-HA-ca.",
+        "es": "En México y Oaxaca, la x se pronuncia como j."
+      }
+    },
+    {
+      "exerciseId": "4.1.4.2",
+      "type": "read_aloud",
+      "text": "Busco un hotel que esté cerca del Zócalo y que tenga estacionamiento, aunque sea un poco más caro.",
+      "meaningEn": "I am looking for a hotel that is near the Zócalo and has parking, even if it is a bit more expensive.",
+      "glosses": {
+        "busco": "I look for — 1st person singular of buscar",
+        "un": "a, an (masculine)",
+        "hotel": "hotel",
+        "que": "that (relative: a hotel that …)",
+        "esté": "(it) is — present subjunctive of estar, hotel not yet known",
+        "cerca": "near",
+        "del": "of the (cerca del = near the)",
+        "zócalo": "main square (of Mexico City and other cities)",
+        "y": "and",
+        "tenga": "(it) has — present subjunctive of tener, hotel not yet known",
+        "estacionamiento": "parking (Mexican word)",
+        "aunque": "even if (+ subjunctive)",
+        "sea": "(it) is — present subjunctive of ser, after aunque",
+        "poco": "little (un poco = a bit)",
+        "más": "more",
+        "caro": "expensive"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Use the subjunctive in a relative clause when the thing is unknown or may not exist. Example: busco un hotel que tenga. For a known hotel, use the indicative: conozco un hotel que tiene.",
+        "es": "Si lo que se busca no se conoce, la cláusula con que lleva subjuntivo: busco un hotel que tenga."
+      }
+    },
+    {
+      "exerciseId": "4.1.4.3",
+      "type": "listen_type",
+      "text": "Quiero que me recomiendes un restaurante donde sirvan mole oaxaqueño de verdad.",
+      "meaningEn": "I want you to recommend a restaurant where they serve real Oaxacan mole."
+    },
+    {
+      "exerciseId": "4.1.4.4",
+      "type": "read_aloud",
+      "text": "Cuando lleguemos a Mérida, vamos a rentar un carro para poder visitar Uxmal sin depender de nadie.",
+      "meaningEn": "When we get to Mérida, we are going to rent a car so we can visit Uxmal without depending on anyone.",
+      "glosses": {
+        "cuando": "when (future sense, so + subjunctive)",
+        "lleguemos": "(we) arrive — present subjunctive of llegar",
+        "a": "to (a Mérida; vamos a + infinitive = going to)",
+        "mérida": "Mérida (capital of Yucatán)",
+        "vamos": "we go — 1st person plural of ir (vamos a = we are going to)",
+        "rentar": "to rent (Mexican; also alquilar)",
+        "un": "a, an (masculine)",
+        "carro": "car",
+        "para": "to, in order to (para + infinitive: same subject)",
+        "visitar": "to visit",
+        "uxmal": "Uxmal (Maya ruins in Yucatán)",
+        "sin": "without",
+        "depender": "to depend",
+        "de": "on (depender de = depend on)",
+        "nadie": "nobody, anyone",
+        "poder": "to be able to (para poder = so that we can)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Use para + infinitive when the subject does not change: rentamos un carro para poder visitar. Use para que + subjunctive when the subject changes: para que ustedes puedan visitar.",
+        "es": "Si el sujeto no cambia, se usa para + infinitivo: para poder visitar. Si cambia, para que + subjuntivo: para que ustedes puedan visitar."
+      }
+    },
+    {
+      "exerciseId": "4.1.4.5",
+      "type": "repeat",
+      "text": "Si yo fuera tú, reservaría la mesa antes de que se llene el restaurante.",
+      "meaningEn": "If I were you, I would reserve the table before the restaurant fills up.",
+      "glosses": {
+        "si": "if",
+        "yo": "I",
+        "fuera": "(I) were — imperfect subjunctive of ser, after si",
+        "tú": "you (informal)",
+        "reservaría": "I would reserve — conditional of reservar",
+        "la": "the (feminine)",
+        "mesa": "table",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of (antes de que = before)",
+        "que": "that (antes de que = before)",
+        "se": "reflexive (se llene = fills up)",
+        "llene": "(it) fills — present subjunctive of llenarse, after antes de que",
+        "el": "the (masculine)",
+        "restaurante": "restaurant"
+      }
+    },
+    {
+      "exerciseId": "4.1.4.6",
+      "type": "read_aloud",
+      "text": "En la aduana es posible que les revisen las maletas, a menos que les salga verde el semáforo.",
+      "meaningEn": "At customs they may check your bags, unless the light comes up green for you.",
+      "glosses": {
+        "en": "in, at",
+        "la": "the (feminine)",
+        "aduana": "customs",
+        "es": "it is — 3rd person singular of ser",
+        "posible": "possible",
+        "que": "that (es posible que; a menos que + subjunctive)",
+        "les": "to you (ustedes) — indirect object",
+        "revisen": "(they) check — present subjunctive of revisar, after es posible que",
+        "las": "the (feminine plural)",
+        "maletas": "suitcases, bags",
+        "a": "a menos que = unless",
+        "menos": "less (a menos que = unless)",
+        "salga": "comes up, turns out — present subjunctive of salir, after a menos que",
+        "verde": "green",
+        "el": "the (masculine)",
+        "semáforo": "traffic light; at Mexican customs, a random-check light (green = go)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "A menos que means unless. It always takes the subjunctive. Example: a menos que llueva.",
+        "es": "A menos que siempre lleva subjuntivo: a menos que llueva."
+      }
+    },
+    {
+      "exerciseId": "4.1.4.7",
+      "type": "read_aloud",
+      "text": "Prometieron que, aunque el vuelo llegara con retraso, el chofer nos esperaría en la sala de llegadas.",
+      "meaningEn": "They promised that, even if the flight arrived late, the driver would wait for us in the arrivals hall.",
+      "glosses": {
+        "prometieron": "they promised — 3rd person plural preterite of prometer",
+        "que": "that",
+        "aunque": "even if (+ subjunctive)",
+        "el": "the (masculine)",
+        "vuelo": "flight",
+        "llegara": "(it) arrived — imperfect subjunctive of llegar, after aunque",
+        "con": "with (con retraso = late)",
+        "retraso": "delay",
+        "chofer": "driver (Mexican word; also conductor)",
+        "nos": "us — direct object",
+        "esperaría": "(he) would wait for — conditional of esperar",
+        "en": "in",
+        "la": "the (feminine)",
+        "sala": "hall, room (sala de llegadas = arrivals hall)",
+        "de": "of",
+        "llegadas": "arrivals"
+      },
+      "note": {
+        "en": "After a past verb such as prometieron que, use the imperfect subjunctive: aunque el vuelo llegara. The result uses the conditional: esperaría.",
+        "es": "Después de un verbo en pasado como prometieron que, se usa el imperfecto de subjuntivo (aunque llegara) y el condicional (esperaría)."
+      }
+    },
+    {
+      "exerciseId": "4.1.4.8",
+      "type": "listen_type",
+      "text": "Dudo que alcancemos el último camión a Guadalajara si no salimos ahorita.",
+      "meaningEn": "I doubt we will catch the last bus to Guadalajara if we do not leave right now.",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, ahorita can mean right now or in a little while. The context shows which one.",
+        "es": "En México, ahorita puede significar ahora mismo o dentro de un rato. El contexto indica cuál."
+      }
+    },
+    {
+      "exerciseId": "4.1.4.9",
+      "type": "read_aloud",
+      "text": "Para llegar al museo, cruza el puente y, en cuanto pases el puesto de jugos, da vuelta a la izquierda.",
+      "meaningEn": "To get to the museum, cross the bridge and, as soon as you pass the juice stand, turn left.",
+      "glosses": {
+        "para": "to, in order to (para + infinitive)",
+        "llegar": "to get to, to arrive",
+        "al": "to the (a + el)",
+        "museo": "museum",
+        "cruza": "cross — tú command of cruzar",
+        "el": "the (masculine)",
+        "puente": "bridge",
+        "y": "and",
+        "en": "in (en cuanto = as soon as)",
+        "cuanto": "en cuanto = as soon as (+ subjunctive for a future event)",
+        "pases": "(you) pass — present subjunctive of pasar, after en cuanto",
+        "puesto": "stand, stall",
+        "de": "of (puesto de jugos = juice stand)",
+        "jugos": "juices (Mexican; zumo in Spain)",
+        "da": "give — tú command of dar (dar vuelta = to turn)",
+        "vuelta": "turn (dar vuelta = to turn)",
+        "a": "to (a la izquierda = to the left)",
+        "la": "the (feminine)",
+        "izquierda": "left"
+      }
+    },
+    {
+      "exerciseId": "4.1.4.10",
+      "type": "repeat",
+      "text": "Ojalá que no llueva en Monterrey, porque quiero subir al Cerro de la Silla.",
+      "meaningEn": "I hope it does not rain in Monterrey, because I want to go up Cerro de la Silla.",
+      "glosses": {
+        "ojalá": "I hope — triggers the subjunctive",
+        "que": "that (ojalá que + subjunctive)",
+        "no": "not",
+        "llueva": "(it) rains — present subjunctive of llover (o → ue)",
+        "en": "in",
+        "monterrey": "Monterrey (city in northern Mexico)",
+        "porque": "because",
+        "quiero": "I want — 1st person singular of querer",
+        "subir": "to go up, to climb",
+        "al": "to the (a + el)",
+        "cerro": "hill (Cerro de la Silla = a mountain next to Monterrey)",
+        "de": "of",
+        "la": "the (feminine)",
+        "silla": "chair, saddle (Cerro de la Silla = Saddle Hill)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.4.11",
+      "type": "read_aloud",
+      "text": "Si tuviera más tiempo en Oaxaca, probaría los chapulines y visitaría Monte Albán sin andar a las carreras.",
+      "meaningEn": "If I had more time in Oaxaca, I would try the grasshoppers and visit Monte Albán without rushing around.",
+      "glosses": {
+        "si": "if",
+        "tuviera": "(I) had — imperfect subjunctive of tener, after si",
+        "más": "more",
+        "tiempo": "time",
+        "en": "in",
+        "oaxaca": "Oaxaca (state and city in southern Mexico)",
+        "probaría": "I would try — conditional of probar",
+        "los": "the (masculine plural)",
+        "chapulines": "grasshoppers (fried, a Oaxacan snack)",
+        "y": "and",
+        "visitaría": "I would visit — conditional of visitar",
+        "monte": "mount (Monte Albán = ancient Zapotec site)",
+        "albán": "Albán (Monte Albán, ruins near Oaxaca)",
+        "sin": "without",
+        "andar": "to go around (andar a las carreras = to rush around)",
+        "a": "a las carreras = in a hurry",
+        "las": "the (feminine plural)",
+        "carreras": "races (a las carreras = in a hurry)"
+      }
+    },
+    {
+      "exerciseId": "4.1.4.12",
+      "type": "listen_type",
+      "text": "Necesito que me despierten a las seis, porque mi vuelo sale muy temprano.",
+      "meaningEn": "I need you to wake me up at six, because my flight leaves very early."
+    },
+    {
+      "exerciseId": "4.1.4.13",
+      "type": "read_aloud",
+      "text": "Les agradecería que me confirmaran la reservación por correo, en caso de que no puedan comunicarse conmigo por teléfono.",
+      "meaningEn": "I would appreciate it if you would confirm the reservation by email, in case you cannot reach me by phone.",
+      "glosses": {
+        "les": "to you (ustedes) — indirect object",
+        "agradecería": "I would appreciate — conditional of agradecer",
+        "que": "that (agradecería que; en caso de que + subjunctive)",
+        "me": "me, to me",
+        "confirmaran": "(you all) confirm — imperfect subjunctive of confirmar, polite",
+        "la": "the (feminine)",
+        "reservación": "reservation (Mexican; also reserva)",
+        "por": "by, via (por correo = by mail, by email)",
+        "correo": "mail, email",
+        "en": "in",
+        "caso": "case",
+        "de": "of (en caso de que = in case)",
+        "no": "not",
+        "puedan": "(you all) can — present subjunctive of poder, after en caso de que",
+        "comunicarse": "to get in touch (comunicarse con = to contact)",
+        "conmigo": "with me",
+        "teléfono": "phone"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Use le agradecería que + imperfect subjunctive for a very polite request. Example: le agradecería que me confirmara.",
+        "es": "Para pedir algo con mucha cortesía: le agradecería que + imperfecto de subjuntivo."
+      }
+    },
+    {
+      "exerciseId": "4.1.4.14",
+      "type": "repeat",
+      "text": "Cuando estés en Xochimilco, pídele al remero que te lleve por los canales más tranquilos.",
+      "meaningEn": "When you are in Xochimilco, ask the boatman to take you through the quieter canals.",
+      "glosses": {
+        "cuando": "when (future sense, so + subjunctive)",
+        "estés": "(you) are — present subjunctive of estar, tú",
+        "en": "in",
+        "xochimilco": "Xochimilco (canal district of Mexico City)",
+        "pídele": "ask — tú command of pedir + le (to him)",
+        "al": "to the (a + el)",
+        "remero": "boatman, rower (he steers the trajinera boat)",
+        "que": "that (pídele que + subjunctive)",
+        "te": "you — direct object",
+        "lleve": "(he) takes — present subjunctive of llevar, after pídele que",
+        "por": "through, along",
+        "los": "the (masculine plural)",
+        "canales": "canals",
+        "más": "more (más tranquilos = quieter)",
+        "tranquilos": "quiet, calm"
+      },
+      "note": {
+        "en": "In Xochimilco, the x sounds like s. Say so-chi-MIL-co.",
+        "es": "En Xochimilco, la x suena como s: so-chi-MIL-co."
+      }
+    }
+  ]
+}

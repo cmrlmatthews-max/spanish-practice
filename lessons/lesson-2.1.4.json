@@ -1,0 +1,279 @@
+{
+  "lessonId": "2.1.4",
+  "level": 2,
+  "unit": 1,
+  "stage": 2,
+  "title": "Reviso los planos",
+  "titleEn": "I check the plans",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.1.4.1",
+      "type": "listen_choose",
+      "text": "Reviso el plano.",
+      "meaningEn": "I check the plan.",
+      "choices": [
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/revisar.webp",
+          "label": "checking a blueprint with a magnifying glass",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/cafe.webp",
+          "label": "coffee",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Revisar means to check or to review. Reviso means I check. Revisa means he or she checks. The endings -o and -a are the same as in necesito and necesita.",
+        "es": "Revisar significa \"to check\" o \"to review\". Reviso es yo; revisa es él o ella. Las terminaciones -o y -a son iguales que en necesito y necesita."
+      }
+    },
+    {
+      "exerciseId": "2.1.4.2",
+      "type": "listen_choose",
+      "text": "El cliente firma el contrato.",
+      "meaningEn": "The client signs the contract.",
+      "choices": [
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/revisar.webp",
+          "label": "checking a blueprint",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/firmar.webp",
+          "label": "a hand signing a document",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.4.3",
+      "type": "listen_choose",
+      "text": "Los ladrillos.",
+      "meaningEn": "The bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillo.webp",
+          "label": "one brick",
+          "correct": false
+        },
+        {
+          "image": "images/madera.webp",
+          "label": "wood planks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-4.webp",
+          "label": "four bricks",
+          "correct": true
+        },
+        {
+          "image": "images/cemento.webp",
+          "label": "cement bag",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Los is the plural of el: el ladrillo, los ladrillos. Las is the plural of la: la viga, las vigas.",
+        "es": "Los es el plural de el: el ladrillo, los ladrillos. Las es el plural de la: la viga, las vigas."
+      }
+    },
+    {
+      "exerciseId": "2.1.4.4",
+      "type": "repeat",
+      "text": "Las vigas.",
+      "meaningEn": "The beams.",
+      "glosses": {
+        "las": "the (feminine plural)",
+        "vigas": "beams (plural of viga)"
+      },
+      "image": "images/viga.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.4.5",
+      "type": "repeat",
+      "text": "Nueve, diez.",
+      "meaningEn": "Nine, ten.",
+      "glosses": {
+        "nueve": "nine",
+        "diez": "ten"
+      },
+      "note": {
+        "en": "Nueve is nine. Diez is ten. After ocho, the numbers continue: nueve, diez.",
+        "es": "Nueve es 9 y diez es 10. Después de ocho siguen nueve y diez."
+      }
+    },
+    {
+      "exerciseId": "2.1.4.6",
+      "type": "listen_choose",
+      "text": "Hay seis ladrillos.",
+      "meaningEn": "There are six bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-3.webp",
+          "label": "three bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-8.webp",
+          "label": "eight bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-6.webp",
+          "label": "six bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-2.webp",
+          "label": "two bricks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.4.7",
+      "type": "repeat",
+      "text": "Hay nueve vigas.",
+      "meaningEn": "There are nine beams.",
+      "glosses": {
+        "hay": "there is, there are",
+        "nueve": "nine",
+        "vigas": "beams (plural of viga)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.4.8",
+      "type": "listen_type",
+      "text": "Reviso los planos.",
+      "meaningEn": "I check the plans.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.4.9",
+      "type": "read_aloud",
+      "text": "El cliente firma el contrato.",
+      "meaningEn": "The client signs the contract.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client",
+        "firma": "he signs, she signs — 3rd person of firmar",
+        "contrato": "contract"
+      },
+      "image": "images/firmar.webp"
+    },
+    {
+      "exerciseId": "2.1.4.10",
+      "type": "repeat",
+      "text": "Las paredes y las vigas.",
+      "meaningEn": "The walls and the beams.",
+      "glosses": {
+        "las": "the (feminine plural)",
+        "paredes": "walls (plural of pared)",
+        "y": "and",
+        "vigas": "beams (plural of viga)"
+      },
+      "note": {
+        "en": "Pared ends in a consonant. Add -es: la pared, las paredes. A noun that ends in a vowel takes only -s.",
+        "es": "Pared termina en consonante. Se agrega -es: la pared, las paredes. Si termina en vocal, solo se agrega -s."
+      }
+    },
+    {
+      "exerciseId": "2.1.4.11",
+      "type": "listen_choose",
+      "text": "Necesito el martillo.",
+      "meaningEn": "I need the hammer.",
+      "choices": [
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.4.12",
+      "type": "listen_type",
+      "text": "Las columnas y las vigas.",
+      "meaningEn": "The columns and the beams."
+    },
+    {
+      "exerciseId": "2.1.4.13",
+      "type": "read_aloud",
+      "text": "Reviso las paredes y las vigas.",
+      "meaningEn": "I check the walls and the beams.",
+      "glosses": {
+        "reviso": "I check — 1st person of revisar",
+        "las": "the (feminine plural)",
+        "paredes": "walls (plural of pared)",
+        "y": "and",
+        "vigas": "beams (plural of viga)"
+      },
+      "image": "images/revisar.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.4.14",
+      "type": "listen_type",
+      "text": "Hay diez ladrillos.",
+      "meaningEn": "There are ten bricks."
+    },
+    {
+      "exerciseId": "2.1.4.15",
+      "type": "repeat",
+      "text": "El cliente revisa los planos.",
+      "meaningEn": "The client checks the plans.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client",
+        "revisa": "he checks, she checks — 3rd person of revisar",
+        "los": "the (masculine plural)",
+        "planos": "plans, drawings (plural of plano)"
+      },
+      "image": "images/plano.webp",
+      "voice": "es-MX-JorgeNeural"
+    }
+  ]
+}

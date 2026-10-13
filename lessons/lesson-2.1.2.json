@@ -1,0 +1,351 @@
+{
+  "lessonId": "2.1.2",
+  "level": 2,
+  "unit": 1,
+  "stage": 2,
+  "title": "Los colores",
+  "titleEn": "The colors",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.1.2.1",
+      "type": "listen_choose",
+      "text": "El casco rojo.",
+      "meaningEn": "The red hard hat.",
+      "choices": [
+        {
+          "image": "images/casco-rojo.webp",
+          "label": "red hard hat",
+          "correct": true
+        },
+        {
+          "image": "images/casco-azul.webp",
+          "label": "blue hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-verde.webp",
+          "label": "green hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "In Spanish, the color comes after the noun: el casco rojo (the hard hat red).",
+        "es": "En español, el color va después del sustantivo: el casco rojo."
+      }
+    },
+    {
+      "exerciseId": "2.1.2.2",
+      "type": "listen_choose",
+      "text": "El casco azul.",
+      "meaningEn": "The blue hard hat.",
+      "choices": [
+        {
+          "image": "images/casco-verde.webp",
+          "label": "green hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-azul.webp",
+          "label": "blue hard hat",
+          "correct": true
+        },
+        {
+          "image": "images/casco-blanco.webp",
+          "label": "white hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-rojo.webp",
+          "label": "red hard hat",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.2.3",
+      "type": "listen_choose",
+      "text": "El casco amarillo.",
+      "meaningEn": "The yellow hard hat.",
+      "choices": [
+        {
+          "image": "images/casco-blanco.webp",
+          "label": "white hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-rojo.webp",
+          "label": "red hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-azul.webp",
+          "label": "blue hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.2.4",
+      "type": "repeat",
+      "text": "El casco rojo.",
+      "meaningEn": "The red hard hat.",
+      "glosses": {
+        "el": "the (masculine)",
+        "casco": "hard hat",
+        "rojo": "red (masculine form; feminine: roja)"
+      },
+      "image": "images/casco-rojo.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.2.5",
+      "type": "listen_choose",
+      "text": "Necesito el casco verde.",
+      "meaningEn": "I need the green hard hat.",
+      "choices": [
+        {
+          "image": "images/casco-verde.webp",
+          "label": "green hard hat",
+          "correct": true
+        },
+        {
+          "image": "images/casco-rojo.webp",
+          "label": "red hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-azul.webp",
+          "label": "blue hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-blanco.webp",
+          "label": "white hard hat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.2.6",
+      "type": "listen_choose",
+      "text": "Busco el casco blanco.",
+      "meaningEn": "I'm looking for the white hard hat.",
+      "choices": [
+        {
+          "image": "images/casco-verde.webp",
+          "label": "green hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-azul.webp",
+          "label": "blue hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-blanco.webp",
+          "label": "white hard hat",
+          "correct": true
+        },
+        {
+          "image": "images/casco-rojo.webp",
+          "label": "red hard hat",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.2.7",
+      "type": "listen_choose",
+      "text": "La maleta roja.",
+      "meaningEn": "The red suitcase.",
+      "choices": [
+        {
+          "image": "images/maleta-negra.webp",
+          "label": "black suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": true
+        },
+        {
+          "image": "images/maleta-gris.webp",
+          "label": "gray suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-cafe.webp",
+          "label": "brown suitcase",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "A color agrees with the noun. Use -o for masculine and -a for feminine: el casco rojo, la maleta roja. The same applies to blanco, negro, and amarillo.",
+        "es": "El color concuerda con el sustantivo: -o para masculino y -a para femenino: el casco rojo, la maleta roja. Lo mismo pasa con blanco, negro y amarillo."
+      }
+    },
+    {
+      "exerciseId": "2.1.2.8",
+      "type": "listen_choose",
+      "text": "La maleta negra.",
+      "meaningEn": "The black suitcase.",
+      "choices": [
+        {
+          "image": "images/maleta-gris.webp",
+          "label": "gray suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-cafe.webp",
+          "label": "brown suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-negra.webp",
+          "label": "black suitcase",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.2.9",
+      "type": "listen_choose",
+      "text": "La maleta gris.",
+      "meaningEn": "The gray suitcase.",
+      "choices": [
+        {
+          "image": "images/maleta-negra.webp",
+          "label": "black suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-cafe.webp",
+          "label": "brown suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-gris.webp",
+          "label": "gray suitcase",
+          "correct": true
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Azul, verde, and gris do not change for gender: el casco azul, la maleta azul.",
+        "es": "Azul, verde y gris no cambian con el género: el casco azul, la maleta azul."
+      }
+    },
+    {
+      "exerciseId": "2.1.2.10",
+      "type": "listen_choose",
+      "text": "La maleta café.",
+      "meaningEn": "The brown suitcase.",
+      "choices": [
+        {
+          "image": "images/maleta-cafe.webp",
+          "label": "brown suitcase",
+          "correct": true
+        },
+        {
+          "image": "images/maleta-negra.webp",
+          "label": "black suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-gris.webp",
+          "label": "gray suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, people say café for the color brown. In Spain, people say marrón. Café does not change for gender.",
+        "es": "En México se dice café para el color. En España se dice marrón. Café no cambia con el género."
+      }
+    },
+    {
+      "exerciseId": "2.1.2.11",
+      "type": "repeat",
+      "text": "Tengo un casco azul.",
+      "meaningEn": "I have a blue hard hat.",
+      "glosses": {
+        "tengo": "I have — 1st person of tener (irregular)",
+        "un": "a, an (masculine)",
+        "casco": "hard hat",
+        "azul": "blue (same for masculine and feminine)"
+      },
+      "image": "images/casco-azul.webp"
+    },
+    {
+      "exerciseId": "2.1.2.12",
+      "type": "listen_type",
+      "text": "El casco blanco.",
+      "meaningEn": "The white hard hat.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.2.13",
+      "type": "read_aloud",
+      "text": "La maleta negra.",
+      "meaningEn": "The black suitcase.",
+      "glosses": {
+        "la": "the (feminine)",
+        "maleta": "suitcase",
+        "negra": "black (feminine form of negro)"
+      },
+      "image": "images/maleta-negra.webp"
+    },
+    {
+      "exerciseId": "2.1.2.14",
+      "type": "read_aloud",
+      "text": "Busco una maleta gris.",
+      "meaningEn": "I'm looking for a gray suitcase.",
+      "glosses": {
+        "busco": "I look for — 1st person of buscar",
+        "una": "a, an (feminine)",
+        "maleta": "suitcase",
+        "gris": "gray (same for masculine and feminine)"
+      },
+      "image": "images/maleta-gris.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.2.15",
+      "type": "listen_type",
+      "text": "Tengo una maleta roja.",
+      "meaningEn": "I have a red suitcase."
+    }
+  ]
+}

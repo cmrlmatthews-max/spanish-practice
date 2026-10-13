@@ -1,0 +1,307 @@
+{
+  "lessonId": "1.2.1",
+  "level": 1,
+  "unit": 2,
+  "stage": 1,
+  "title": "En el aeropuerto",
+  "titleEn": "At the airport",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "1.2.1.1",
+      "type": "listen_choose",
+      "text": "El aeropuerto.",
+      "meaningEn": "The airport.",
+      "choices": [
+        {
+          "image": "images/aeropuerto.webp",
+          "label": "airport",
+          "correct": true
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/agua.webp",
+          "label": "water",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.2.1.2",
+      "type": "listen_choose",
+      "text": "El restaurante.",
+      "meaningEn": "The restaurant.",
+      "choices": [
+        {
+          "image": "images/aeropuerto.webp",
+          "label": "airport",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/restaurante.webp",
+          "label": "restaurant",
+          "correct": true
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.1.3",
+      "type": "listen_choose",
+      "text": "El baño.",
+      "meaningEn": "The bathroom.",
+      "choices": [
+        {
+          "image": "images/restaurante.webp",
+          "label": "restaurant",
+          "correct": false
+        },
+        {
+          "image": "images/bano.webp",
+          "label": "toilet",
+          "correct": true
+        },
+        {
+          "image": "images/boleto.webp",
+          "label": "ticket",
+          "correct": false
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "The letter ñ is not the same as n. It sounds like ny in the English word canyon.",
+        "es": "La ñ es una letra distinta de la n. Suena como ny en la palabra inglesa canyon."
+      }
+    },
+    {
+      "exerciseId": "1.2.1.4",
+      "type": "repeat",
+      "text": "El aeropuerto.",
+      "meaningEn": "The airport.",
+      "glosses": {
+        "el": "the (masculine)",
+        "aeropuerto": "airport"
+      },
+      "image": "images/aeropuerto.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.1.5",
+      "type": "listen_choose",
+      "text": "La calle.",
+      "meaningEn": "The street.",
+      "choices": [
+        {
+          "image": "images/bano.webp",
+          "label": "toilet",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/pasaporte.webp",
+          "label": "passport",
+          "correct": false
+        },
+        {
+          "image": "images/calle.webp",
+          "label": "street",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.1.6",
+      "type": "listen_choose",
+      "text": "El mapa.",
+      "meaningEn": "The map.",
+      "choices": [
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": true
+        },
+        {
+          "image": "images/calle.webp",
+          "label": "street",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "suitcase",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Mapa ends in -a, but it is masculine. Say el mapa.",
+        "es": "Mapa termina en -a, pero es masculino. Se dice el mapa."
+      }
+    },
+    {
+      "exerciseId": "1.2.1.7",
+      "type": "listen_choose",
+      "text": "El autobús.",
+      "meaningEn": "The bus.",
+      "choices": [
+        {
+          "image": "images/maleta.webp",
+          "label": "suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/restaurante.webp",
+          "label": "restaurant",
+          "correct": false
+        },
+        {
+          "image": "images/autobus.webp",
+          "label": "bus",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, people also say el camión for a city bus. Both words are common.",
+        "es": "En México también se dice el camión para el autobús de la ciudad. Las dos palabras son comunes."
+      }
+    },
+    {
+      "exerciseId": "1.2.1.8",
+      "type": "repeat",
+      "text": "El baño.",
+      "meaningEn": "The bathroom.",
+      "glosses": {
+        "el": "the (masculine)",
+        "baño": "bathroom, restroom"
+      },
+      "image": "images/bano.webp"
+    },
+    {
+      "exerciseId": "1.2.1.9",
+      "type": "listen_choose",
+      "text": "El avión.",
+      "meaningEn": "The airplane.",
+      "choices": [
+        {
+          "image": "images/autobus.webp",
+          "label": "bus",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": true
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/calle.webp",
+          "label": "street",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.2.1.10",
+      "type": "read_aloud",
+      "text": "El restaurante.",
+      "meaningEn": "The restaurant.",
+      "glosses": {
+        "el": "the (masculine)",
+        "restaurante": "restaurant"
+      },
+      "image": "images/restaurante.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.1.11",
+      "type": "listen_type",
+      "text": "El mapa.",
+      "meaningEn": "The map.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.1.12",
+      "type": "repeat",
+      "text": "El autobús.",
+      "meaningEn": "The bus.",
+      "glosses": {
+        "el": "the (masculine)",
+        "autobús": "bus"
+      },
+      "image": "images/autobus.webp"
+    },
+    {
+      "exerciseId": "1.2.1.13",
+      "type": "listen_type",
+      "text": "El boleto.",
+      "meaningEn": "The ticket."
+    },
+    {
+      "exerciseId": "1.2.1.14",
+      "type": "read_aloud",
+      "text": "La calle.",
+      "meaningEn": "The street.",
+      "glosses": {
+        "la": "the (feminine)",
+        "calle": "street"
+      },
+      "image": "images/calle.webp"
+    },
+    {
+      "exerciseId": "1.2.1.15",
+      "type": "repeat",
+      "text": "La maleta.",
+      "meaningEn": "The suitcase.",
+      "glosses": {
+        "la": "the (feminine)",
+        "maleta": "suitcase"
+      },
+      "image": "images/maleta.webp",
+      "voice": "es-MX-JorgeNeural"
+    }
+  ]
+}

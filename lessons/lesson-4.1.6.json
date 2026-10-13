@@ -1,0 +1,342 @@
+{
+  "lessonId": "4.1.6",
+  "level": 4,
+  "unit": 1,
+  "stage": 4,
+  "title": "Lectura en voz alta: capacitación y supervisores",
+  "titleEn": "Read aloud: training and supervisors",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.1.6.1",
+      "type": "read_aloud",
+      "text": "Cuando llegue el nuevo operador, quiero que le enseñes cómo funciona la máquina antes de que empiece a trabajar solo.",
+      "meaningEn": "When the new operator arrives, I want you to show him how the machine works before he starts working alone.",
+      "glosses": {
+        "cuando": "when (future sense: + subjunctive)",
+        "llegue": "arrives — present subjunctive of llegar, after cuando",
+        "el": "the (masculine)",
+        "nuevo": "new",
+        "operador": "operator, machine operator",
+        "quiero": "I want — 1st person of querer",
+        "que": "that (quiero que = I want you to; antes de que = before)",
+        "le": "to him (the new operator)",
+        "enseñes": "you show, teach — present subjunctive of enseñar, after quiero que",
+        "cómo": "how",
+        "funciona": "works — 3rd person of funcionar",
+        "la": "the (feminine)",
+        "máquina": "machine",
+        "antes": "before",
+        "de": "of (antes de que = before)",
+        "empiece": "he starts — present subjunctive of empezar, after antes de que",
+        "a": "to (empezar a = start to)",
+        "trabajar": "to work",
+        "solo": "alone"
+      },
+      "note": {
+        "en": "After cuando, use the subjunctive when the action has not happened yet. Use the indicative for habits and past events.",
+        "es": "Después de cuando, usa subjuntivo si la acción todavía no ocurre. Usa indicativo para hábitos y hechos pasados."
+      }
+    },
+    {
+      "exerciseId": "4.1.6.2",
+      "type": "listen_type",
+      "text": "Es importante que los nuevos reciban su capacitación antes de que toquen cualquier máquina.",
+      "meaningEn": "It is important that the new hires receive their training before they touch any machine.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.6.3",
+      "type": "read_aloud",
+      "text": "Te agradezco que hayas terminado a tiempo, pero avísame antes si crees que no vas a alcanzar la meta.",
+      "meaningEn": "Thank you for finishing on time, but let me know beforehand if you think you are not going to reach the target.",
+      "glosses": {
+        "te": "you, to you (te agradezco = I thank you)",
+        "agradezco": "I thank, I appreciate — 1st person of agradecer",
+        "que": "that (agradezco que + subjunctive; crees que + indicative)",
+        "hayas": "you have — present subjunctive of haber (hayas terminado = have finished)",
+        "terminado": "finished — past participle of terminar",
+        "a": "at (a tiempo = on time); vas a + infinitive = going to",
+        "tiempo": "time",
+        "pero": "but",
+        "avísame": "let me know — tú command of avisar + me",
+        "antes": "beforehand, first",
+        "si": "if",
+        "crees": "you think — 2nd person of creer",
+        "no": "not",
+        "vas": "you go — 2nd person of ir (vas a + infinitive = you are going to)",
+        "alcanzar": "to reach, to meet",
+        "la": "the (feminine)",
+        "meta": "goal, target"
+      },
+      "note": {
+        "en": "Agradecer que takes the subjunctive. Here hayas terminado (present perfect subjunctive) names an action that is already finished.",
+        "es": "Agradecer que lleva subjuntivo. Aquí hayas terminado (pretérito perfecto de subjuntivo) nombra una acción ya terminada."
+      }
+    },
+    {
+      "exerciseId": "4.1.6.4",
+      "type": "repeat",
+      "text": "Si tuviéramos más gente en el turno de la noche, no necesitaríamos tanto tiempo extra.",
+      "meaningEn": "If we had more people on the night shift, we would not need so much overtime.",
+      "glosses": {
+        "si": "if (si + imperfect subjunctive + conditional)",
+        "tuviéramos": "we had — imperfect subjunctive of tener, after si",
+        "más": "more",
+        "gente": "people",
+        "en": "in, on",
+        "el": "the (masculine)",
+        "turno": "shift",
+        "de": "of (turno de la noche = night shift)",
+        "la": "the (feminine)",
+        "noche": "night",
+        "no": "not",
+        "necesitaríamos": "we would need — conditional of necesitar",
+        "tanto": "so much",
+        "tiempo": "time (tiempo extra = overtime)",
+        "extra": "extra (tiempo extra = overtime)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Use si + imperfect subjunctive for an unreal or unlikely situation. The result uses the conditional (necesitaríamos).",
+        "es": "Usa si + imperfecto de subjuntivo para una situación irreal o poco probable. El resultado va en condicional (necesitaríamos)."
+      }
+    },
+    {
+      "exerciseId": "4.1.6.5",
+      "type": "read_aloud",
+      "text": "Aunque sé que estás cansado, necesito que te quedes un rato más hasta que terminemos de cargar el camión.",
+      "meaningEn": "Although I know you are tired, I need you to stay a little longer until we finish loading the truck.",
+      "glosses": {
+        "aunque": "although (+ indicative: the fact is true)",
+        "sé": "I know — 1st person of saber (accent: sé, not se)",
+        "que": "that (sé que; necesito que; hasta que + subjunctive)",
+        "estás": "you are — 2nd person of estar",
+        "cansado": "tired",
+        "necesito": "I need — 1st person of necesitar",
+        "te": "yourself (te quedes = you stay)",
+        "quedes": "you stay — present subjunctive of quedarse, after necesito que",
+        "un": "a (masculine)",
+        "rato": "while, short time (un rato más = a little longer)",
+        "más": "more",
+        "hasta": "until (hasta que + subjunctive)",
+        "terminemos": "we finish — present subjunctive of terminar, after hasta que",
+        "de": "of (terminar de = finish -ing)",
+        "cargar": "to load",
+        "el": "the (masculine)",
+        "camión": "truck (in Mexico also a city bus)"
+      },
+      "note": {
+        "en": "Aunque + indicative states a known fact (sé que estás cansado). Aunque + subjunctive states a possibility or something that does not matter.",
+        "es": "Aunque + indicativo expresa un hecho conocido (sé que estás cansado). Aunque + subjuntivo expresa una posibilidad o algo que no importa."
+      }
+    },
+    {
+      "exerciseId": "4.1.6.6",
+      "type": "read_aloud",
+      "text": "En cuanto salga el horario de la próxima semana, avísenme si alguien necesita cambiar su turno por algún compromiso familiar.",
+      "meaningEn": "As soon as next week’s schedule comes out, let me know if anyone needs to change their shift because of a family commitment.",
+      "glosses": {
+        "en": "in (en cuanto = as soon as)",
+        "cuanto": "as much as (en cuanto + subjunctive = as soon as)",
+        "salga": "(it) comes out — present subjunctive of salir, after en cuanto",
+        "el": "the (masculine)",
+        "horario": "schedule",
+        "de": "of, from",
+        "la": "the (feminine)",
+        "próxima": "next (feminine)",
+        "semana": "week",
+        "avísenme": "let me know — ustedes command of avisar + me",
+        "si": "if",
+        "alguien": "someone, anyone",
+        "necesita": "needs — 3rd person of necesitar",
+        "cambiar": "to change",
+        "su": "their, his, her",
+        "turno": "shift",
+        "por": "for, because of",
+        "algún": "some, any (masculine form before a noun)",
+        "compromiso": "commitment, obligation",
+        "familiar": "family (adjective)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.6.7",
+      "type": "listen_type",
+      "text": "Pídele al supervisor que te repita las instrucciones antes de que se te olviden.",
+      "meaningEn": "Ask the supervisor to repeat the instructions for you before you forget them."
+    },
+    {
+      "exerciseId": "4.1.6.8",
+      "type": "read_aloud",
+      "text": "Desafortunadamente, no creo que podamos entregar el pedido completo el viernes, a menos que nos autoricen más horas extra.",
+      "meaningEn": "Unfortunately, I do not think we can deliver the complete order on Friday, unless they approve more overtime for us.",
+      "glosses": {
+        "desafortunadamente": "unfortunately",
+        "no": "not",
+        "creo": "I think, I believe — no creo que + subjunctive",
+        "que": "that (no creo que + subjunctive; a menos que = unless)",
+        "podamos": "we can — present subjunctive of poder, after no creo que",
+        "entregar": "to deliver",
+        "el": "the (masculine)",
+        "pedido": "order (customer order)",
+        "completo": "complete, in full",
+        "viernes": "Friday",
+        "a": "a menos que = unless",
+        "menos": "less (a menos que = unless)",
+        "nos": "us, to us",
+        "autoricen": "(they) authorize — present subjunctive of autorizar, after a menos que",
+        "más": "more",
+        "horas": "hours (horas extra = overtime)",
+        "extra": "extra"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Desafortunadamente is a long word. Say it in small steps: de-sa-for-tu-na-da-men-te. Do not rush the middle syllables.",
+        "es": "Desafortunadamente es una palabra larga. Dila por partes: de-sa-for-tu-na-da-men-te. No te apures en las sílabas del centro."
+      }
+    },
+    {
+      "exerciseId": "4.1.6.9",
+      "type": "repeat",
+      "text": "Sin que nadie se lo pidiera, se quedó a ayudar a los nuevos con el papeleo.",
+      "meaningEn": "Without anyone asking her to, she stayed to help the new hires with the paperwork.",
+      "glosses": {
+        "sin": "without (sin que + subjunctive)",
+        "que": "that (sin que = without)",
+        "nadie": "nobody, no one",
+        "se": "to her (se replaces le before lo); also reflexive in se quedó",
+        "lo": "it",
+        "pidiera": "asked — imperfect subjunctive of pedir, after sin que",
+        "quedó": "stayed — 3rd person preterite of quedarse",
+        "a": "to (quedó a ayudar = stayed to help; ayudar a = help)",
+        "ayudar": "to help",
+        "los": "the (masculine plural)",
+        "nuevos": "the new ones (new hires)",
+        "con": "with",
+        "el": "the (masculine)",
+        "papeleo": "paperwork"
+      },
+      "note": {
+        "en": "Sin que always takes the subjunctive. Here the imperfect (pidiera) fits because the story is in the past.",
+        "es": "Sin que siempre lleva subjuntivo. Aquí el imperfecto (pidiera) encaja porque la historia está en pasado."
+      }
+    },
+    {
+      "exerciseId": "4.1.6.10",
+      "type": "read_aloud",
+      "text": "Para que los nuevos se sientan bienvenidos, vamos a presentarlos con el equipo y darles un recorrido por la planta.",
+      "meaningEn": "So that the new hires feel welcome, we are going to introduce them to the team and give them a tour of the plant.",
+      "glosses": {
+        "para": "so that (para que + subjunctive)",
+        "que": "that (para que = so that)",
+        "los": "the (masculine plural)",
+        "nuevos": "the new ones (new hires)",
+        "se": "themselves (se sientan = they feel)",
+        "sientan": "(they) feel — present subjunctive of sentirse, after para que",
+        "bienvenidos": "welcome (masculine plural)",
+        "vamos": "we go (vamos a + infinitive = we are going to)",
+        "a": "to (vamos a = we are going to)",
+        "presentarlos": "to introduce them (presentar + los)",
+        "con": "with (presentar a alguien con = introduce someone to; Mexican)",
+        "el": "the (masculine)",
+        "equipo": "team",
+        "y": "and",
+        "darles": "to give them (dar + les)",
+        "un": "a (masculine)",
+        "recorrido": "tour",
+        "por": "through, around",
+        "la": "the (feminine)",
+        "planta": "plant, factory"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.6.11",
+      "type": "listen_type",
+      "text": "Dudo que el supervisor apruebe tantas horas extra ahora que ya cumplimos la meta.",
+      "meaningEn": "I doubt that the supervisor will approve so many overtime hours now that we have already met the target."
+    },
+    {
+      "exerciseId": "4.1.6.12",
+      "type": "read_aloud",
+      "text": "Quisiera que supieras que tu trabajo ha sido extraordinario, y que valoramos todas las responsabilidades que has asumido.",
+      "meaningEn": "I would like you to know that your work has been extraordinary, and that we value all the responsibilities you have taken on.",
+      "glosses": {
+        "quisiera": "I would like — imperfect subjunctive of querer",
+        "que": "that (quisiera que + subjunctive)",
+        "supieras": "you knew — imperfect subjunctive of saber, after quisiera que",
+        "tu": "your",
+        "trabajo": "work",
+        "ha": "has — auxiliary of present perfect",
+        "sido": "been — past participle of ser",
+        "extraordinario": "extraordinary",
+        "y": "and",
+        "valoramos": "we value — 1st person plural of valorar",
+        "todas": "all (feminine plural)",
+        "las": "the (feminine plural)",
+        "responsabilidades": "responsibilities",
+        "has": "you have — auxiliary of present perfect",
+        "asumido": "taken on — past participle of asumir"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.6.13",
+      "type": "read_aloud",
+      "text": "El cielo está enladrillado, ¿quién lo desenladrillará? El desenladrillador que lo desenladrille, buen desenladrillador será.",
+      "meaningEn": "The sky is bricked over, who will un-brick it? The un-bricker who un-bricks it will be a good un-bricker. (Tongue twister.)",
+      "glosses": {
+        "el": "the (masculine)",
+        "cielo": "sky",
+        "está": "is — 3rd person of estar",
+        "enladrillado": "paved with bricks — past participle of enladrillar",
+        "quién": "who",
+        "lo": "it (the sky)",
+        "desenladrillará": "will remove the bricks from — future of desenladrillar",
+        "desenladrillador": "un-bricker; one who removes bricks (invented word)",
+        "que": "who, that (relative pronoun)",
+        "desenladrille": "removes the bricks from — present subjunctive of desenladrillar",
+        "buen": "good (short form of bueno before a masculine noun)",
+        "será": "will be — future of ser"
+      }
+    },
+    {
+      "exerciseId": "4.1.6.14",
+      "type": "read_aloud",
+      "text": "Cuando cuentes cuentos, cuenta cuántos cuentos cuentas, porque si no cuentas cuántos cuentos cuentas, nunca sabrás cuántos cuentos cuentas.",
+      "meaningEn": "When you tell stories, count how many stories you tell, because if you do not count how many stories you tell, you will never know how many stories you tell. (Tongue twister.)",
+      "glosses": {
+        "cuando": "when (cuando + subjunctive)",
+        "cuentes": "you tell — present subjunctive of contar, after cuando",
+        "cuentos": "stories",
+        "cuenta": "count — tú command of contar",
+        "cuántos": "how many",
+        "cuentas": "you tell, you count — present of contar",
+        "porque": "because",
+        "si": "if",
+        "no": "not",
+        "nunca": "never",
+        "sabrás": "you will know — future of saber"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.6.15",
+      "type": "repeat",
+      "text": "Compré pocas copas, pocas copas compré, y como compré pocas copas, pocas copas pagué.",
+      "meaningEn": "I bought few glasses, few glasses I bought, and since I bought few glasses, few glasses I paid for. (Tongue twister.)",
+      "glosses": {
+        "compré": "I bought — 1st person preterite of comprar",
+        "pocas": "few (feminine plural)",
+        "copas": "glasses, goblets",
+        "y": "and",
+        "como": "since, because",
+        "pagué": "I paid — 1st person preterite of pagar"
+      }
+    }
+  ]
+}

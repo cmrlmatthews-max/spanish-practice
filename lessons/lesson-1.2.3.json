@@ -1,0 +1,301 @@
+{
+  "lessonId": "1.2.3",
+  "level": 1,
+  "unit": 2,
+  "stage": 1,
+  "title": "Con el cliente",
+  "titleEn": "With the client",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "1.2.3.1",
+      "type": "listen_choose",
+      "text": "El cliente.",
+      "meaningEn": "The client.",
+      "choices": [
+        {
+          "image": "images/cliente.webp",
+          "label": "client",
+          "correct": true
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Cliente ends in -e. For a woman, people say la clienta. La cliente is also correct.",
+        "es": "Cliente termina en -e. Para una mujer se dice la clienta. También es correcto decir la cliente."
+      }
+    },
+    {
+      "exerciseId": "1.2.3.2",
+      "type": "listen_choose",
+      "text": "El contrato.",
+      "meaningEn": "The contract.",
+      "choices": [
+        {
+          "image": "images/cafe.webp",
+          "label": "coffee",
+          "correct": false
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/contrato.webp",
+          "label": "contract",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.3.3",
+      "type": "listen_choose",
+      "text": "La reunión.",
+      "meaningEn": "The meeting.",
+      "choices": [
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": false
+        },
+        {
+          "image": "images/reunion.webp",
+          "label": "meeting",
+          "correct": true
+        }
+      ],
+      "note": {
+        "en": "Reunión has an accent mark. The stress falls on the last syllable: reu-NIÓN.",
+        "es": "Reunión lleva acento escrito. La sílaba fuerte es la última: reu-NIÓN."
+      }
+    },
+    {
+      "exerciseId": "1.2.3.4",
+      "type": "repeat",
+      "text": "El cliente.",
+      "meaningEn": "The client.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client"
+      },
+      "image": "images/cliente.webp"
+    },
+    {
+      "exerciseId": "1.2.3.5",
+      "type": "listen_choose",
+      "text": "La carpeta.",
+      "meaningEn": "The folder.",
+      "choices": [
+        {
+          "image": "images/computadora.webp",
+          "label": "computer",
+          "correct": false
+        },
+        {
+          "image": "images/carpeta.webp",
+          "label": "folder",
+          "correct": true
+        },
+        {
+          "image": "images/cliente.webp",
+          "label": "client",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.3.6",
+      "type": "listen_choose",
+      "text": "El lápiz.",
+      "meaningEn": "The pencil.",
+      "choices": [
+        {
+          "image": "images/lapiz.webp",
+          "label": "pencil",
+          "correct": true
+        },
+        {
+          "image": "images/carpeta.webp",
+          "label": "folder",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/agua.webp",
+          "label": "water",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "In Mexico, z sounds like s. Lápiz sounds like LÁ-pis. The accent mark shows the stress.",
+        "es": "En México, la z suena como s. Lápiz suena como LÁ-pis. El acento marca la sílaba fuerte."
+      }
+    },
+    {
+      "exerciseId": "1.2.3.7",
+      "type": "repeat",
+      "text": "El contrato.",
+      "meaningEn": "The contract.",
+      "glosses": {
+        "el": "the (masculine)",
+        "contrato": "contract"
+      },
+      "image": "images/contrato.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.3.8",
+      "type": "listen_choose",
+      "text": "La pluma.",
+      "meaningEn": "The pen.",
+      "choices": [
+        {
+          "image": "images/carpeta.webp",
+          "label": "folder",
+          "correct": false
+        },
+        {
+          "image": "images/computadora.webp",
+          "label": "computer",
+          "correct": false
+        },
+        {
+          "image": "images/pluma.webp",
+          "label": "pen",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "1.2.3.9",
+      "type": "listen_choose",
+      "text": "La computadora.",
+      "meaningEn": "The computer.",
+      "choices": [
+        {
+          "image": "images/cliente.webp",
+          "label": "client",
+          "correct": false
+        },
+        {
+          "image": "images/contrato.webp",
+          "label": "contract",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/computadora.webp",
+          "label": "computer",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.3.10",
+      "type": "read_aloud",
+      "text": "La reunión.",
+      "meaningEn": "The meeting.",
+      "glosses": {
+        "la": "the (feminine)",
+        "reunión": "meeting"
+      },
+      "image": "images/reunion.webp"
+    },
+    {
+      "exerciseId": "1.2.3.11",
+      "type": "listen_type",
+      "text": "La carpeta.",
+      "meaningEn": "The folder."
+    },
+    {
+      "exerciseId": "1.2.3.12",
+      "type": "repeat",
+      "text": "El lápiz.",
+      "meaningEn": "The pencil.",
+      "glosses": {
+        "el": "the (masculine)",
+        "lápiz": "pencil"
+      },
+      "image": "images/lapiz.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.3.13",
+      "type": "read_aloud",
+      "text": "El café.",
+      "meaningEn": "The coffee.",
+      "glosses": {
+        "el": "the (masculine)",
+        "café": "coffee"
+      },
+      "image": "images/cafe.webp"
+    },
+    {
+      "exerciseId": "1.2.3.14",
+      "type": "listen_type",
+      "text": "El aeropuerto.",
+      "meaningEn": "The airport.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "1.2.3.15",
+      "type": "listen_type",
+      "text": "El mapa.",
+      "meaningEn": "The map."
+    }
+  ]
+}

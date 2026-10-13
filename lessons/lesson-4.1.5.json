@@ -1,0 +1,331 @@
+{
+  "lessonId": "4.1.5",
+  "level": 4,
+  "unit": 1,
+  "stage": 4,
+  "title": "Lectura en voz alta: la vida diaria",
+  "titleEn": "Read aloud: daily life",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.1.5.1",
+      "type": "read_aloud",
+      "text": "Ojalá que mi hermana pueda venir a Oaxaca para que mis papás conozcan por fin a su nieto.",
+      "meaningEn": "I hope my sister can come to Oaxaca so that my parents can finally meet their grandson.",
+      "glosses": {
+        "ojalá": "I hope — always takes the subjunctive",
+        "que": "that (ojalá que = I hope that; para que = so that)",
+        "mi": "my",
+        "hermana": "sister",
+        "pueda": "can — present subjunctive of poder, after ojalá",
+        "venir": "to come",
+        "a": "to (a Oaxaca); before a person, a is not translated (a su nieto)",
+        "oaxaca": "Oaxaca (state and city in southern Mexico)",
+        "para": "so that (para que + subjunctive)",
+        "mis": "my (plural)",
+        "papás": "parents; mom and dad",
+        "conozcan": "(they) meet — present subjunctive of conocer, after para que",
+        "por": "for (por fin = at last)",
+        "fin": "end (por fin = at last, finally)",
+        "su": "their (the parents’)",
+        "nieto": "grandson"
+      },
+      "note": {
+        "en": "Ojalá always takes the subjunctive. The word que after it is optional: ojalá pueda or ojalá que pueda.",
+        "es": "Ojalá siempre lleva subjuntivo. La palabra que después es opcional: ojalá pueda u ojalá que pueda."
+      }
+    },
+    {
+      "exerciseId": "4.1.5.2",
+      "type": "listen_type",
+      "text": "¿Qué tal tu fin de semana? Espero que hayas podido descansar un poco.",
+      "meaningEn": "How was your weekend? I hope you were able to rest a little.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.5.3",
+      "type": "read_aloud",
+      "text": "Quisiera agendar una cita, aunque sea con otro doctor, porque me duele la garganta y tengo la voz ronca.",
+      "meaningEn": "I would like to book an appointment, even if it is with a different doctor, because my throat hurts and my voice is hoarse.",
+      "glosses": {
+        "quisiera": "I would like — imperfect subjunctive of querer (polite)",
+        "agendar": "to schedule, to book (Mexican usage)",
+        "una": "a (feminine)",
+        "cita": "appointment",
+        "aunque": "even if (+ subjunctive: it does not matter)",
+        "sea": "it is — present subjunctive of ser, after aunque",
+        "con": "with",
+        "otro": "another",
+        "doctor": "doctor",
+        "porque": "because",
+        "me": "me, to me",
+        "duele": "hurts — 3rd person of doler (me duele = it hurts me)",
+        "la": "the (feminine)",
+        "garganta": "throat",
+        "y": "and",
+        "tengo": "I have — 1st person of tener",
+        "voz": "voice",
+        "ronca": "hoarse (feminine)"
+      },
+      "note": {
+        "en": "Quisiera is the imperfect subjunctive of querer. It makes a request more polite, like \"I would like\".",
+        "es": "Quisiera es el imperfecto de subjuntivo de querer. Vuelve la petición más cortés."
+      }
+    },
+    {
+      "exerciseId": "4.1.5.4",
+      "type": "repeat",
+      "text": "Dile al doctor que tengo gripa y que me recete algo que no me dé sueño.",
+      "meaningEn": "Tell the doctor that I have the flu and that he should prescribe me something that does not make me drowsy.",
+      "glosses": {
+        "dile": "tell him/her — tú command of decir + le",
+        "al": "to the (a + el)",
+        "doctor": "doctor",
+        "que": "that (dile que = tell him that; algo que = something that)",
+        "tengo": "I have — 1st person of tener",
+        "gripa": "cold, flu (Mexican word)",
+        "y": "and",
+        "me": "me, to me (me recete = prescribe me; me dé = make me)",
+        "recete": "(he) prescribes — present subjunctive of recetar",
+        "algo": "something",
+        "no": "not",
+        "dé": "gives — present subjunctive of dar (dar sueño = make drowsy)",
+        "sueño": "sleepiness (dar sueño = make drowsy)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "After dile que, use the indicative to give information (tengo gripa). Use the subjunctive to ask for an action (me recete).",
+        "es": "Después de dile que, usa indicativo para informar (tengo gripa). Usa subjuntivo para pedir una acción (me recete)."
+      }
+    },
+    {
+      "exerciseId": "4.1.5.5",
+      "type": "read_aloud",
+      "text": "Antes de que se te acabe la medicina, pídele otra receta a la doctora para no quedarte sin ella.",
+      "meaningEn": "Before you run out of medicine, ask the doctor for another prescription so that you do not end up without it.",
+      "glosses": {
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of (antes de que = before)",
+        "que": "that (antes de que = before)",
+        "se": "part of acabarse (se te acabe = you run out)",
+        "te": "you (se te acabe = you run out)",
+        "acabe": "runs out — present subjunctive of acabarse, after antes de que",
+        "la": "the (feminine)",
+        "medicina": "medicine",
+        "pídele": "ask him/her for — tú command of pedir + le",
+        "otra": "another (feminine)",
+        "receta": "prescription",
+        "a": "to (a la doctora)",
+        "doctora": "doctor (woman)",
+        "para": "to, in order to (para + infinitive: same subject)",
+        "no": "not",
+        "sin": "without",
+        "ella": "it (la medicina); also she, her",
+        "quedarte": "to end up, to be left — infinitive quedarse + te"
+      }
+    },
+    {
+      "exerciseId": "4.1.5.6",
+      "type": "read_aloud",
+      "text": "El doctor me checó la presión y me dijo que, a menos que bajara de peso, tendría que tomar pastillas.",
+      "meaningEn": "The doctor checked my blood pressure and told me that, unless I lost weight, I would have to take pills.",
+      "glosses": {
+        "el": "the (masculine)",
+        "doctor": "doctor",
+        "me": "me (me checó = checked me; me dijo = told me)",
+        "checó": "checked — 3rd person preterite of checar (Mexican for revisar)",
+        "la": "the (feminine)",
+        "presión": "blood pressure",
+        "y": "and",
+        "dijo": "told, said — 3rd person preterite of decir",
+        "que": "that (me dijo que = told me that; a menos que = unless)",
+        "a": "a menos que = unless",
+        "menos": "less (a menos que = unless)",
+        "bajara": "(I) lost, went down — imperfect subjunctive of bajar, after a menos que",
+        "de": "of (bajar de peso = lose weight)",
+        "peso": "weight",
+        "tendría": "I would have — conditional of tener (tendría que = would have to)",
+        "tomar": "to take",
+        "pastillas": "pills"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "After a past verb such as me dijo que, the subjunctive is usually in the imperfect: a menos que bajara. The result uses the conditional: tendría.",
+        "es": "Después de un verbo en pasado como me dijo que, el subjuntivo suele ir en imperfecto (a menos que bajara) y el resultado en condicional (tendría)."
+      }
+    },
+    {
+      "exerciseId": "4.1.5.7",
+      "type": "listen_type",
+      "text": "Avísame en cuanto salgas de la consulta para que pase por ti.",
+      "meaningEn": "Let me know as soon as you leave the appointment so that I can pick you up."
+    },
+    {
+      "exerciseId": "4.1.5.8",
+      "type": "read_aloud",
+      "text": "¡Qué bueno que ya haya dejado de llover! Si siguiera lloviendo así, no podríamos hacer la carne asada el domingo.",
+      "meaningEn": "How good that it has already stopped raining! If it kept raining like that, we could not have the cookout on Sunday.",
+      "glosses": {
+        "qué": "how (¡qué bueno que…! = how good that…!)",
+        "bueno": "good",
+        "que": "that (qué bueno que + subjunctive)",
+        "ya": "already, now",
+        "haya": "has — present subjunctive of haber (haya dejado = has stopped)",
+        "dejado": "stopped — past participle of dejar (dejar de = stop)",
+        "de": "of (dejar de llover = stop raining)",
+        "llover": "to rain",
+        "si": "if",
+        "siguiera": "(it) continued — imperfect subjunctive of seguir, after si",
+        "lloviendo": "raining — gerund of llover (seguir lloviendo = keep raining)",
+        "así": "like that, this way",
+        "no": "not",
+        "podríamos": "we could — conditional of poder",
+        "hacer": "to make, to do",
+        "la": "the (feminine)",
+        "carne": "meat",
+        "asada": "grilled (carne asada = grilled beef, a Mexican cookout)",
+        "el": "the (el domingo = on Sunday)",
+        "domingo": "Sunday"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.5.9",
+      "type": "repeat",
+      "text": "Mi mamá quiere que vayamos a Guadalajara el próximo año, aunque no haya vuelos baratos.",
+      "meaningEn": "My mom wants us to go to Guadalajara next year, even if there are no cheap flights.",
+      "glosses": {
+        "mi": "my",
+        "mamá": "mom",
+        "quiere": "wants — 3rd person of querer; + que + subjunctive",
+        "que": "that",
+        "vayamos": "we go — present subjunctive of ir, after quiere que",
+        "a": "to, at",
+        "guadalajara": "Guadalajara (city in western Mexico)",
+        "el": "the (masculine)",
+        "próximo": "next",
+        "año": "year",
+        "aunque": "even if (+ subjunctive: it may be true)",
+        "no": "not",
+        "haya": "there are — present subjunctive of haber, after aunque",
+        "vuelos": "flights",
+        "baratos": "cheap (masculine plural)"
+      }
+    },
+    {
+      "exerciseId": "4.1.5.10",
+      "type": "read_aloud",
+      "text": "Me encantaría que vinieras con nosotros a Xochimilco el sábado, a menos que ya tengas planes con tu familia.",
+      "meaningEn": "I would love for you to come with us to Xochimilco on Saturday, unless you already have plans with your family.",
+      "glosses": {
+        "me": "to me (me encantaría = I would love)",
+        "encantaría": "would love — conditional of encantar; + que + subjunctive",
+        "que": "that (me encantaría que; a menos que = unless)",
+        "vinieras": "you came — imperfect subjunctive of venir, after me encantaría que",
+        "con": "with",
+        "nosotros": "us (con nosotros = with us)",
+        "a": "to (a Xochimilco); a menos que = unless",
+        "xochimilco": "Xochimilco (area of canals and boats in Mexico City)",
+        "el": "the (el sábado = on Saturday)",
+        "sábado": "Saturday",
+        "menos": "less (a menos que = unless)",
+        "ya": "already",
+        "tengas": "(you) have — present subjunctive of tener, after a menos que",
+        "planes": "plans",
+        "tu": "your",
+        "familia": "family"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "The letter x has two sounds in Mexican names. At the start of Xochimilco, it sounds like s. In Oaxaca and México, it sounds like j.",
+        "es": "La letra x tiene dos sonidos en nombres mexicanos. Al inicio de Xochimilco suena como s. En Oaxaca y México suena como j."
+      }
+    },
+    {
+      "exerciseId": "4.1.5.11",
+      "type": "read_aloud",
+      "text": "Si no me hubieran checado la presión, no me habría enterado de que la tengo tan alta.",
+      "meaningEn": "If they had not checked my blood pressure, I would not have found out that it is so high.",
+      "glosses": {
+        "si": "if",
+        "no": "not",
+        "me": "me (me hubieran checado = checked me; me habría enterado = I found out)",
+        "hubieran": "(they) had — pluperfect subjunctive of haber, after si",
+        "checado": "checked — past participle of checar",
+        "la": "the (la presión); it (la tengo = I have it)",
+        "presión": "blood pressure",
+        "habría": "would have — conditional of haber",
+        "enterado": "found out — past participle of enterarse",
+        "de": "of (enterarse de = find out about)",
+        "que": "that",
+        "tengo": "I have — 1st person of tener",
+        "tan": "so",
+        "alta": "high (feminine)"
+      }
+    },
+    {
+      "exerciseId": "4.1.5.12",
+      "type": "listen_type",
+      "text": "Mi tío me pidió que recogiera sus medicinas antes de que cerraran la farmacia.",
+      "meaningEn": "My uncle asked me to pick up his medicine before they closed the pharmacy.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.5.13",
+      "type": "repeat",
+      "text": "Dudo que el doctor pueda atenderte hoy, pero la recepcionista dijo que tal vez haya espacio.",
+      "meaningEn": "I doubt that the doctor can see you today, but the receptionist said there might be an opening.",
+      "glosses": {
+        "dudo": "I doubt — 1st person of dudar; takes the subjunctive",
+        "que": "that",
+        "el": "the (masculine)",
+        "doctor": "doctor",
+        "pueda": "can — present subjunctive of poder, after dudo que",
+        "atenderte": "to see you, to attend to you (atender + te)",
+        "hoy": "today",
+        "pero": "but",
+        "la": "the (feminine)",
+        "recepcionista": "receptionist",
+        "dijo": "said — 3rd person preterite of decir",
+        "tal": "such (tal vez = maybe)",
+        "vez": "time (tal vez = maybe)",
+        "haya": "there is — present subjunctive of haber, after tal vez",
+        "espacio": "space, an opening"
+      }
+    },
+    {
+      "exerciseId": "4.1.5.14",
+      "type": "read_aloud",
+      "text": "El portero atajó tres penales como si fuera lo más fácil del mundo, y todo el estadio se paró.",
+      "meaningEn": "The goalkeeper saved three penalty kicks as if it were the easiest thing in the world, and the whole stadium stood up.",
+      "glosses": {
+        "el": "the (masculine)",
+        "portero": "goalkeeper",
+        "atajó": "stopped, saved — 3rd person preterite of atajar",
+        "tres": "three",
+        "penales": "penalty kicks",
+        "como": "as (como si = as if)",
+        "si": "if (como si + imperfect subjunctive)",
+        "fuera": "(it) were — imperfect subjunctive of ser, after como si",
+        "lo": "the (lo más fácil = the easiest thing)",
+        "más": "most (lo más fácil = the easiest)",
+        "fácil": "easy",
+        "del": "of the (de + el); del mundo = in the world",
+        "mundo": "world",
+        "y": "and",
+        "todo": "all, the whole",
+        "estadio": "stadium",
+        "se": "reflexive (se paró = stood up)",
+        "paró": "stood up — preterite of pararse (in Mexico: to stand up)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, pararse often means to stand up: todo el estadio se paró. In Spain, pararse usually means to stop.",
+        "es": "En México, pararse suele significar ponerse de pie: todo el estadio se paró. En España suele significar detenerse."
+      }
+    }
+  ]
+}
