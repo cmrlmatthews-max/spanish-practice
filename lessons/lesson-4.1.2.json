@@ -1,0 +1,339 @@
+{
+  "lessonId": "4.1.2",
+  "level": 4,
+  "unit": 1,
+  "stage": 4,
+  "title": "Lectura en voz alta: turnos y seguridad",
+  "titleEn": "Read aloud: shifts and safety",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.1.2.1",
+      "type": "read_aloud",
+      "text": "Quiero que cada quien sepa cuáles son sus responsabilidades antes del cambio de turno, para que no perdamos tiempo.",
+      "meaningEn": "I want everyone to know what their responsibilities are before the shift change, so that we do not waste time.",
+      "glosses": {
+        "quiero": "I want — 1st person singular of querer (quiero que + subjunctive)",
+        "que": "that (quiero que = I want … to; para que = so that)",
+        "cada": "each, every",
+        "quien": "who (cada quien = each person, everyone)",
+        "sepa": "(each one) knows — present subjunctive of saber, after quiero que",
+        "cuáles": "which ones, what",
+        "son": "are — 3rd person plural of ser",
+        "sus": "their",
+        "responsabilidades": "responsibilities",
+        "antes": "before (antes del = before the)",
+        "del": "of the (de + el)",
+        "cambio": "change (cambio de turno = shift change)",
+        "de": "of (cambio de turno = shift change)",
+        "turno": "shift",
+        "para": "so that (para que + subjunctive)",
+        "no": "not",
+        "perdamos": "(we) lose, waste — present subjunctive of perder, after para que",
+        "tiempo": "time"
+      }
+    },
+    {
+      "exerciseId": "4.1.2.2",
+      "type": "read_aloud",
+      "text": "Antes de que alguien abra el tablero eléctrico, es indispensable que bloqueen el equipo con candado y etiqueta.",
+      "meaningEn": "Before anyone opens the electrical panel, it is essential that you lock out the equipment with a lock and a tag.",
+      "glosses": {
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of (antes de que = before)",
+        "que": "that (antes de que = before; es indispensable que + subjunctive)",
+        "alguien": "someone, anyone",
+        "abra": "opens — present subjunctive of abrir, after antes de que",
+        "el": "the (masculine)",
+        "tablero": "panel, board",
+        "eléctrico": "electrical",
+        "es": "it is — 3rd person singular of ser",
+        "indispensable": "essential, indispensable",
+        "bloqueen": "(you all) lock out — present subjunctive of bloquear, after es indispensable que",
+        "equipo": "equipment, machine",
+        "con": "with",
+        "candado": "padlock (con candado y etiqueta = lockout/tagout)",
+        "y": "and",
+        "etiqueta": "tag, label (con candado y etiqueta = lockout/tagout)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Expressions of necessity take the subjunctive. Examples: es indispensable que, es necesario que, es importante que.",
+        "es": "Las expresiones de necesidad llevan subjuntivo: es indispensable que, es necesario que, es importante que."
+      }
+    },
+    {
+      "exerciseId": "4.1.2.3",
+      "type": "listen_type",
+      "text": "Ojalá que el montacargas esté listo antes de que llegue el camión del proveedor.",
+      "meaningEn": "I hope the forklift is ready before the supplier's truck arrives."
+    },
+    {
+      "exerciseId": "4.1.2.4",
+      "type": "read_aloud",
+      "text": "Si se derrama algún químico, no lo limpien por su cuenta; avísenle a seguridad para que traigan el material absorbente.",
+      "meaningEn": "If any chemical spills, do not clean it up on your own; let safety know so they bring the absorbent material.",
+      "glosses": {
+        "si": "if",
+        "se": "reflexive (se derrama = spills)",
+        "derrama": "spills — 3rd person singular of derramar",
+        "algún": "some, any (masculine form before a noun)",
+        "químico": "chemical (noun)",
+        "no": "not",
+        "lo": "it (the chemical) — direct object",
+        "limpien": "(you all) clean — negative command, ustedes",
+        "por": "by (por su cuenta = on your own)",
+        "su": "your (ustedes); por su cuenta = on your own",
+        "cuenta": "account (por su cuenta = on your own)",
+        "avísenle": "(you all) let … know — ustedes command of avisar + le",
+        "a": "to (avísenle a seguridad = let safety know)",
+        "seguridad": "safety (department), security",
+        "para": "so that (para que + subjunctive)",
+        "que": "that (para que = so that)",
+        "traigan": "(they) bring — present subjunctive of traer, after para que",
+        "el": "the (masculine)",
+        "material": "material",
+        "absorbente": "absorbent"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "A negative command uses the subjunctive form: no limpien. The affirmative ustedes command uses the same form: avísenle.",
+        "es": "El mandato negativo usa el subjuntivo: no limpien. El afirmativo con ustedes usa la misma forma: avísenle."
+      }
+    },
+    {
+      "exerciseId": "4.1.2.5",
+      "type": "repeat",
+      "text": "Cuando suene la alarma, salgan sin correr y no regresen al edificio hasta que les avisen.",
+      "meaningEn": "When the alarm sounds, leave without running and do not go back into the building until they let you know.",
+      "glosses": {
+        "cuando": "when (future sense, so + subjunctive)",
+        "suene": "sounds — present subjunctive of sonar (o → ue)",
+        "la": "the (feminine)",
+        "alarma": "alarm",
+        "salgan": "(you all) leave — command of salir, ustedes",
+        "sin": "without",
+        "correr": "to run",
+        "y": "and",
+        "no": "not",
+        "regresen": "(you all) go back — negative command, ustedes",
+        "al": "to the (a + el)",
+        "edificio": "building",
+        "hasta": "until",
+        "que": "that (hasta que = until, + subjunctive)",
+        "les": "to you (ustedes) — indirect object",
+        "avisen": "(they) tell, notify — present subjunctive, after hasta que"
+      }
+    },
+    {
+      "exerciseId": "4.1.2.6",
+      "type": "read_aloud",
+      "text": "Es importante que usen botas de casquillo y guantes, aunque crean que no los necesitan para una tarea tan corta.",
+      "meaningEn": "It is important that you wear steel-toe boots and gloves, even if you think you do not need them for such a short task.",
+      "glosses": {
+        "es": "it is — 3rd person singular of ser",
+        "importante": "important",
+        "que": "that (es importante que + subjunctive; crean que = think that)",
+        "usen": "(you all) wear, use — present subjunctive of usar",
+        "botas": "boots",
+        "de": "of (botas de casquillo = steel-toe boots)",
+        "casquillo": "toe cap (botas de casquillo = steel-toe boots)",
+        "y": "and",
+        "guantes": "gloves",
+        "aunque": "even if, although (+ subjunctive: not a fact)",
+        "crean": "(you all) think, believe — present subjunctive of creer, after aunque",
+        "no": "not",
+        "los": "them (the boots and gloves) — direct object",
+        "necesitan": "(you all) need — present indicative, ustedes",
+        "para": "for",
+        "una": "a, an (feminine)",
+        "tarea": "task",
+        "tan": "so, such",
+        "corta": "short (feminine)"
+      },
+      "note": {
+        "en": "Aunque takes the subjunctive when the idea is only possible or does not matter. It takes the indicative when the speaker states a fact.",
+        "es": "Aunque lleva subjuntivo cuando la idea es solo posible o no importa. Con indicativo se afirma un hecho."
+      }
+    },
+    {
+      "exerciseId": "4.1.2.7",
+      "type": "listen_type",
+      "text": "No creo que nos den el descanso hasta que llegue el otro turno.",
+      "meaningEn": "I do not think they will give us our break until the other shift arrives.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.2.8",
+      "type": "read_aloud",
+      "text": "Si hubiera sabido que el piso estaba mojado, habría puesto el letrero antes de que alguien se resbalara.",
+      "meaningEn": "If I had known the floor was wet, I would have put up the sign before someone slipped.",
+      "glosses": {
+        "si": "if",
+        "hubiera": "(I) had — past perfect subjunctive of haber (hubiera sabido = had known)",
+        "sabido": "known — past participle of saber",
+        "que": "that (sabido que; antes de que = before)",
+        "el": "the (masculine)",
+        "piso": "floor",
+        "estaba": "was — imperfect of estar",
+        "mojado": "wet",
+        "habría": "(I) would have — conditional perfect of haber",
+        "puesto": "put — past participle of poner",
+        "letrero": "sign",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of (antes de que = before)",
+        "alguien": "someone",
+        "se": "reflexive (se resbalara = slipped)",
+        "resbalara": "slipped — imperfect subjunctive of resbalarse, after antes de que"
+      },
+      "note": {
+        "en": "For an unreal past, use si hubiera + participle, then habría + participle. Example: si hubiera sabido, habría avisado.",
+        "es": "Para algo irreal en el pasado: si hubiera + participio, habría + participio. Ejemplo: si hubiera sabido, habría avisado."
+      }
+    },
+    {
+      "exerciseId": "4.1.2.9",
+      "type": "repeat",
+      "text": "Necesitamos que el operador del montacargas toque el claxon cada vez que llegue a un cruce.",
+      "meaningEn": "We need the forklift operator to honk the horn every time he comes to an intersection.",
+      "glosses": {
+        "necesitamos": "we need — 1st person plural of necesitar",
+        "que": "that (necesitamos que + subjunctive; cada vez que = every time)",
+        "el": "the (masculine)",
+        "operador": "operator",
+        "del": "of the (de + el)",
+        "montacargas": "forklift (same form in singular and plural)",
+        "toque": "(he) sounds, honks — present subjunctive of tocar, after necesitamos que",
+        "claxon": "horn (common word in Mexico)",
+        "cada": "each, every (cada vez que = every time)",
+        "vez": "time, occasion (cada vez que = every time)",
+        "llegue": "(he) arrives — present subjunctive of llegar (future event)",
+        "a": "to, at",
+        "un": "a, an (masculine)",
+        "cruce": "intersection, crossing (of aisles)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.2.10",
+      "type": "listen_type",
+      "text": "Cuando regreses del descanso, búscame para que repasemos juntos la ruta de evacuación.",
+      "meaningEn": "When you get back from your break, come find me so that we can go over the evacuation route together."
+    },
+    {
+      "exerciseId": "4.1.2.11",
+      "type": "read_aloud",
+      "text": "Algunos manejan el montacargas como si fuera un carro de carreras, y por eso les pedimos que bajen la velocidad.",
+      "meaningEn": "Some people drive the forklift as if it were a race car, and that is why we ask them to slow down.",
+      "glosses": {
+        "algunos": "some (people)",
+        "manejan": "(they) drive — present indicative of manejar",
+        "el": "the (masculine)",
+        "montacargas": "forklift (same form in singular and plural)",
+        "como": "as, like",
+        "si": "if (como si = as if, + imperfect subjunctive)",
+        "fuera": "(it) were — imperfect subjunctive of ser, after como si",
+        "un": "a, an (masculine)",
+        "carro": "car (Mexican word; coche in Spain)",
+        "de": "of (carro de carreras = race car)",
+        "carreras": "races",
+        "y": "and",
+        "por": "for (por eso = for that reason, that is why)",
+        "eso": "that",
+        "les": "to them — indirect object",
+        "pedimos": "we ask — 1st person plural of pedir",
+        "que": "that (les pedimos que = we ask them to)",
+        "bajen": "(they) lower — present subjunctive of bajar, after pedimos que",
+        "la": "the (feminine)",
+        "velocidad": "speed"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Como si always takes a past subjunctive: the imperfect (como si fuera) or the pluperfect (como si hubiera sido).",
+        "es": "Como si siempre lleva subjuntivo en pasado: imperfecto (como si fuera) o pluscuamperfecto (como si hubiera sido)."
+      }
+    },
+    {
+      "exerciseId": "4.1.2.12",
+      "type": "repeat",
+      "text": "En caso de que se acaben los guantes, pídanle más al encargado del almacén.",
+      "meaningEn": "In case you run out of gloves, ask the person in charge of the warehouse for more.",
+      "glosses": {
+        "en": "in",
+        "caso": "case (en caso de que = in case)",
+        "de": "of (en caso de que = in case)",
+        "que": "that (en caso de que + subjunctive)",
+        "se": "reflexive (se acaben = run out)",
+        "acaben": "(they) run out — present subjunctive of acabarse",
+        "los": "the (masculine plural)",
+        "guantes": "gloves",
+        "pídanle": "(you all) ask for — ustedes command of pedir + le (to him)",
+        "más": "more",
+        "al": "to the (a + el)",
+        "encargado": "person in charge, foreman",
+        "del": "of the (de + el)",
+        "almacén": "warehouse, stockroom"
+      }
+    },
+    {
+      "exerciseId": "4.1.2.13",
+      "type": "read_aloud",
+      "text": "Erre con erre cigarro, erre con erre barril, rápido corren los carros cargados de azúcar del ferrocarril.",
+      "meaningEn": "R with R cigar, R with R barrel, fast run the cars loaded with sugar on the railroad. (Tongue twister.)",
+      "glosses": {
+        "erre": "the letter r (name of the letter)",
+        "con": "with",
+        "cigarro": "cigar, cigarette",
+        "barril": "barrel",
+        "rápido": "fast, quickly",
+        "corren": "(they) run — 3rd person plural of correr",
+        "los": "the (masculine plural)",
+        "carros": "cars (here: railway cars)",
+        "cargados": "loaded — past participle of cargar",
+        "de": "of, with",
+        "azúcar": "sugar",
+        "del": "of the (de + el)",
+        "ferrocarril": "railroad"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "The rr sound is a trill. The tip of the tongue vibrates quickly against the ridge behind the upper teeth. Start slowly.",
+        "es": "La rr es una vibrante múltiple: la punta de la lengua vibra varias veces detrás de los dientes de arriba. Empieza despacio."
+      }
+    },
+    {
+      "exerciseId": "4.1.2.14",
+      "type": "read_aloud",
+      "text": "Pepe Pecas pica papas con un pico, con un pico pica papas Pepe Pecas.",
+      "meaningEn": "Pepe Pecas chops potatoes with a pickaxe, with a pickaxe Pepe Pecas chops potatoes. (Tongue twister.)",
+      "glosses": {
+        "pepe": "Pepe (nickname for José)",
+        "pecas": "Pecas (a nickname; pecas = freckles)",
+        "pica": "chops, cuts up — 3rd person singular of picar",
+        "papas": "potatoes",
+        "con": "with",
+        "un": "a, an (masculine)",
+        "pico": "pick, pickaxe"
+      }
+    },
+    {
+      "exerciseId": "4.1.2.15",
+      "type": "read_aloud",
+      "text": "Si Pancha plancha con cuatro planchas, ¿con cuántas planchas plancha Pancha?",
+      "meaningEn": "If Pancha irons with four irons, with how many irons does Pancha iron? (Tongue twister.)",
+      "glosses": {
+        "si": "if",
+        "pancha": "Pancha (nickname for Francisca)",
+        "plancha": "irons — 3rd person singular of planchar",
+        "con": "with",
+        "cuatro": "four",
+        "planchas": "irons (the appliance)",
+        "cuántas": "how many (feminine plural)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    }
+  ]
+}

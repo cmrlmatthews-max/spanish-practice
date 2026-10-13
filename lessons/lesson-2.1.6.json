@@ -1,0 +1,284 @@
+{
+  "lessonId": "2.1.6",
+  "level": 2,
+  "unit": 1,
+  "stage": 2,
+  "title": "Abro la puerta",
+  "titleEn": "I open the door",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.1.6.1",
+      "type": "listen_choose",
+      "text": "Abro la puerta.",
+      "meaningEn": "I open the door.",
+      "choices": [
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/puerta-abierta.webp",
+          "label": "a wide open door",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Abrir means to open. Abro means I open. Abre means he or she opens. Abrir ends in -ir, so the he or she form ends in -e, not -a.",
+        "es": "Abrir significa \"to open\". Abro es yo; abre es él o ella. Abrir termina en -ir, por eso la forma de él o ella termina en -e, no en -a."
+      }
+    },
+    {
+      "exerciseId": "2.1.6.2",
+      "type": "listen_choose",
+      "text": "Cierro la puerta.",
+      "meaningEn": "I close the door.",
+      "choices": [
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "image": "images/puerta-abierta.webp",
+          "label": "a wide open door",
+          "correct": false
+        },
+        {
+          "image": "images/puerta-cerrada.webp",
+          "label": "a fully closed door",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Cerrar means to close. In cierro and cierra, the e of cerrar changes to ie. This is a stem change.",
+        "es": "Cerrar significa \"to close\". En cierro y cierra, la e de cerrar cambia a ie. Es un cambio de raíz."
+      }
+    },
+    {
+      "exerciseId": "2.1.6.3",
+      "type": "repeat",
+      "text": "Dieciséis, diecisiete.",
+      "meaningEn": "Sixteen, seventeen.",
+      "glosses": {
+        "dieciséis": "sixteen",
+        "diecisiete": "seventeen"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "The numbers 16 to 19 are one word each. Dieciséis has an accent mark on the last e.",
+        "es": "Los números del 16 al 19 son una sola palabra. Dieciséis lleva acento en la última e."
+      }
+    },
+    {
+      "exerciseId": "2.1.6.4",
+      "type": "repeat",
+      "text": "Dieciocho, diecinueve, veinte.",
+      "meaningEn": "Eighteen, nineteen, twenty.",
+      "glosses": {
+        "dieciocho": "eighteen",
+        "diecinueve": "nineteen",
+        "veinte": "twenty"
+      }
+    },
+    {
+      "exerciseId": "2.1.6.5",
+      "type": "listen_choose",
+      "text": "Busco el casco rojo.",
+      "meaningEn": "I am looking for the red hard hat.",
+      "choices": [
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-azul.webp",
+          "label": "blue hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/casco-rojo.webp",
+          "label": "red hard hat",
+          "correct": true
+        },
+        {
+          "image": "images/casco-verde.webp",
+          "label": "green hard hat",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.6.6",
+      "type": "listen_choose",
+      "text": "Tengo una maleta negra.",
+      "meaningEn": "I have a black suitcase.",
+      "choices": [
+        {
+          "image": "images/maleta-negra.webp",
+          "label": "black suitcase",
+          "correct": true
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-gris.webp",
+          "label": "gray suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/maleta-cafe.webp",
+          "label": "brown suitcase",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.6.7",
+      "type": "repeat",
+      "text": "Abro la puerta.",
+      "meaningEn": "I open the door.",
+      "glosses": {
+        "abro": "I open — 1st person of abrir",
+        "la": "the (feminine)",
+        "puerta": "door"
+      },
+      "image": "images/puerta-abierta.webp"
+    },
+    {
+      "exerciseId": "2.1.6.8",
+      "type": "repeat",
+      "text": "El cliente cierra la puerta.",
+      "meaningEn": "The client closes the door.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client",
+        "cierra": "he closes, she closes — 3rd person of cerrar",
+        "la": "the (feminine)",
+        "puerta": "door"
+      },
+      "image": "images/puerta-cerrada.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.6.9",
+      "type": "listen_type",
+      "text": "Cierro la puerta.",
+      "meaningEn": "I close the door."
+    },
+    {
+      "exerciseId": "2.1.6.10",
+      "type": "read_aloud",
+      "text": "Hay veinte ladrillos.",
+      "meaningEn": "There are twenty bricks.",
+      "glosses": {
+        "hay": "there is, there are",
+        "veinte": "twenty",
+        "ladrillos": "bricks (plural of ladrillo)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.6.11",
+      "type": "listen_choose",
+      "text": "Hay siete ladrillos.",
+      "meaningEn": "There are seven bricks.",
+      "choices": [
+        {
+          "image": "images/ladrillos-4.webp",
+          "label": "four bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-7.webp",
+          "label": "seven bricks",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillos-2.webp",
+          "label": "two bricks",
+          "correct": false
+        },
+        {
+          "image": "images/ladrillos-3.webp",
+          "label": "three bricks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.6.12",
+      "type": "read_aloud",
+      "text": "Necesito una maleta gris.",
+      "meaningEn": "I need a gray suitcase.",
+      "glosses": {
+        "necesito": "I need — 1st person of necesitar",
+        "una": "a, an (feminine)",
+        "maleta": "suitcase",
+        "gris": "gray (does not change for gender)"
+      },
+      "image": "images/maleta-gris.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.6.13",
+      "type": "listen_type",
+      "text": "Hay dieciocho cascos.",
+      "meaningEn": "There are eighteen hard hats."
+    },
+    {
+      "exerciseId": "2.1.6.14",
+      "type": "repeat",
+      "text": "El cliente abre la carpeta.",
+      "meaningEn": "The client opens the folder.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client",
+        "abre": "he opens, she opens — 3rd person of abrir",
+        "la": "the (feminine)",
+        "carpeta": "folder"
+      },
+      "image": "images/carpeta.webp"
+    },
+    {
+      "exerciseId": "2.1.6.15",
+      "type": "read_aloud",
+      "text": "Abro la puerta y cierro la ventana.",
+      "meaningEn": "I open the door and close the window.",
+      "glosses": {
+        "abro": "I open — 1st person of abrir",
+        "la": "the (feminine)",
+        "puerta": "door",
+        "y": "and",
+        "cierro": "I close — 1st person of cerrar",
+        "ventana": "window"
+      },
+      "voice": "es-MX-JorgeNeural"
+    }
+  ]
+}

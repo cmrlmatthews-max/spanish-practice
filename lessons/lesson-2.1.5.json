@@ -1,0 +1,290 @@
+{
+  "lessonId": "2.1.5",
+  "level": 2,
+  "unit": 1,
+  "stage": 2,
+  "title": "Llego al aeropuerto",
+  "titleEn": "I arrive at the airport",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.1.5.1",
+      "type": "listen_choose",
+      "text": "Llego al aeropuerto.",
+      "meaningEn": "I arrive at the airport.",
+      "choices": [
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": false
+        },
+        {
+          "image": "images/llegar.webp",
+          "label": "an airplane landing",
+          "correct": true
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "hard hat",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Llego means I arrive. A means to or at. A plus el becomes al: llego al aeropuerto. A plus la does not change: llego a la reunión.",
+        "es": "Llego es la forma de yo de llegar. La palabra a más el se une en al: llego al aeropuerto. Pero a la no cambia: llego a la reunión."
+      }
+    },
+    {
+      "exerciseId": "2.1.5.2",
+      "type": "listen_choose",
+      "text": "El autobús llega.",
+      "meaningEn": "The bus arrives.",
+      "choices": [
+        {
+          "image": "images/autobus.webp",
+          "label": "bus",
+          "correct": true
+        },
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.5.3",
+      "type": "listen_choose",
+      "text": "Llego al hotel.",
+      "meaningEn": "I arrive at the hotel.",
+      "choices": [
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": true
+        },
+        {
+          "image": "images/pluma.webp",
+          "label": "pen",
+          "correct": false
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.5.4",
+      "type": "repeat",
+      "text": "Llego al hotel.",
+      "meaningEn": "I arrive at the hotel.",
+      "glosses": {
+        "llego": "I arrive — 1st person of llegar",
+        "al": "to the, at the (a + el)",
+        "hotel": "hotel"
+      },
+      "image": "images/hotel.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.5.5",
+      "type": "repeat",
+      "text": "Once, doce, trece.",
+      "meaningEn": "Eleven, twelve, thirteen.",
+      "glosses": {
+        "once": "eleven",
+        "doce": "twelve",
+        "trece": "thirteen"
+      },
+      "note": {
+        "en": "The numbers 11 to 15 all end in -ce. In Mexico, ce sounds like se: ON-se, DO-se, TRE-se.",
+        "es": "Los números del 11 al 15 terminan en -ce. En México, ce suena como se: ON-se, DO-se, TRE-se."
+      }
+    },
+    {
+      "exerciseId": "2.1.5.6",
+      "type": "repeat",
+      "text": "Catorce, quince.",
+      "meaningEn": "Fourteen, fifteen.",
+      "glosses": {
+        "catorce": "fourteen",
+        "quince": "fifteen"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.5.7",
+      "type": "listen_choose",
+      "text": "Llego a la reunión.",
+      "meaningEn": "I arrive at the meeting.",
+      "choices": [
+        {
+          "image": "images/calle.webp",
+          "label": "street",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/reunion.webp",
+          "label": "a meeting of three people",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.1.5.8",
+      "type": "read_aloud",
+      "text": "Llego al aeropuerto.",
+      "meaningEn": "I arrive at the airport.",
+      "glosses": {
+        "llego": "I arrive — 1st person of llegar",
+        "al": "to the, at the (a + el)",
+        "aeropuerto": "airport"
+      },
+      "image": "images/llegar.webp"
+    },
+    {
+      "exerciseId": "2.1.5.9",
+      "type": "listen_type",
+      "text": "El autobús llega.",
+      "meaningEn": "The bus arrives.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.5.10",
+      "type": "repeat",
+      "text": "Hay doce sillas en la reunión.",
+      "meaningEn": "There are twelve chairs at the meeting.",
+      "glosses": {
+        "hay": "there is, there are",
+        "doce": "twelve",
+        "sillas": "chairs (plural of silla)",
+        "en": "in, at",
+        "la": "the (feminine)",
+        "reunión": "meeting"
+      },
+      "image": "images/reunion.webp",
+      "note": {
+        "en": "En means in, on, or at. It shows where something is: en la reunión, en el aeropuerto.",
+        "es": "En equivale a \"in\", \"on\" o \"at\" en inglés. Indica dónde está algo: en la reunión, en el aeropuerto."
+      }
+    },
+    {
+      "exerciseId": "2.1.5.11",
+      "type": "repeat",
+      "text": "Hay quince lápices.",
+      "meaningEn": "There are fifteen pencils.",
+      "glosses": {
+        "hay": "there is, there are",
+        "quince": "fifteen",
+        "lápices": "pencils (plural of lápiz)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Lápiz ends in z. For the plural, z changes to c: el lápiz, los lápices.",
+        "es": "Lápiz termina en z. En plural, la z cambia a c: el lápiz, los lápices."
+      }
+    },
+    {
+      "exerciseId": "2.1.5.12",
+      "type": "listen_type",
+      "text": "Hay trece lápices.",
+      "meaningEn": "There are thirteen pencils.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.5.13",
+      "type": "read_aloud",
+      "text": "Busco el baño en el aeropuerto.",
+      "meaningEn": "I am looking for the restroom at the airport.",
+      "glosses": {
+        "busco": "I look for — 1st person of buscar",
+        "el": "the (masculine)",
+        "baño": "restroom, bathroom",
+        "en": "in, at",
+        "aeropuerto": "airport"
+      },
+      "image": "images/aeropuerto.webp"
+    },
+    {
+      "exerciseId": "2.1.5.14",
+      "type": "listen_choose",
+      "text": "Llego al restaurante.",
+      "meaningEn": "I arrive at the restaurant.",
+      "choices": [
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/restaurante.webp",
+          "label": "plate with fork and knife",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.5.15",
+      "type": "repeat",
+      "text": "Tengo catorce reuniones.",
+      "meaningEn": "I have fourteen meetings.",
+      "glosses": {
+        "tengo": "I have — 1st person of tener (irregular)",
+        "catorce": "fourteen",
+        "reuniones": "meetings (plural of reunión)"
+      },
+      "image": "images/reunion.webp",
+      "note": {
+        "en": "Reunión ends in -n. For the plural, add -es: las reuniones. The accent goes away.",
+        "es": "Reunión termina en -n. En plural se agrega -es: las reuniones. El acento desaparece."
+      }
+    }
+  ]
+}

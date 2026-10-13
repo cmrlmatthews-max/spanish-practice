@@ -1,0 +1,327 @@
+{
+  "lessonId": "4.1.3",
+  "level": 4,
+  "unit": 1,
+  "stage": 4,
+  "title": "Lectura en voz alta: calidad y máquinas",
+  "titleEn": "Read aloud: quality and machines",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.1.3.1",
+      "type": "read_aloud",
+      "text": "Necesitamos que el inspector de calidad revise cada lote antes de que salga el embarque a Monterrey.",
+      "meaningEn": "We need the quality inspector to check each batch before the shipment leaves for Monterrey.",
+      "glosses": {
+        "necesitamos": "we need — 1st person plural of necesitar",
+        "que": "that (necesitamos que; antes de que + subjunctive)",
+        "el": "the (masculine)",
+        "inspector": "inspector",
+        "de": "of (inspector de calidad = quality inspector; antes de que = before)",
+        "calidad": "quality",
+        "revise": "(he/she) checks — present subjunctive of revisar, after necesitamos que",
+        "cada": "each, every",
+        "lote": "batch, lot",
+        "antes": "before (antes de que + subjunctive)",
+        "salga": "(it) leaves — present subjunctive of salir, after antes de que",
+        "embarque": "shipment (Mexican; also envío)",
+        "a": "to",
+        "monterrey": "Monterrey (city in northern Mexico)"
+      },
+      "note": {
+        "en": "Necesitamos que takes the subjunctive when the second verb has a different subject. Example: necesito que revises.",
+        "es": "Necesitamos que lleva subjuntivo cuando el segundo verbo tiene otro sujeto. Ejemplo: necesito que revises."
+      }
+    },
+    {
+      "exerciseId": "4.1.3.2",
+      "type": "read_aloud",
+      "text": "Si la pieza tiene rebabas o rayones, no la dejen pasar, aunque el cliente no se dé cuenta.",
+      "meaningEn": "If the part has burrs or scratches, do not let it pass, even if the customer does not notice.",
+      "glosses": {
+        "si": "if",
+        "la": "the (feminine); also \"it\" (the part) in no la dejen",
+        "pieza": "part, piece",
+        "tiene": "has — 3rd person singular of tener",
+        "rebabas": "burrs, rough edges",
+        "o": "or",
+        "rayones": "scratches",
+        "no": "not",
+        "dejen": "(you all) let, allow — negative command, ustedes",
+        "pasar": "to pass, to go through",
+        "aunque": "even if, although (+ subjunctive)",
+        "el": "the (masculine)",
+        "cliente": "customer, client",
+        "se": "reflexive (darse cuenta = to realize, to notice)",
+        "dé": "gives — present subjunctive of dar, after aunque (darse cuenta = notice)",
+        "cuenta": "account (darse cuenta = to notice)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.3.3",
+      "type": "listen_type",
+      "text": "Ojalá que la calibración quede lista antes de que se acabe el turno.",
+      "meaningEn": "I hope the calibration is done before the shift ends."
+    },
+    {
+      "exerciseId": "4.1.3.4",
+      "type": "read_aloud",
+      "text": "Dudo que la máquina funcione bien mientras no cambien el balero, porque desde ayer hace un ruido muy raro.",
+      "meaningEn": "I doubt the machine will work properly as long as they do not change the bearing, because it has been making a very strange noise since yesterday.",
+      "glosses": {
+        "dudo": "I doubt — 1st person singular of dudar (+ subjunctive)",
+        "que": "that (dudo que + subjunctive)",
+        "la": "the (feminine)",
+        "máquina": "machine",
+        "funcione": "(it) works, runs — present subjunctive of funcionar, after dudo que",
+        "bien": "well",
+        "mientras": "while (mientras no + subjunctive = as long as … not)",
+        "no": "not",
+        "cambien": "(they) change, replace — present subjunctive of cambiar, after mientras no",
+        "el": "the (masculine)",
+        "balero": "bearing (Mexican word; also rodamiento)",
+        "porque": "because",
+        "desde": "since",
+        "ayer": "yesterday",
+        "hace": "makes — 3rd person singular of hacer (hacer ruido = make a noise)",
+        "un": "a, an (masculine)",
+        "ruido": "noise",
+        "muy": "very",
+        "raro": "strange, odd"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, balero means bearing. Technical texts also use rodamiento.",
+        "es": "En México se dice balero. En textos técnicos también se usa rodamiento."
+      }
+    },
+    {
+      "exerciseId": "4.1.3.5",
+      "type": "repeat",
+      "text": "La merma subió este mes, así que nos pidieron que cuidáramos más el material.",
+      "meaningEn": "Scrap went up this month, so they asked us to be more careful with the material.",
+      "glosses": {
+        "la": "the (feminine)",
+        "merma": "scrap, material loss (also desperdicio; many plants say scrap)",
+        "subió": "went up — 3rd person singular preterite of subir",
+        "este": "this (masculine)",
+        "mes": "month",
+        "así": "so, thus (así que = so)",
+        "que": "that (así que = so; pidieron que = asked that)",
+        "nos": "us — indirect object",
+        "pidieron": "they asked — 3rd person plural preterite of pedir",
+        "cuidáramos": "(we) take care of — imperfect subjunctive of cuidar, after pidieron que",
+        "más": "more",
+        "el": "the (masculine)",
+        "material": "material"
+      },
+      "note": {
+        "en": "When the main verb is in the past, the subjunctive verb is usually in the imperfect subjunctive. Example: nos pidieron que cuidáramos.",
+        "es": "Si el verbo principal está en pasado, el subjuntivo suele ir en imperfecto: nos pidieron que cuidáramos."
+      }
+    },
+    {
+      "exerciseId": "4.1.3.6",
+      "type": "read_aloud",
+      "text": "En cuanto la línea se detenga, avísenle a mantenimiento y no vuelvan a arrancarla hasta que alguien la revise.",
+      "meaningEn": "As soon as the line stops, notify maintenance and do not start it again until someone checks it.",
+      "glosses": {
+        "en": "in (en cuanto = as soon as)",
+        "cuanto": "as much as (en cuanto = as soon as)",
+        "la": "the (feminine); also \"it\" (the line) in la revise",
+        "línea": "line (production line)",
+        "se": "reflexive (se detenga = stops)",
+        "detenga": "(it) stops — present subjunctive of detenerse, after en cuanto",
+        "avísenle": "(you all) let … know — ustedes command of avisar + le",
+        "a": "to (avísenle a = let … know); volver a + verb = do again",
+        "mantenimiento": "maintenance",
+        "y": "and",
+        "no": "not",
+        "vuelvan": "(you all) go back, do again — negative command of volver",
+        "arrancarla": "start it — infinitive arrancar + la (the line)",
+        "hasta": "until",
+        "que": "that (hasta que = until, + subjunctive)",
+        "alguien": "someone",
+        "revise": "(he/she) checks — present subjunctive of revisar, after hasta que"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.3.7",
+      "type": "read_aloud",
+      "text": "Si la prensa funcionara sin fallas, podríamos cumplir la meta de producción sin tener que pagar horas extras.",
+      "meaningEn": "If the press worked without failures, we could meet the production target without having to pay overtime.",
+      "glosses": {
+        "si": "if",
+        "la": "the (feminine)",
+        "prensa": "press (machine)",
+        "funcionara": "(it) worked — imperfect subjunctive of funcionar, after si",
+        "sin": "without",
+        "fallas": "failures, faults",
+        "podríamos": "we could — conditional of poder",
+        "cumplir": "to meet, to fulfill",
+        "meta": "target, goal",
+        "de": "of",
+        "producción": "production",
+        "tener": "to have (tener que = have to)",
+        "que": "that (tener que + infinitive = have to)",
+        "pagar": "to pay",
+        "horas": "hours",
+        "extras": "extra (horas extras = overtime)"
+      },
+      "note": {
+        "en": "Use si + imperfect subjunctive for an unlikely or unreal present idea. The result uses the conditional. Example: si funcionara, podríamos cumplir.",
+        "es": "Para una idea poco probable o irreal en el presente: si + imperfecto de subjuntivo, y el resultado en condicional."
+      }
+    },
+    {
+      "exerciseId": "4.1.3.8",
+      "type": "listen_type",
+      "text": "Es necesario que calibren el medidor antes de que empecemos la inspección.",
+      "meaningEn": "It is necessary that they calibrate the gauge before we start the inspection.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.3.9",
+      "type": "read_aloud",
+      "text": "Cuando termines de medir las piezas, anota los resultados en la bitácora para que el siguiente turno sepa qué ajustar.",
+      "meaningEn": "When you finish measuring the parts, write the results in the logbook so the next shift knows what to adjust.",
+      "glosses": {
+        "cuando": "when (future sense, so + subjunctive)",
+        "termines": "(you) finish — present subjunctive of terminar, tú",
+        "de": "of (terminar de + infinitive = finish -ing)",
+        "medir": "to measure",
+        "las": "the (feminine plural)",
+        "piezas": "parts, pieces",
+        "anota": "write down — tú command of anotar",
+        "los": "the (masculine plural)",
+        "resultados": "results",
+        "en": "in",
+        "la": "the (feminine)",
+        "bitácora": "logbook (Mexican; also registro)",
+        "para": "so that (para que + subjunctive)",
+        "que": "that (para que = so that)",
+        "el": "the (masculine)",
+        "turno": "shift",
+        "siguiente": "next",
+        "sepa": "(he/she) knows — present subjunctive of saber, after para que",
+        "qué": "what",
+        "ajustar": "to adjust"
+      }
+    },
+    {
+      "exerciseId": "4.1.3.10",
+      "type": "repeat",
+      "text": "Aunque la producción vaya bien, no quiero que se salten las revisiones de la maquinaria.",
+      "meaningEn": "Even if production is going well, I do not want you to skip the machinery checks.",
+      "glosses": {
+        "aunque": "even if (+ subjunctive)",
+        "la": "the (feminine)",
+        "producción": "production",
+        "vaya": "(it) goes — present subjunctive of ir, after aunque",
+        "bien": "well",
+        "no": "not",
+        "quiero": "I want — 1st person singular of querer",
+        "que": "that (no quiero que = I do not want … to)",
+        "se": "reflexive (se salten = skip)",
+        "salten": "(you all) skip — present subjunctive of saltarse",
+        "las": "the (feminine plural)",
+        "revisiones": "checks, inspections",
+        "de": "of",
+        "maquinaria": "machinery"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.3.11",
+      "type": "read_aloud",
+      "text": "Me alegra que hayan logrado la meta del trimestre, pero espero que mantengamos la calidad sin que baje la producción.",
+      "meaningEn": "I am glad you reached the quarter's target, but I hope we keep the quality without production dropping.",
+      "glosses": {
+        "me": "me, to me (me alegra = it makes me glad)",
+        "alegra": "makes (me) glad — 3rd person singular of alegrar",
+        "que": "that (me alegra que, espero que, sin que + subjunctive)",
+        "hayan": "(you all) have — present subjunctive of haber (hayan logrado = have reached)",
+        "logrado": "achieved — past participle of lograr",
+        "la": "the (feminine)",
+        "meta": "target, goal",
+        "del": "of the (de + el)",
+        "trimestre": "quarter (three months)",
+        "pero": "but",
+        "espero": "I hope — 1st person singular of esperar",
+        "mantengamos": "(we) keep — present subjunctive of mantener",
+        "calidad": "quality",
+        "sin": "without (sin que + subjunctive)",
+        "baje": "(it) drops — present subjunctive of bajar",
+        "producción": "production"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Verbs of emotion take the subjunctive. Examples: me alegra que, me da gusto que, lamento que.",
+        "es": "Los verbos de emoción llevan subjuntivo: me alegra que, me da gusto que, lamento que."
+      }
+    },
+    {
+      "exerciseId": "4.1.3.12",
+      "type": "listen_type",
+      "text": "Avísame en cuanto llegue la refacción, para que la instalemos hoy mismo.",
+      "meaningEn": "Let me know as soon as the spare part arrives, so we can install it today.",
+      "note": {
+        "en": "In Mexico, refacción means spare part. Other countries say repuesto.",
+        "es": "En México, refacción es una pieza de repuesto. En otros países se dice repuesto."
+      }
+    },
+    {
+      "exerciseId": "4.1.3.13",
+      "type": "read_aloud",
+      "text": "Desafortunadamente, era necesario que el técnico desconectara el equipo y esperara a que se enfriara el motor antes de abrirlo.",
+      "meaningEn": "Unfortunately, it was necessary for the technician to disconnect the equipment and wait for the motor to cool down before opening it.",
+      "glosses": {
+        "desafortunadamente": "unfortunately",
+        "era": "it was — imperfect of ser",
+        "necesario": "necessary",
+        "que": "that (era necesario que; esperara a que + subjunctive)",
+        "el": "the (masculine)",
+        "técnico": "technician",
+        "desconectara": "(he/she) disconnected — imperfect subjunctive of desconectar",
+        "equipo": "equipment, machine",
+        "y": "and",
+        "esperara": "(he/she) waited — imperfect subjunctive of esperar",
+        "a": "for (esperar a que = wait until)",
+        "se": "reflexive (se enfriara = cooled down)",
+        "enfriara": "(it) cooled — imperfect subjunctive of enfriarse",
+        "motor": "motor",
+        "antes": "before",
+        "de": "of (antes de + infinitive = before -ing)",
+        "abrirlo": "open it — infinitive abrir + lo (the motor)"
+      },
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.1.3.14",
+      "type": "repeat",
+      "text": "Quiero saber por qué la máquina lleva tres días descompuesta sin que nadie la arregle.",
+      "meaningEn": "I want to know why the machine has been broken down for three days without anyone fixing it.",
+      "glosses": {
+        "quiero": "I want — 1st person singular of querer",
+        "saber": "to know",
+        "por": "for (por qué = why)",
+        "qué": "what (por qué = why)",
+        "la": "the (feminine); also \"it\" (the machine) in la arregle",
+        "máquina": "machine",
+        "lleva": "has been — 3rd person singular of llevar (lleva tres días = has been … days)",
+        "tres": "three",
+        "días": "days",
+        "descompuesta": "broken down (Mexican; feminine of descompuesto)",
+        "sin": "without",
+        "que": "that (sin que + subjunctive)",
+        "nadie": "nobody, no one",
+        "arregle": "(he/she) fixes — present subjunctive of arreglar, after sin que"
+      }
+    }
+  ]
+}

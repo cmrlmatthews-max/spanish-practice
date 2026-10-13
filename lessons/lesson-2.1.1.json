@@ -1,0 +1,315 @@
+{
+  "lessonId": "2.1.1",
+  "level": 2,
+  "unit": 1,
+  "stage": 2,
+  "title": "Necesito el mapa",
+  "titleEn": "I need the map",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.1.1.1",
+      "type": "listen_choose",
+      "text": "Necesito el mapa.",
+      "meaningEn": "I need the map.",
+      "choices": [
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": true
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/pasaporte.webp",
+          "label": "passport",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Necesito means I need. Spanish usually drops yo (I), because the ending -o already shows I.",
+        "es": "Necesito significa \"I need\". Casi siempre se omite yo, porque la terminación -o ya indica la primera persona."
+      }
+    },
+    {
+      "exerciseId": "2.1.1.2",
+      "type": "listen_choose",
+      "text": "Busco el baño.",
+      "meaningEn": "I'm looking for the bathroom.",
+      "choices": [
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/boleto.webp",
+          "label": "ticket",
+          "correct": false
+        },
+        {
+          "image": "images/bano.webp",
+          "label": "bathroom",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.1.3",
+      "type": "listen_choose",
+      "text": "Tengo un boleto.",
+      "meaningEn": "I have a ticket.",
+      "choices": [
+        {
+          "image": "images/boleto.webp",
+          "label": "ticket",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Tener means to have. It is irregular: tengo (I have), tiene (he or she has). Learn these forms as they are.",
+        "es": "Tener significa \"to have\". Es irregular: tengo (yo), tiene (él o ella). Aprende estas formas tal como son."
+      }
+    },
+    {
+      "exerciseId": "2.1.1.4",
+      "type": "repeat",
+      "text": "Necesito el mapa.",
+      "meaningEn": "I need the map.",
+      "glosses": {
+        "necesito": "I need — 1st person of necesitar",
+        "el": "the (masculine)",
+        "mapa": "map (masculine, ends in -a)"
+      },
+      "image": "images/mapa.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.1.5",
+      "type": "listen_choose",
+      "text": "El cliente necesita la llave.",
+      "meaningEn": "The client needs the key.",
+      "choices": [
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": true
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "For -ar verbs, the ending -a shows he or she: el cliente necesita. The ending -o shows I: necesito.",
+        "es": "En los verbos en -ar, la terminación -a indica él o ella: el cliente necesita. La terminación -o indica yo: necesito."
+      }
+    },
+    {
+      "exerciseId": "2.1.1.6",
+      "type": "listen_choose",
+      "text": "El cliente busca una maleta.",
+      "meaningEn": "The client is looking for a suitcase.",
+      "choices": [
+        {
+          "image": "images/computadora.webp",
+          "label": "computer",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": true
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Un and una mean a or an. Use un with a masculine noun: un boleto. Use una with a feminine noun: una maleta. Exception: agua is feminine, but it uses un, as it uses el: un agua.",
+        "es": "Un y una significan \"a\" o \"an\". Usa un con un sustantivo masculino (un boleto) y una con uno femenino (una maleta). Excepción: agua es femenino, pero lleva un, igual que lleva el: un agua."
+      }
+    },
+    {
+      "exerciseId": "2.1.1.7",
+      "type": "repeat",
+      "text": "Tengo un boleto.",
+      "meaningEn": "I have a ticket.",
+      "glosses": {
+        "tengo": "I have — 1st person of tener (irregular)",
+        "un": "a, an (masculine)",
+        "boleto": "ticket"
+      },
+      "image": "images/boleto.webp"
+    },
+    {
+      "exerciseId": "2.1.1.8",
+      "type": "listen_choose",
+      "text": "El cliente tiene una carpeta.",
+      "meaningEn": "The client has a folder.",
+      "choices": [
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": false
+        },
+        {
+          "image": "images/escalera.webp",
+          "label": "stairs",
+          "correct": false
+        },
+        {
+          "image": "images/carpeta.webp",
+          "label": "folder",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.1.9",
+      "type": "listen_type",
+      "text": "Necesito la llave.",
+      "meaningEn": "I need the key."
+    },
+    {
+      "exerciseId": "2.1.1.10",
+      "type": "read_aloud",
+      "text": "El cliente necesita la llave.",
+      "meaningEn": "The client needs the key.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client (el cliente for a man)",
+        "necesita": "needs — he/she form of necesitar",
+        "la": "the (feminine)",
+        "llave": "key"
+      },
+      "image": "images/llave.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.1.11",
+      "type": "repeat",
+      "text": "Busco una maleta.",
+      "meaningEn": "I'm looking for a suitcase.",
+      "glosses": {
+        "busco": "I look for — 1st person of buscar",
+        "una": "a, an (feminine)",
+        "maleta": "suitcase"
+      },
+      "image": "images/maleta.webp"
+    },
+    {
+      "exerciseId": "2.1.1.12",
+      "type": "listen_choose",
+      "text": "Tengo un casco.",
+      "meaningEn": "I have a hard hat.",
+      "choices": [
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": true
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.1.13",
+      "type": "listen_type",
+      "text": "Busco el mapa.",
+      "meaningEn": "I'm looking for the map.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.1.1.14",
+      "type": "read_aloud",
+      "text": "El cliente tiene una carpeta.",
+      "meaningEn": "The client has a folder.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client (el cliente for a man)",
+        "tiene": "has — he/she form of tener (irregular)",
+        "una": "a, an (feminine)",
+        "carpeta": "folder"
+      },
+      "image": "images/carpeta.webp"
+    },
+    {
+      "exerciseId": "2.1.1.15",
+      "type": "listen_type",
+      "text": "Tengo una carpeta.",
+      "meaningEn": "I have a folder."
+    }
+  ]
+}
