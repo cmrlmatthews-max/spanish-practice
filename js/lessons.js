@@ -8,12 +8,26 @@ window.SP = window.SP || {};
   'use strict';
 
   var LESSON_FIELDS = ['lessonId', 'level', 'unit', 'stage', 'title', 'titleEn', 'audience', 'language', 'exercises'];
-  var EXERCISE_FIELDS = ['exerciseId', 'type', 'text', 'meaningEn', 'choices', 'image', 'voice', 'note', 'pass'];
+  var EXERCISE_FIELDS = ['exerciseId', 'type', 'text', 'meaningEn', 'choices', 'image', 'voice', 'note', 'pass', 'glosses'];
   var CHOICE_FIELDS = ['image', 'label', 'correct'];
   var NOTE_FIELDS = ['en', 'es'];
   var PASS_FIELDS = ['accuracy', 'fluency'];
+  var GLOSS_MAX_LENGTH = 80;
+  // Punctuation that wordKey removes at the ends of a word. A gloss key has none of these.
+  var EDGE_PUNCTUATION = /^[¿?¡!.,;:"«»]+|[¿?¡!.,;:"«»]+$/g;
+  var ANY_PUNCTUATION = /[¿?¡!.,;:"«»]/;
 
   // ---------- Small checks ----------
+
+  // Return the lookup key of a word: lower case, no punctuation or spaces at the ends.
+  function wordKey(text) {
+    return String(text).toLowerCase().trim().replace(EDGE_PUNCTUATION, '').trim();
+  }
+
+  // Return the list of word keys in a sentence.
+  function textWordKeys(text) {
+    return String(text).split(/\s+/).map(wordKey).filter(function (key) { return key !== ''; });
+  }
 
   // Return true if the value is a plain object.
   function isObject(value) {
@@ -130,6 +144,29 @@ window.SP = window.SP || {};
     seenIds.push(ex.exerciseId);
   }
 
+  // Check the text of one gloss key. Return an error text or null.
+  function glossKeyProblem(key, words) {
+    if (key === '' || /\s/.test(key)) { return 'must not be empty and must not have spaces'; }
+    if (key !== key.toLowerCase()) { return 'must be in lower case'; }
+    if (ANY_PUNCTUATION.test(key)) { return 'must not have punctuation'; }
+    if (words.indexOf(key) === -1) { return 'is not a word of the text'; }
+    return null;
+  }
+
+  // Check the optional glosses of an exercise.
+  function checkGlosses(glosses, ex, where, errors) {
+    if (!isObject(glosses)) { errors.push(where + ': glosses must be an object.'); return; }
+    var words = textWordKeys(ex.text);
+    Object.keys(glosses).forEach(function (key) {
+      var problem = glossKeyProblem(key, words);
+      if (problem) { errors.push(where + ': glosses key "' + key + '" ' + problem + '.'); }
+      var value = glosses[key];
+      if (!isText(value) || value.length > GLOSS_MAX_LENGTH) {
+        errors.push(where + ': glosses "' + key + '" must be a text of 1 to ' + GLOSS_MAX_LENGTH + ' characters.');
+      }
+    });
+  }
+
   // Check the fields that depend on the exercise type.
   function checkTypeFields(ex, where, errors) {
     var isChoose = ex.type === 'listen_choose';
@@ -167,6 +204,7 @@ window.SP = window.SP || {};
       errors.push(where + ': voice must be a text that starts with "es-MX-".');
     }
     if (ex.note !== undefined) { checkNote(ex.note, where, errors); }
+    if (ex.glosses !== undefined) { checkGlosses(ex.glosses, ex, where, errors); }
   }
 
   // Check a whole lesson. Return a list of English error messages. An empty list means valid.
@@ -266,6 +304,7 @@ window.SP = window.SP || {};
     loadAll: loadAll,
     validateLesson: validateLesson,
     forProfile: forProfile,
-    countPassed: countPassed
+    countPassed: countPassed,
+    wordKey: wordKey
   };
 }());

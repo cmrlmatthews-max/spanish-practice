@@ -1,6 +1,7 @@
 /* score-view.js - draw the speech score of one recording.
  * SP.scoreView.render(container, result, lang, options) clears the container and draws the score.
  * options is optional: {voice} is the voice that says single words.
+ * {glosses} maps a word to its English meaning. The view shows it only in English.
  * The view shows only what Azure returned.
  */
 window.SP = window.SP || {};
@@ -101,6 +102,19 @@ SP.addText({
     return first + ' · ' + SP.t('svDetailType', lang, { type: typeLabel(word.errorType, lang) });
   }
 
+  // Return the lookup key of a word. Use the shared function when it exists.
+  function glossKey(text) {
+    if (SP.lessons && typeof SP.lessons.wordKey === 'function') { return SP.lessons.wordKey(text); }
+    return String(text).toLowerCase().replace(/^[¿?¡!.,;:"«»]+|[¿?¡!.,;:"«»]+$/g, '');
+  }
+
+  // Return the gloss line for a word, or '' if there is none or the language is not English.
+  function glossText(word, lang, glosses) {
+    if (lang !== 'en' || !glosses) { return ''; }
+    var gloss = glosses[glossKey(word.word)];
+    return typeof gloss === 'string' && gloss !== '' ? word.word + ' — ' + gloss : '';
+  }
+
   // ---------- Parts of the view ----------
 
   // Draw the large pronunciation score.
@@ -171,6 +185,12 @@ SP.addText({
     };
   }
 
+  // Show the gloss line with a text, or hide it when the text is empty.
+  function showGloss(line, text) {
+    line.textContent = text;
+    line.hidden = text === '';
+  }
+
   // Draw one tappable word button.
   function buildWordButton(word, parts, lang, buttons) {
     var btn = makeEl('button', 'sv-word', word.word);
@@ -187,6 +207,7 @@ SP.addText({
       btn.classList.add('sv-selected');
       btn.setAttribute('aria-pressed', 'true');
       parts.detail.textContent = detailText(word, lang);
+      showGloss(parts.gloss, glossText(word, lang, parts.glosses));
       if (!parts.hear) { return; }
       if (canHear(word)) { parts.hear.show(word); } else { parts.hear.hide(); }
     });
@@ -194,14 +215,16 @@ SP.addText({
   }
 
   // Draw the word buttons, the detail line, and the hear buttons.
-  function buildWords(words, lang, voice) {
+  function buildWords(words, lang, voice, glosses) {
     var section = makeEl('div', 'sv-words-section');
     section.appendChild(makeEl('div', 'sv-words-title', SP.t('svWordsTitle', lang)));
     var list = makeEl('div', 'sv-words');
     var detail = makeEl('p', 'sv-detail', SP.t('svTapHint', lang));
     detail.setAttribute('role', 'status');
     var hasAudio = !!SP.audio && typeof SP.audio.playWord === 'function';
-    var parts = { detail: detail, hear: hasAudio ? buildHearRow(detail, lang, voice) : null };
+    var gloss = makeEl('p', 'sv-gloss');
+    gloss.hidden = true;
+    var parts = { detail: detail, gloss: gloss, glosses: glosses, hear: hasAudio ? buildHearRow(detail, lang, voice) : null };
     var buttons = [];
     words.forEach(function (word) {
       var btn = buildWordButton(word, parts, lang, buttons);
@@ -210,6 +233,7 @@ SP.addText({
     });
     section.appendChild(list);
     section.appendChild(detail);
+    section.appendChild(gloss);
     if (parts.hear) { section.appendChild(parts.hear.row); }
     return section;
   }
@@ -280,7 +304,7 @@ SP.addText({
 
     var words = result.words || [];
     if (words.length > 0) {
-      root.appendChild(buildWords(words, lang, voice));
+      root.appendChild(buildWords(words, lang, voice, options && options.glosses));
       root.appendChild(buildLegend(lang));
       var marks = buildMarkLegend(words, lang);
       if (marks) { root.appendChild(marks); }

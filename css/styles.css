@@ -266,3 +266,6 @@ button.lt-check { flex: 0 0 auto; }
 /* The "Hear it" and "Slow" buttons under the word detail line (js/score-view.js). */
 .sv-hear { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 .sv-hear button { min-height: 44px; }
+
+/* The English gloss of a tapped word, under the detail line (js/score-view.js). */
+.sv-gloss { margin: 4px 0; font-weight: 600; color: var(--fg); }
