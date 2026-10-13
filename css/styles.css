@@ -1,29 +1,51 @@
 /* Spanish practice - styles. Plain CSS, no framework. */
 
+/* Colors.
+   Main color: Talavera blue. Accent color: rosa mexicano (pink).
+   Use the accent only for the main action, the current item, and small highlights.
+   Keep green, yellow, and red for the meaning of scores and for pass or fail. */
 :root {
-  --bg: #ffffff;
-  --fg: #1c1c1e;
-  --muted: #5f6368;
-  --line: #d0d4d9;
-  --accent: #0a5bd3;
-  --accent-fg: #ffffff;
+  /* Main color (blue) */
+  --blue: #1b4fa0;          /* fills: top bar, buttons with white text */
+  --blue-dark: #143c7a;     /* pressed or hover */
+  --blue-tint: #e8effa;     /* soft background */
+  --blue-ink: #1b4fa0;      /* blue text, outlines, focus ring */
+  /* Accent color (pink) */
+  --pink: #e6007e;          /* fill for the main button, with white text */
+  --pink-dark: #b80065;     /* pressed or hover */
+  --pink-tint: #fde6f2;     /* soft background of the current item */
+  --pink-hi: #e6007e;       /* progress, current-item outline, check marks */
+  /* Page */
+  --bg: #fbf8f3;
+  --card-bg: #ffffff;
+  --fg: #1c2230;
+  --muted: #5a6275;
+  --line: #d5dbe6;
+  --line-strong: #aab6cf;
+  --on-fill: #ffffff;       /* text on blue or pink fills */
+  --on-blue-soft: #dce6f7;  /* small text on the blue top bar */
+  --shadow: 0 1px 3px rgba(28, 34, 48, 0.12), 0 2px 8px rgba(28, 34, 48, 0.06);
+  /* Meaning colors: do not use for decoration */
   --green: #1e8e3e;
   --yellow: #f2b600;
   --red: #d93025;
   --warn-bg: #fff4d6;
-  --card-bg: #f4f6f8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #121212;
-    --fg: #f1f1f1;
-    --muted: #a8adb3;
-    --line: #3a3d41;
-    --accent: #5b9dff;
-    --accent-fg: #0b0b0b;
+    --blue-ink: #6e9be6;
+    --blue-tint: #1d2b4d;
+    --pink-tint: #4a1636;
+    --pink-hi: #ff4fa8;
+    --bg: #121826;
+    --card-bg: #1b2234;
+    --fg: #f1f3f8;
+    --muted: #a9b1c4;
+    --line: #34405a;
+    --line-strong: #4a5878;
     --warn-bg: #3b3115;
-    --card-bg: #1e1f22;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -37,7 +59,8 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font: 17px/1.45 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  /* Bold system font. Body text is 600. Headings, buttons, and labels are 700 to 800. */
+  font: 600 17px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
@@ -47,14 +70,18 @@ main {
   padding: 16px;
 }
 
-h1 { font-size: 1.5rem; margin: 12px 0 4px; }
-h2 { font-size: 1.2rem; margin: 24px 0 8px; }
+h1 { font-size: 1.6rem; font-weight: 800; color: var(--blue-ink); margin: 12px 0 4px; }
+h2 { font-size: 1.25rem; font-weight: 800; color: var(--blue-ink); margin: 24px 0 8px; }
+a { color: var(--blue-ink); font-weight: 700; }
+
+/* A clear focus ring for keyboard and switch users. */
+:focus-visible { outline: 3px solid var(--blue-ink); outline-offset: 2px; }
 p { margin: 8px 0; }
 
 label {
   display: block;
   margin: 16px 0 4px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* 17px or more stops the zoom on iPhone. */
@@ -64,35 +91,47 @@ input, select {
   font-size: 17px;
   padding: 10px;
   min-height: 44px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--bg);
+  border: 2px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--card-bg);
   color: var(--fg);
 }
+input:focus, select:focus { border-color: var(--blue-ink); }
 
 /* A text input that hides the characters. Safari then offers no password autofill. */
 input.secret { -webkit-text-security: disc; }
 
+/* A plain button is the main action of a screen (Start, Begin, Record, Next): pink. */
 button, label.button {
   font: inherit;
-  font-weight: 600;
-  min-height: 44px;
-  padding: 10px 16px;
+  font-weight: 700;
+  min-height: 48px;
+  padding: 10px 18px;
   border: 0;
-  border-radius: 10px;
-  background: var(--accent);
-  color: var(--accent-fg);
+  border-radius: 12px;
+  background: var(--pink);
+  color: var(--on-fill);
   cursor: pointer;
   touch-action: manipulation;
 }
+button:active { background: var(--pink-dark); }
+/* :where keeps this rule weak, so buttons with their own colors keep them. */
+@media (hover: hover) { :where(button:hover:not(:disabled)) { background: var(--pink-dark); } }
 
+/* A secondary button: white with a blue outline. */
 button.secondary, label.button.secondary {
-  background: transparent;
-  color: var(--accent);
-  border: 1px solid var(--accent);
+  background: var(--card-bg);
+  color: var(--blue-ink);
+  border: 2px solid var(--blue-ink);
 }
+button.secondary:active, label.button.secondary:active { background: var(--blue-tint); }
+@media (hover: hover) { button.secondary:hover:not(:disabled), label.button.secondary:hover { background: var(--blue-tint); } }
 
-button.big { width: 100%; min-height: 64px; font-size: 1.25rem; }
+button.big { width: 100%; min-height: 64px; font-size: 1.25rem; font-weight: 800; }
+/* The two profile buttons are equal choices, so they are blue and not pink. */
+#screen-profile button.big { background: var(--blue); }
+#screen-profile button.big:active { background: var(--blue-dark); }
+@media (hover: hover) { #screen-profile button.big:hover { background: var(--blue-dark); } }
 button:disabled { opacity: 0.4; cursor: default; }
 
 .stack { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
@@ -106,18 +145,35 @@ button:disabled { opacity: 0.4; cursor: default; }
 }
 .topbar h1 { margin-top: 0; }
 
-.note { color: var(--muted); font-size: 0.9rem; }
+/* The top bar of the lesson list is a blue block with white text. */
+#screen-lessons .topbar {
+  align-items: center;
+  margin-top: 4px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--blue);
+  color: var(--on-fill);
+  box-shadow: var(--shadow);
+}
+#screen-lessons .topbar h1 { margin: 0; color: var(--on-fill); }
+#screen-lessons .topbar .note { margin: 2px 0 0; color: var(--on-blue-soft); }
+#screen-lessons .topbar button.secondary { background: transparent; color: var(--on-fill); border-color: var(--on-fill); flex: 0 0 auto; }
+#screen-lessons .topbar button.secondary:active { background: var(--blue-dark); }
+@media (hover: hover) { #screen-lessons .topbar button.secondary:hover { background: var(--blue-dark); } }
+
+.note { color: var(--muted); font-size: 0.9rem; font-weight: 600; }
 .status { min-height: 1.4em; margin: 8px 0 0; }
-.status.error { color: var(--red); font-weight: 600; }
+.status.error { color: var(--red); font-weight: 700; }
 .warn, .banner { background: var(--warn-bg); padding: 10px 12px; border-radius: 8px; }
-.banner { font-weight: 600; }
+.banner { font-weight: 700; }
 
 .confirm {
   margin-top: 12px;
   padding: 12px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 12px;
   background: var(--card-bg);
+  box-shadow: var(--shadow);
 }
 .confirm p { margin-top: 0; }
 
@@ -128,12 +184,17 @@ button.lesson-item {
   min-height: 72px;
   padding: 14px 16px;
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
   background: var(--card-bg);
   color: var(--fg);
   border: 1px solid var(--line);
+  border-left: 8px solid var(--blue-ink);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
 }
-.lesson-item .lesson-title { display: block; font-size: 1.15rem; font-weight: 700; }
+button.lesson-item:active { background: var(--blue-tint); }
+@media (hover: hover) { button.lesson-item:hover { background: var(--blue-tint); } }
+.lesson-item .lesson-title { display: block; font-size: 1.2rem; font-weight: 800; color: var(--blue-ink); }
 .lesson-item .lesson-title-en { display: block; color: var(--muted); }
 .lesson-item .lesson-meta { display: block; margin-top: 6px; font-size: 0.9rem; color: var(--muted); }
 
@@ -142,18 +203,19 @@ button.lesson-item {
   padding: 12px 14px;
   margin-bottom: 8px;
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--card-bg);
+  box-shadow: var(--shadow);
 }
 .exercise-list .exercise-type { color: var(--muted); }
 
 details { margin-top: 20px; }
-summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; }
-.problem-file { font-weight: 600; margin: 12px 0 4px; word-break: break-word; }
+summary { cursor: pointer; font-weight: 700; color: var(--blue-ink); min-height: 44px; display: flex; align-items: center; }
+.problem-file { font-weight: 700; margin: 12px 0 4px; word-break: break-word; }
 .problem-list { margin: 0; padding-left: 20px; font-size: 0.9rem; }
 
 /* A label that looks like a button. It opens the file chooser. */
-label.button { display: inline-flex; align-items: center; justify-content: center; margin: 0; font-weight: 600; }
+label.button { display: inline-flex; align-items: center; justify-content: center; margin: 0; font-weight: 700; }
 
 /* Hide an element on screen but keep it usable. */
 .visually-hidden {
@@ -162,15 +224,15 @@ label.button { display: inline-flex; align-items: center; justify-content: cente
 }
 
 /* ---------- Lesson runner (js/runner.js) ---------- */
-.run-count { margin: 12px 0 6px; font-weight: 600; color: var(--muted); }
+.run-count { margin: 12px 0 6px; font-weight: 700; color: var(--muted); }
 
 .run-bar {
-  height: 8px;
-  border-radius: 4px;
-  background: var(--line);
+  height: 10px;
+  border-radius: 5px;
+  background: var(--blue-tint);
   overflow: hidden;
 }
-.run-bar-fill { height: 100%; background: var(--accent); }
+.run-bar-fill { height: 100%; background: var(--pink-hi); }
 
 .run-audio { margin-top: 16px; }
 .run-audio button { flex: 1 1 140px; }
@@ -178,36 +240,37 @@ label.button { display: inline-flex; align-items: center; justify-content: cente
 .run-area { margin-top: 16px; }
 
 .run-english { margin-top: 16px; }
-.run-english-text { margin: 0; padding: 10px 12px; border-radius: 8px; background: var(--card-bg); }
+.run-english-text { margin: 0; padding: 10px 12px; border-radius: 10px; background: var(--blue-tint); }
 
 .run-result {
   margin-top: 16px;
   padding: 12px 14px;
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--card-bg);
+  box-shadow: var(--shadow);
 }
 .run-result p { margin: 6px 0; }
-.run-verdict { font-size: 1.15rem; font-weight: 700; }
+.run-verdict { font-size: 1.2rem; font-weight: 800; }
 .run-pass { color: var(--green); }
 .run-fail { color: var(--red); }
-.run-spanish { font-size: 1.25rem; font-weight: 600; }
+.run-spanish { font-size: 1.3rem; font-weight: 800; }
 
 .run-nav button { flex: 1 1 140px; }
 
 /* ---------- Score view (js/score-view.js) ---------- */
 .sv-root { margin-top: 12px; }
 .sv-main { text-align: center; margin: 8px 0; }
-.sv-main-number { display: block; font-size: 2.6rem; font-weight: 800; line-height: 1.1; }
+.sv-main-number { display: block; font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: var(--blue-ink); }
 .sv-main-label { display: block; color: var(--muted); font-size: 0.9rem; }
 .sv-small-row { display: flex; justify-content: center; gap: 24px; margin: 8px 0 16px; }
 .sv-small { text-align: center; }
-.sv-small-number { display: block; font-size: 1.3rem; font-weight: 700; }
+.sv-small-number { display: block; font-size: 1.3rem; font-weight: 800; color: var(--blue-ink); }
 .sv-small-label { display: block; color: var(--muted); font-size: 0.85rem; }
-.sv-words-title { font-size: 1rem; margin: 12px 0 6px; }
+.sv-words-title { font-size: 1rem; font-weight: 800; margin: 12px 0 6px; }
 .sv-words { display: flex; flex-wrap: wrap; gap: 6px; }
 button.sv-word {
-  min-height: 40px; padding: 6px 10px; border-radius: 8px;
+  min-height: 44px; padding: 6px 12px; border-radius: 10px; font-weight: 700;
   border: 2px solid transparent; background: var(--line); color: var(--fg);
 }
 button.sv-word.sv-green { background: var(--green); color: #ffffff; }
@@ -215,20 +278,21 @@ button.sv-word.sv-yellow { background: var(--yellow); color: #1c1c1e; }
 button.sv-word.sv-red { background: var(--red); color: #ffffff; }
 button.sv-word.sv-omitted { text-decoration: line-through; border-color: var(--fg); }
 button.sv-word.sv-inserted { border-style: dashed; border-color: var(--fg); }
-button.sv-word.sv-selected { outline: 3px solid var(--accent); outline-offset: 2px; }
-.sv-detail { min-height: 1.4em; margin: 8px 0; font-weight: 600; }
+button.sv-word.sv-selected { outline: 3px solid var(--blue-ink); outline-offset: 2px; }
+.sv-detail { min-height: 1.4em; margin: 8px 0; font-weight: 700; }
 .sv-legend { display: flex; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: 0.85rem; }
 .sv-legend-item { display: inline-flex; align-items: center; gap: 4px; }
 .sv-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 3px; }
 .sv-swatch.sv-green { background: var(--green); }
 .sv-swatch.sv-yellow { background: var(--yellow); }
 .sv-swatch.sv-red { background: var(--red); }
-.sv-error { color: var(--red); font-weight: 600; }
+.sv-error { color: var(--red); font-weight: 700; }
 
 /* ---------- Listen and choose (js/ex-listen-choose.js) ---------- */
 .lc-prompt { margin: 0 0 12px; color: var(--muted); }
 .lc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-button.lc-choice { position: relative; padding: 6px; min-height: 0; background: var(--card-bg); border: 2px solid var(--line); border-radius: 12px; cursor: pointer; line-height: 0; }
+button.lc-choice { position: relative; padding: 6px; min-height: 0; background: var(--card-bg); border: 2px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); cursor: pointer; line-height: 0; }
+button.lc-choice:active { background: var(--blue-tint); border-color: var(--blue-ink); }
 .lc-image { width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block; border-radius: 8px; pointer-events: none; }
 button.lc-choice:disabled { cursor: default; opacity: 1; }
 button.lc-choice.lc-wrong { opacity: 0.35; border-color: var(--red); }
@@ -245,7 +309,7 @@ button.lt-check { flex: 0 0 auto; }
 .lt-feedback { margin-top: 12px; }
 .lt-line { margin: 4px 0; }
 .lt-line-label { color: var(--muted); }
-.lt-line-value { font-weight: 600; }
+.lt-line-value { font-weight: 800; }
 .lt-info { margin: 6px 0; padding: 8px 10px; background: var(--warn-bg); border-radius: 8px; }
 
 /* ---------- Record flow: repeat and read aloud (js/ex-repeat.js, js/ex-read-aloud.js) ---------- */
@@ -253,12 +317,12 @@ button.lt-check { flex: 0 0 auto; }
 .rp-hint { margin: 0; }
 .rp-flow[data-state="listening"] .rp-record,
 .rp-flow[data-state="processing"] .rp-record { background: transparent; color: var(--red); border: 2px solid var(--red); }
-.rp-busy { align-self: center; width: 28px; height: 28px; border: 4px solid var(--line); border-top-color: var(--accent); border-radius: 50%; animation: rp-spin 0.9s linear infinite; }
+.rp-busy { align-self: center; width: 28px; height: 28px; border: 4px solid var(--line); border-top-color: var(--pink-hi); border-radius: 50%; animation: rp-spin 0.9s linear infinite; }
 @keyframes rp-spin { to { transform: rotate(360deg); } }
-@media (prefers-reduced-motion: reduce) { .rp-busy { animation: none; border-right-color: var(--accent); } }
+@media (prefers-reduced-motion: reduce) { .rp-busy { animation: none; border-right-color: var(--pink-hi); } }
 .rp-status { text-align: center; }
 .rp-result { margin-top: 4px; }
-.ra-text { margin: 16px 0 0; font-size: 1.75rem; font-weight: 700; line-height: 1.3; text-align: center; overflow-wrap: anywhere; }
+.ra-text { margin: 16px 0 0; font-size: 1.75rem; font-weight: 800; line-height: 1.3; text-align: center; overflow-wrap: anywhere; }
 
 /* The optional picture of an exercise (js/runner.js). */
 .run-image { display: block; width: 60%; max-width: 240px; aspect-ratio: 1 / 1; object-fit: contain; margin: 12px auto 0; border-radius: 12px; }
@@ -268,7 +332,7 @@ button.lt-check { flex: 0 0 auto; }
 .sv-hear button { min-height: 44px; }
 
 /* The English gloss of a tapped word, under the detail line (js/score-view.js). */
-.sv-gloss { margin: 4px 0; font-weight: 600; color: var(--fg); }
+.sv-gloss { margin: 4px 0; font-weight: 700; color: var(--fg); }
 
 /* The exercise grid and the exercise header (js/runner.js). */
 .run-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: 12px 0 6px; }
@@ -276,8 +340,9 @@ button.lt-check { flex: 0 0 auto; }
 .run-head button { min-height: 40px; padding: 6px 12px; flex: 0 0 auto; }
 .run-jump-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; margin-top: 8px; }
 button.run-jump { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 56px; padding: 6px 4px; line-height: 1.15; }
-.run-jump-num { font-size: 1.4rem; font-weight: 700; }
-.run-jump-type { font-size: 0.7rem; font-weight: 600; text-align: center; overflow-wrap: anywhere; }
+.run-jump-num { font-size: 1.4rem; font-weight: 800; }
+.run-jump-type { font-size: 0.7rem; font-weight: 700; text-align: center; overflow-wrap: anywhere; }
 button.run-jump-passed { border: 2px solid var(--green); }
-.run-jump-check { position: absolute; top: 2px; right: 5px; font-size: 0.8rem; font-weight: 700; color: var(--green); }
-button.run-jump-current { outline: 3px solid var(--accent); outline-offset: 2px; }
+.run-jump-check { position: absolute; top: 2px; right: 5px; font-size: 0.8rem; font-weight: 800; color: var(--green); }
+/* The current exercise: pink outline and soft pink background. */
+button.run-jump-current { outline: 3px solid var(--pink-hi); outline-offset: 2px; background: var(--pink-tint); }
