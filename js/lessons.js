@@ -19,9 +19,9 @@ window.SP = window.SP || {};
 
   // ---------- Small checks ----------
 
-  // Return the lookup key of a word: lower case, no punctuation at the ends.
+  // Return the lookup key of a word: lower case, no punctuation or spaces at the ends.
   function wordKey(text) {
-    return String(text).toLowerCase().replace(EDGE_PUNCTUATION, '');
+    return String(text).toLowerCase().trim().replace(EDGE_PUNCTUATION, '').trim();
   }
 
   // Return the list of word keys in a sentence.

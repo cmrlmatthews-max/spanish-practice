@@ -22,7 +22,7 @@ window.SP = window.SP || {};
     // The voice that the tool uses when an exercise names no voice.
     defaultVoice: 'es-MX-DaliaNeural',
     // The speed of the slow replay (1 is normal speed).
-    slowRate: 0.70,
+    slowRate: 0.50,
     // The silence time in milliseconds that ends a recording.
     silenceTimeoutMs: 1000,
     // The default pass values for a scored exercise.

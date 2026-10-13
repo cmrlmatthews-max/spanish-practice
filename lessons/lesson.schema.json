@@ -134,13 +134,14 @@
           "$ref": "#/$defs/pass"
         },
         "glosses": {
-          "description": "Short English meaning of each word of the text, in this sentence. Keys are words of the text in lower case, with accents and without punctuation. The score view shows a gloss when the user taps the word in English mode. The rule that each key is a word of the text cannot be written in this schema; js/lessons.js checks it.",
+          "description": "Short English meaning of each word of the text, in this sentence. Keys are words of the text in lower case (the pattern rejects the Spanish upper-case letters), with accents and without punctuation. The score view shows a gloss when the user taps the word in English mode. The rule that each key is a word of the text cannot be written in this schema; js/lessons.js checks it.",
           "type": "object",
           "propertyNames": {
-            "pattern": "^[^\\s¿?¡!.,;:\"«»]+$"
+            "pattern": "^[^\\sA-ZÁÉÍÓÚÜÑ¿?¡!.,;:\"«»]+$"
           },
           "additionalProperties": {
             "type": "string",
+            "minLength": 1,
             "pattern": "\\S",
             "maxLength": 80
           }

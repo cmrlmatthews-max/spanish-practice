@@ -15,6 +15,24 @@
       "type": "read_aloud",
       "text": "Disculpe, ¿sabe usted a qué hora sale el próximo autobús hacia el aeropuerto de la Ciudad de México?",
       "meaningEn": "Excuse me, do you know what time the next bus to the Mexico City airport leaves?",
+      "glosses": {
+        "disculpe": "excuse me (formal command, usted)",
+        "sabe": "(you) know — usted form of saber",
+        "usted": "you (formal)",
+        "a": "at (a qué hora = at what time)",
+        "qué": "what",
+        "hora": "hour, time",
+        "sale": "leaves, departs — 3rd person singular",
+        "el": "the (masculine)",
+        "próximo": "next",
+        "autobús": "bus",
+        "hacia": "toward, to",
+        "aeropuerto": "airport",
+        "de": "of (Ciudad de México = Mexico City)",
+        "la": "the (feminine)",
+        "ciudad": "city (Ciudad de México = Mexico City)",
+        "méxico": "Mexico"
+      },
       "voice": "es-MX-DaliaNeural"
     },
     {
@@ -22,6 +40,25 @@
       "type": "read_aloud",
       "text": "Ojalá que nuestro vuelo no se retrase, porque necesito llegar al hotel antes de que cierre la recepción.",
       "meaningEn": "I hope our flight isn't delayed, because I need to get to the hotel before the front desk closes.",
+      "glosses": {
+        "ojalá": "I hope — triggers the subjunctive",
+        "que": "that (ojalá que = I hope that; antes de que = before)",
+        "nuestro": "our",
+        "vuelo": "flight",
+        "no": "not",
+        "se": "reflexive (se retrase = gets delayed)",
+        "retrase": "gets delayed — subjunctive of retrasarse",
+        "porque": "because",
+        "necesito": "I need — 1st person singular",
+        "llegar": "to arrive, to get to",
+        "al": "to the (a + el)",
+        "hotel": "hotel",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of (antes de que = before)",
+        "cierre": "closes — subjunctive of cerrar",
+        "la": "the (feminine)",
+        "recepción": "front desk, reception"
+      },
       "voice": "es-MX-JorgeNeural"
     },
     {
@@ -29,6 +66,23 @@
       "type": "read_aloud",
       "text": "Cuando llegues a la esquina, da vuelta a la derecha y sigue derecho hasta que veas la gasolinera.",
       "meaningEn": "When you get to the corner, turn right and keep going straight until you see the gas station.",
+      "glosses": {
+        "cuando": "when (future sense, so + subjunctive)",
+        "llegues": "you arrive — subjunctive, tú",
+        "a": "to, at (a la esquina; a la derecha)",
+        "la": "the (feminine)",
+        "esquina": "corner",
+        "da": "give (tú command of dar); da vuelta = turn",
+        "vuelta": "turn, lit. 'a turn' (idiom: da vuelta = turn)",
+        "derecha": "right (a la derecha = to the right)",
+        "y": "and",
+        "sigue": "keep going — tú command of seguir",
+        "derecho": "straight ahead",
+        "hasta": "until",
+        "que": "that (hasta que = until, + subjunctive)",
+        "veas": "you see — subjunctive, tú",
+        "gasolinera": "gas station"
+      },
       "voice": "es-MX-DaliaNeural"
     },
     {
@@ -36,6 +90,26 @@
       "type": "read_aloud",
       "text": "Nos avisaron que el vuelo a Monterrey se retrasó, así que perdimos la conexión y tuvimos que esperar tres horas.",
       "meaningEn": "They told us the flight to Monterrey was delayed, so we missed the connection and had to wait three hours.",
+      "glosses": {
+        "nos": "us (indirect object)",
+        "avisaron": "they told, notified — 3rd person plural preterite",
+        "que": "that (así que = so; tuvimos que = we had to)",
+        "el": "the (masculine)",
+        "vuelo": "flight",
+        "a": "to",
+        "monterrey": "Monterrey (city in northern Mexico)",
+        "se": "reflexive (se retrasó = got delayed)",
+        "retrasó": "was delayed — 3rd person singular preterite",
+        "así": "so, thus (así que = so)",
+        "perdimos": "we lost, missed — preterite",
+        "la": "the (feminine)",
+        "conexión": "connection",
+        "y": "and",
+        "tuvimos": "we had — preterite (tuvimos que = we had to)",
+        "esperar": "to wait",
+        "tres": "three",
+        "horas": "hours"
+      },
       "voice": "es-MX-JorgeNeural"
     },
     {
@@ -43,6 +117,25 @@
       "type": "read_aloud",
       "text": "Antes de que arranque el turno, necesito que todos revisen su equipo de protección y se pongan los lentes.",
       "meaningEn": "Before the shift starts, I need everyone to check their protective equipment and put on their safety glasses.",
+      "glosses": {
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of (antes de que = before)",
+        "que": "that (antes de que = before; necesito que = I need … to)",
+        "arranque": "starts — subjunctive of arrancar",
+        "el": "the (masculine)",
+        "turno": "shift",
+        "necesito": "I need — 1st person singular",
+        "todos": "everyone, all (masculine plural)",
+        "revisen": "(they) check — subjunctive, 3rd person plural",
+        "su": "their",
+        "equipo": "equipment",
+        "protección": "protection",
+        "y": "and",
+        "se": "reflexive (se pongan = put on themselves)",
+        "pongan": "(they) put on — subjunctive of ponerse",
+        "los": "the (masculine plural)",
+        "lentes": "glasses (safety glasses)"
+      },
       "voice": "es-MX-DaliaNeural"
     },
     {
@@ -50,6 +143,26 @@
       "type": "read_aloud",
       "text": "Les pido que no manejen el montacargas si no tienen la certificación vigente, porque es un riesgo para todos.",
       "meaningEn": "I ask that you not drive the forklift if you don't have a current certification, because it is a risk for everyone.",
+      "glosses": {
+        "les": "(to) you all — indirect object, ustedes",
+        "pido": "I ask — 1st person singular of pedir",
+        "que": "that (pido que = I ask that, + subjunctive)",
+        "no": "not",
+        "manejen": "(you all) drive, operate — subjunctive",
+        "el": "the (masculine)",
+        "montacargas": "forklift",
+        "si": "if",
+        "tienen": "(you all) have — indicative, ustedes",
+        "la": "the (feminine)",
+        "certificación": "certification",
+        "vigente": "current, valid",
+        "porque": "because",
+        "es": "it is",
+        "un": "a",
+        "riesgo": "risk",
+        "para": "for",
+        "todos": "everyone"
+      },
       "voice": "es-MX-JorgeNeural"
     },
     {
@@ -57,6 +170,27 @@
       "type": "read_aloud",
       "text": "Si la pieza no cumple con las especificaciones, sepárenla y avísenle al supervisor antes de que llegue otro lote.",
       "meaningEn": "If the part doesn't meet the specifications, set it aside and tell the supervisor before another batch arrives.",
+      "glosses": {
+        "si": "if",
+        "la": "the (feminine)",
+        "pieza": "part, piece",
+        "no": "not",
+        "cumple": "meets, complies — 3rd person singular",
+        "con": "with (cumplir con = to meet)",
+        "las": "the (feminine plural)",
+        "especificaciones": "specifications",
+        "sepárenla": "separate it, set it aside — ustedes command + la (the part)",
+        "y": "and",
+        "avísenle": "tell him/her — ustedes command + le (the supervisor)",
+        "al": "to the (a + el)",
+        "supervisor": "supervisor",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of (antes de que = before)",
+        "que": "that (antes de que = before)",
+        "llegue": "arrives — subjunctive of llegar",
+        "otro": "another",
+        "lote": "batch, lot"
+      },
       "voice": "es-MX-DaliaNeural"
     },
     {
@@ -64,6 +198,26 @@
       "type": "read_aloud",
       "text": "La línea dos se detuvo porque falló un sensor; llamen a mantenimiento para que la revisen lo antes posible.",
       "meaningEn": "Line two stopped because a sensor failed; call maintenance so they check it as soon as possible.",
+      "glosses": {
+        "la": "the (feminine); la revisen = it (the line)",
+        "línea": "line (production line)",
+        "dos": "two",
+        "se": "reflexive (se detuvo = stopped)",
+        "detuvo": "stopped — 3rd person singular preterite of detenerse",
+        "porque": "because",
+        "falló": "failed — 3rd person singular preterite",
+        "un": "a",
+        "sensor": "sensor",
+        "llamen": "call — ustedes command",
+        "a": "to (llamar a = to call someone/something)",
+        "mantenimiento": "maintenance",
+        "para": "so that (para que + subjunctive)",
+        "que": "that (para que = so that)",
+        "revisen": "(they) check — subjunctive, 3rd person plural",
+        "lo": "the (idiom: lo antes posible = as soon as possible)",
+        "antes": "sooner, lit. 'before' (idiom: lo antes posible)",
+        "posible": "possible (idiom: lo antes posible)"
+      },
       "voice": "es-MX-JorgeNeural"
     },
     {
@@ -71,6 +225,27 @@
       "type": "read_aloud",
       "text": "Quiero que me avisen de inmediato si ven algo peligroso, aunque parezca poca cosa, porque más vale prevenir que lamentar.",
       "meaningEn": "I want you to tell me right away if you see anything dangerous, even if it seems minor, because better safe than sorry.",
+      "glosses": {
+        "quiero": "I want — 1st person singular",
+        "que": "that (quiero que = I want you to); than in 'más vale … que'",
+        "me": "me, to me (indirect object)",
+        "avisen": "(you all) tell, notify — subjunctive",
+        "de": "of (de inmediato = right away)",
+        "inmediato": "immediate (de inmediato = right away)",
+        "si": "if",
+        "ven": "(you all) see — indicative of ver",
+        "algo": "something, anything",
+        "peligroso": "dangerous",
+        "aunque": "even if, although (+ subjunctive: hypothetical)",
+        "parezca": "it seems — subjunctive of parecer",
+        "poca": "little, minor (feminine)",
+        "cosa": "thing (poca cosa = minor matter)",
+        "porque": "because",
+        "más": "more (idiom: más vale … = it is better …)",
+        "vale": "is worth (idiom: más vale prevenir que lamentar = better safe than sorry)",
+        "prevenir": "to prevent (idiom: más vale prevenir que lamentar)",
+        "lamentar": "to regret"
+      },
       "voice": "es-MX-DaliaNeural"
     },
     {
@@ -78,6 +253,17 @@
       "type": "read_aloud",
       "text": "Pablito clavó un clavito en la calva de un calvito. En la calva de un calvito un clavito clavó Pablito.",
       "meaningEn": "Little Pablo drove a little nail into a little bald man's bald spot. Into a little bald man's bald spot, Little Pablo drove a little nail. (Tongue twister.)",
+      "glosses": {
+        "pablito": "little Pablo (diminutive of Pablo)",
+        "clavó": "drove in, hammered — 3rd person singular preterite",
+        "un": "a",
+        "clavito": "little nail (diminutive of clavo)",
+        "en": "in, into",
+        "la": "the (feminine)",
+        "calva": "bald spot, bald head",
+        "de": "of",
+        "calvito": "little bald man (diminutive of calvo)"
+      },
       "voice": "es-MX-JorgeNeural"
     },
     {
@@ -85,6 +271,17 @@
       "type": "read_aloud",
       "text": "Tres tristes tigres tragaban trigo en un trigal, en tres tristes trastos, tragaban trigo tres tristes tigres.",
       "meaningEn": "Three sad tigers were swallowing wheat in a wheat field, in three sad pots, three sad tigers were swallowing wheat. (Tongue twister.)",
+      "glosses": {
+        "tres": "three",
+        "tristes": "sad",
+        "tigres": "tigers",
+        "tragaban": "were swallowing — imperfect, 3rd person plural",
+        "trigo": "wheat",
+        "en": "in",
+        "un": "a",
+        "trigal": "wheat field",
+        "trastos": "pots, dishes (old)"
+      },
       "voice": "es-MX-DaliaNeural"
     },
     {
@@ -92,6 +289,23 @@
       "type": "read_aloud",
       "text": "El perro de San Roque no tiene rabo porque Ramón Ramírez se lo ha cortado.",
       "meaningEn": "Saint Roch's dog has no tail because Ramón Ramírez has cut it off. (Tongue twister.)",
+      "glosses": {
+        "el": "the (masculine)",
+        "perro": "dog",
+        "de": "of (San Roque's dog = the dog of San Roque)",
+        "san": "Saint",
+        "roque": "Roch (Saint Roch)",
+        "no": "not",
+        "tiene": "has — 3rd person singular",
+        "rabo": "tail",
+        "porque": "because",
+        "ramón": "Ramón (first name)",
+        "ramírez": "Ramírez (surname)",
+        "se": "to him — le becomes se before lo",
+        "lo": "it (the tail) — direct object",
+        "ha": "has — auxiliary of present perfect",
+        "cortado": "cut off — past participle of cortar"
+      },
       "voice": "es-MX-JorgeNeural"
     }
   ]
