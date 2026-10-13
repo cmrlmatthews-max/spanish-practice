@@ -104,6 +104,10 @@
       "type": "repeat",
       "text": "El avión.",
       "meaningEn": "The airplane.",
+      "glosses": {
+        "el": "the (masculine)",
+        "avión": "airplane"
+      },
       "image": "images/avion.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -201,6 +205,10 @@
       "type": "repeat",
       "text": "La maleta.",
       "meaningEn": "The suitcase.",
+      "glosses": {
+        "la": "the (feminine)",
+        "maleta": "suitcase"
+      },
       "image": "images/maleta.webp"
     },
     {
@@ -241,6 +249,10 @@
       "type": "read_aloud",
       "text": "El pasaporte.",
       "meaningEn": "The passport.",
+      "glosses": {
+        "el": "the (masculine)",
+        "pasaporte": "passport"
+      },
       "image": "images/pasaporte.webp"
     },
     {
@@ -255,6 +267,10 @@
       "type": "repeat",
       "text": "La llave.",
       "meaningEn": "The key.",
+      "glosses": {
+        "la": "the (feminine)",
+        "llave": "key"
+      },
       "image": "images/llave.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -263,6 +279,10 @@
       "type": "read_aloud",
       "text": "El boleto.",
       "meaningEn": "The ticket.",
+      "glosses": {
+        "el": "the (masculine)",
+        "boleto": "ticket"
+      },
       "image": "images/boleto.webp"
     },
     {

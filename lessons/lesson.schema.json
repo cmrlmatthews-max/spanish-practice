@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "lesson.schema.json",
   "title": "Spanish practice lesson",
-  "description": "Format rules for one lesson file. Each lesson is one JSON object with 1 to 15 exercises. Checks that this schema cannot express, and that js/lessons.js also enforces: (1) the file name must be lesson-<lessonId>.json; (2) level must equal the first part of lessonId, and unit must equal the second part; (3) each exerciseId must start with the lessonId and a dot; (4) exerciseId values must be unique within the lesson; (5) audience values must not repeat. The lesson index lessons/index.json lists the lesson files in order. Across files, each lessonId must be unique, and all lessons in one level must use the same stage.",
+  "description": "Format rules for one lesson file. Each lesson is one JSON object with 1 to 15 exercises. Checks that this schema cannot express, and that js/lessons.js also enforces: (1) the file name must be lesson-<lessonId>.json; (2) level must equal the first part of lessonId, and unit must equal the second part; (3) each exerciseId must start with the lessonId and a dot; (4) exerciseId values must be unique within the lesson; (5) audience values must not repeat; (6) each key of glosses must be a word of the exercise text (lower case, without punctuation at the ends), which this schema cannot check. The lesson index lessons/index.json lists the lesson files in order. Across files, each lessonId must be unique, and all lessons in one level must use the same stage.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -132,6 +132,18 @@
         "pass": {
           "description": "Pass values for the speech score. Allowed for repeat and read_aloud only.",
           "$ref": "#/$defs/pass"
+        },
+        "glosses": {
+          "description": "Short English meaning of each word of the text, in this sentence. Keys are words of the text in lower case, with accents and without punctuation. The score view shows a gloss when the user taps the word in English mode. The rule that each key is a word of the text cannot be written in this schema; js/lessons.js checks it.",
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[^\\s¿?¡!.,;:\"«»]+$"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "\\S",
+            "maxLength": 80
+          }
         }
       },
       "allOf": [

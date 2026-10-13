@@ -100,6 +100,10 @@
       "type": "repeat",
       "text": "El casco.",
       "meaningEn": "The hard hat.",
+      "glosses": {
+        "el": "the (masculine)",
+        "casco": "hard hat"
+      },
       "image": "images/casco.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -198,6 +202,10 @@
       "type": "repeat",
       "text": "La puerta.",
       "meaningEn": "The door.",
+      "glosses": {
+        "la": "the (feminine)",
+        "puerta": "door"
+      },
       "image": "images/puerta.webp"
     },
     {
@@ -233,6 +241,10 @@
       "type": "read_aloud",
       "text": "El plano.",
       "meaningEn": "The floor plan.",
+      "glosses": {
+        "el": "the (masculine)",
+        "plano": "floor plan"
+      },
       "image": "images/plano.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -241,6 +253,10 @@
       "type": "repeat",
       "text": "La llave.",
       "meaningEn": "The key.",
+      "glosses": {
+        "la": "the (feminine)",
+        "llave": "key"
+      },
       "image": "images/llave.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -255,6 +271,10 @@
       "type": "read_aloud",
       "text": "El agua.",
       "meaningEn": "The water.",
+      "glosses": {
+        "el": "the (masculine)",
+        "agua": "water (feminine noun, but uses el)"
+      },
       "image": "images/agua.webp"
     },
     {
@@ -269,6 +289,10 @@
       "type": "repeat",
       "text": "La escalera.",
       "meaningEn": "The stairs.",
+      "glosses": {
+        "la": "the (feminine)",
+        "escalera": "stairs, staircase"
+      },
       "image": "images/escalera.webp"
     }
   ]

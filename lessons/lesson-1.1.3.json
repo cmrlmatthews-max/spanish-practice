@@ -100,6 +100,10 @@
       "type": "repeat",
       "text": "La mesa.",
       "meaningEn": "The table.",
+      "glosses": {
+        "la": "the (feminine)",
+        "mesa": "table"
+      },
       "image": "images/mesa.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -234,6 +238,10 @@
       "type": "repeat",
       "text": "El café.",
       "meaningEn": "The coffee.",
+      "glosses": {
+        "el": "the (masculine)",
+        "café": "coffee"
+      },
       "image": "images/cafe.webp"
     },
     {
@@ -241,6 +249,10 @@
       "type": "repeat",
       "text": "La computadora.",
       "meaningEn": "The computer.",
+      "glosses": {
+        "la": "the (feminine)",
+        "computadora": "computer"
+      },
       "image": "images/computadora.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -249,6 +261,10 @@
       "type": "read_aloud",
       "text": "La silla.",
       "meaningEn": "The chair.",
+      "glosses": {
+        "la": "the (feminine)",
+        "silla": "chair"
+      },
       "image": "images/silla.webp"
     },
     {
@@ -263,6 +279,10 @@
       "type": "repeat",
       "text": "El plano.",
       "meaningEn": "The floor plan.",
+      "glosses": {
+        "el": "the (masculine)",
+        "plano": "floor plan"
+      },
       "image": "images/plano.webp"
     },
     {
@@ -270,6 +290,10 @@
       "type": "read_aloud",
       "text": "La puerta.",
       "meaningEn": "The door.",
+      "glosses": {
+        "la": "the (feminine)",
+        "puerta": "door"
+      },
       "image": "images/puerta.webp",
       "voice": "es-MX-JorgeNeural"
     },

@@ -104,6 +104,10 @@
       "type": "repeat",
       "text": "El perro.",
       "meaningEn": "The dog.",
+      "glosses": {
+        "el": "the (masculine)",
+        "perro": "dog"
+      },
       "image": "images/perro.webp",
       "voice": "es-MX-JorgeNeural",
       "note": {
@@ -116,6 +120,9 @@
       "type": "repeat",
       "text": "Pero.",
       "meaningEn": "But.",
+      "glosses": {
+        "pero": "but"
+      },
       "note": {
         "en": "Pero has one quick tap. It means but. Perro has a trill. It means dog.",
         "es": "Pero lleva un solo golpe de lengua. Significa \"but\". Perro lleva vibración. Significa \"dog\"."
@@ -162,6 +169,9 @@
       "type": "repeat",
       "text": "Caro.",
       "meaningEn": "Expensive.",
+      "glosses": {
+        "caro": "expensive"
+      },
       "voice": "es-MX-JorgeNeural",
       "note": {
         "en": "Caro has one quick tap. It means expensive. Carro has a trill. It means car.",
@@ -173,6 +183,10 @@
       "type": "repeat",
       "text": "El carro.",
       "meaningEn": "The car.",
+      "glosses": {
+        "el": "the (masculine)",
+        "carro": "car"
+      },
       "image": "images/carro.webp"
     },
     {
@@ -193,6 +207,10 @@
       "type": "read_aloud",
       "text": "La casa.",
       "meaningEn": "The house.",
+      "glosses": {
+        "la": "the (feminine)",
+        "casa": "house"
+      },
       "image": "images/casa.webp"
     },
     {
@@ -228,6 +246,10 @@
       "type": "repeat",
       "text": "La puerta.",
       "meaningEn": "The door.",
+      "glosses": {
+        "la": "the (feminine)",
+        "puerta": "door"
+      },
       "image": "images/puerta.webp",
       "voice": "es-MX-JorgeNeural"
     },
@@ -236,6 +258,10 @@
       "type": "read_aloud",
       "text": "El carro.",
       "meaningEn": "The car.",
+      "glosses": {
+        "el": "the (masculine)",
+        "carro": "car"
+      },
       "image": "images/carro.webp",
       "voice": "es-MX-JorgeNeural"
     }
