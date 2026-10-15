@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Spanish practice: the Home Screen icon.
+       Rosa field. A paper letter with an ink print offset. A marigold papel picado strip
+       over a paper strip, hung from the top edge. The colors are the poster colors of css/styles.css.
+       The letter is the N with tilde of Anton Regular, drawn as a path.
+       Anton is under the SIL Open Font License 1.1 (fonts/OFL.txt).
+       The PNG files in this folder are exports of this file. Keep the square corners:
+       iOS and macOS add their own rounded mask. -->
+  <rect width="1024" height="1024" fill="#E4007C"/>
+  <!-- Back strip: paper. -->
+  <polygon fill="#F6F1E8" points="-32.0,0.0 1088.0,0.0 1088.0,158.7 1056.0,117.6 1024.0,158.7 992.0,117.6 960.0,158.7 928.0,117.6 896.0,158.7 864.0,117.6 832.0,158.7 800.0,117.6 768.0,158.7 736.0,117.6 704.0,158.7 672.0,117.6 640.0,158.7 608.0,117.6 576.0,158.7 544.0,117.6 512.0,158.7 480.0,117.6 448.0,158.7 416.0,117.6 384.0,158.7 352.0,117.6 320.0,158.7 288.0,117.6 256.0,158.7 224.0,117.6 192.0,158.7 160.0,117.6 128.0,158.7 96.0,117.6 64.0,158.7 32.0,117.6 0.0,158.7 -32.0,117.6"/>
+  <!-- Front strip: marigold with round holes. -->
+  <mask id="holes">
+    <rect width="1024" height="1024" fill="#fff"/>
+    <g fill="#000"><circle cx="32.0" cy="46.1" r="10.9"/><circle cx="96.0" cy="46.1" r="10.9"/><circle cx="160.0" cy="46.1" r="10.9"/><circle cx="224.0" cy="46.1" r="10.9"/><circle cx="288.0" cy="46.1" r="10.9"/><circle cx="352.0" cy="46.1" r="10.9"/><circle cx="416.0" cy="46.1" r="10.9"/><circle cx="480.0" cy="46.1" r="10.9"/><circle cx="544.0" cy="46.1" r="10.9"/><circle cx="608.0" cy="46.1" r="10.9"/><circle cx="672.0" cy="46.1" r="10.9"/><circle cx="736.0" cy="46.1" r="10.9"/><circle cx="800.0" cy="46.1" r="10.9"/><circle cx="864.0" cy="46.1" r="10.9"/><circle cx="928.0" cy="46.1" r="10.9"/><circle cx="992.0" cy="46.1" r="10.9"/></g>
+  </mask>
+  <polygon fill="#F4A11D" mask="url(#holes)" points="-64.0,0.0 1088.0,0.0 1088.0,128.0 1056.0,86.9 1024.0,128.0 992.0,86.9 960.0,128.0 928.0,86.9 896.0,128.0 864.0,86.9 832.0,128.0 800.0,86.9 768.0,128.0 736.0,86.9 704.0,128.0 672.0,86.9 640.0,128.0 608.0,86.9 576.0,128.0 544.0,86.9 512.0,128.0 480.0,86.9 448.0,128.0 416.0,86.9 384.0,128.0 352.0,86.9 320.0,128.0 288.0,86.9 256.0,128.0 224.0,86.9 192.0,128.0 160.0,86.9 128.0,128.0 96.0,86.9 64.0,128.0 32.0,86.9 0.0,128.0 -32.0,86.9 -64.0,128.0"/>
+  <!-- The letter: the ink print offset first, then the paper letter on top. -->
+  <path id="letter" d="M78 0V1760H440L602 917V1760H942V0H598L422 880V0ZM696 1871Q622 1871 560 1894Q499 1917 449 1940Q399 1962 358 1962Q332 1962 309 1947Q286 1932 266 1894L118 1972Q143 2033 172 2084Q202 2134 248 2164Q294 2195 365 2195Q436 2195 494 2174Q551 2153 598 2132Q646 2111 685 2111Q712 2111 735 2128Q758 2145 778 2186L944 2132Q920 2065 891 2005Q862 1945 816 1908Q771 1871 696 1871Z" transform="translate(339.4 972.8) scale(0.37788 -0.37788)" fill="#1A1A1A"/>
+  <path d="M78 0V1760H440L602 917V1760H942V0H598L422 880V0ZM696 1871Q622 1871 560 1894Q499 1917 449 1940Q399 1962 358 1962Q332 1962 309 1947Q286 1932 266 1894L118 1972Q143 2033 172 2084Q202 2134 248 2164Q294 2195 365 2195Q436 2195 494 2174Q551 2153 598 2132Q646 2111 685 2111Q712 2111 735 2128Q758 2145 778 2186L944 2132Q920 2065 891 2005Q862 1945 816 1908Q771 1871 696 1871Z" transform="translate(298.4 931.8) scale(0.37788 -0.37788)" fill="#F6F1E8"/>
+</svg>

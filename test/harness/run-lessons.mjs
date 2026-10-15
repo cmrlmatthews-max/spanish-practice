@@ -5,7 +5,7 @@
  *
  * Usage:
  *   node test/harness/run-lessons.mjs [lessonId ...] [--mode=pass|mixed|fail|nomatch|busy]
- *                                     [--lang=en|es] [--screens=dir]
+ *                                     [--lang=en|es] [--screens=dir] [--width=px]
  *
  * See test/harness/README.md.
  */
@@ -24,23 +24,25 @@ const VENDOR_URL_RE = /\/js\/vendor\/microsoft\.cognitiveservices\.speech\.sdk\.
 // ---------- Arguments ----------
 
 const ids = [];
-const opts = { mode: 'pass', lang: '', screens: '', help: false };
+const opts = { mode: 'pass', lang: '', screens: '', width: 390, help: false };
 for (const arg of process.argv.slice(2)) {
   if (arg === '--help' || arg === '-h') { opts.help = true; }
   else if (arg.startsWith('--mode=')) { opts.mode = arg.slice(7); }
   else if (arg.startsWith('--lang=')) { opts.lang = arg.slice(7); }
   else if (arg.startsWith('--screens=')) { opts.screens = arg.slice(10); }
+  else if (arg.startsWith('--width=')) { opts.width = Number(arg.slice(8)); }
   else if (arg.startsWith('--')) { console.error('Unknown option: ' + arg); process.exit(2); }
   else { ids.push(arg); }
 }
 if (opts.help) {
-  console.log('Usage: node test/harness/run-lessons.mjs [lessonId ...] [--mode=pass|mixed|fail|nomatch|busy] [--lang=en|es] [--screens=dir]');
+  console.log('Usage: node test/harness/run-lessons.mjs [lessonId ...] [--mode=pass|mixed|fail|nomatch|busy] [--lang=en|es] [--screens=dir] [--width=px]');
   process.exit(0);
 }
 if (!['pass', 'mixed', 'fail', 'nomatch', 'busy'].includes(opts.mode)) {
   console.error('--mode must be pass, mixed, fail, nomatch, or busy.'); process.exit(2);
 }
 if (opts.lang && !['en', 'es'].includes(opts.lang)) { console.error('--lang must be en or es.'); process.exit(2); }
+if (!Number.isInteger(opts.width) || opts.width < 200 || opts.width > 2000) { console.error('--width must be a whole number from 200 to 2000.'); process.exit(2); }
 if (opts.screens) { fs.mkdirSync(opts.screens, { recursive: true }); }
 
 // ---------- Playwright loader ----------
@@ -129,7 +131,7 @@ async function runLesson(browser, base, lessonFile, lesson, extraIndexFiles) {
   const fail = (msg) => { L.errors.push(msg); };
 
   const context = await browser.newContext({
-    viewport: { width: 390, height: 844 }, deviceScaleFactor: 3, isMobile: true, hasTouch: true,
+    viewport: { width: opts.width, height: 844 }, deviceScaleFactor: 3, isMobile: true, hasTouch: true,
     serviceWorkers: 'block'
   });
   context.setDefaultTimeout(15000);
@@ -458,7 +460,8 @@ async function runLesson(browser, base, lessonFile, lesson, extraIndexFiles) {
         // ---- result ----
         const verdictEl = runner.locator('.run-result:not([hidden]) .run-verdict');
         await verdictEl.waitFor();
-        const verdict = (await verdictEl.innerText()).trim();
+        // textContent, not innerText: the CSS shows the verdict in capitals, and the check compares the text itself.
+        const verdict = (await verdictEl.textContent()).trim();
         rec.verdict = verdict;
         rec.expectedPass = expectPass;
         const wantVerdict = await T(expectPass ? 'runPassed' : 'runFailed');
@@ -497,7 +500,7 @@ async function runLesson(browser, base, lessonFile, lesson, extraIndexFiles) {
           await runner.locator('.lc-choice').first().waitFor();
           const correct = ex.choices.find((c) => c.correct === true);
           await runner.locator('.lc-choice').filter({ has: page.locator('img[src="' + correct.image + '"]') }).click();
-          const v2 = (await runner.locator('.run-result:not([hidden]) .run-verdict').innerText()).trim();
+          const v2 = (await runner.locator('.run-result:not([hidden]) .run-verdict').textContent()).trim();
           if (v2 !== await T('runPassed')) { fail('Exercise ' + (i + 1) + ': after Try again the verdict is "' + v2 + '".'); }
           rec.verdict += ' -> (try again) ' + v2;
           exPassed[i] = true;
@@ -525,7 +528,7 @@ async function runLesson(browser, base, lessonFile, lesson, extraIndexFiles) {
     await (await button('runBackToLessons')).click();
     const metaItem = page.locator('#lessons-list .lesson-item').filter({ has: page.locator('.lesson-title', { hasText: exact(lesson.title) }) });
     await metaItem.waitFor();
-    L.listProgress = (await metaItem.locator('.lesson-meta').innerText()).trim();
+    L.listProgress = (await metaItem.locator('.lesson-meta').textContent()).trim();
     const wantMeta = await T('passedCount', { passed: wantPassed, total: N });
     if (!L.listProgress.includes(wantMeta)) { fail('The lesson list shows "' + L.listProgress + '"; expected "' + wantMeta + '".'); }
   } catch (e) {
