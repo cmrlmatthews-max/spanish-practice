@@ -11,6 +11,7 @@ GitHub Pages hosts it. The main file is `index.html`.
 
 - `index.html` is the main page.
 - `css/` has the styles.
+- `icons/` has the Home Screen icon and the favicon. The source is `icons/icon.svg`. The PNG files are exports of it.
 - `js/` has the tool code.
 - `js/vendor/` has the Azure Speech SDK file. Do not edit it.
 - `lessons/` has one JSON file for each lesson, and `index.json`.
