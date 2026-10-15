@@ -6,10 +6,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Spanish">
-  <meta name="theme-color" content="#1B4FA0" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#121826" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F6F1E8">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="data:,">
+  <link rel="preload" href="fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <title>Spanish practice</title>
 </head>
@@ -21,6 +21,9 @@
   <!-- Screen 1: choose a profile. -->
   <section id="screen-profile" hidden>
     <h1 data-t="appTitle"></h1>
+    <!-- Decorative masthead word and a strip of cut paper (CSS only). -->
+    <p class="masthead-word" aria-hidden="true" lang="es">Español</p>
+    <div class="papel-picado" aria-hidden="true"></div>
     <h2 data-t="chooseProfile"></h2>
     <p class="note" data-t="chooseProfileHint"></p>
     <div class="stack">
@@ -32,12 +35,15 @@
   <!-- Screen 2: list of lessons. -->
   <section id="screen-lessons" hidden>
     <header class="topbar">
-      <div>
+      <div class="topbar-id">
         <h1 data-t="appTitle"></h1>
         <p id="lessons-profile" class="note"></p>
       </div>
       <button type="button" id="btn-settings" class="secondary" data-t="settings"></button>
     </header>
+    <!-- Decorative masthead word and a strip of cut paper (CSS only). -->
+    <p class="masthead-word" aria-hidden="true" lang="es">Español</p>
+    <div class="papel-picado" aria-hidden="true"></div>
     <p id="lessons-status" class="status" role="status"></p>
     <button type="button" id="btn-retry" data-t="retry" hidden></button>
     <div id="lessons-list" class="stack"></div>

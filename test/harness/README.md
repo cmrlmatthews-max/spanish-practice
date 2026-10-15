@@ -54,6 +54,7 @@ node test/harness/run-lessons.mjs --mode=busy           # "too many requests" er
 node test/harness/run-lessons.mjs --mode=nomatch        # "no speech" error, then a retry
 node test/harness/run-lessons.mjs 1.1.1 --lang=es       # Spanish explanation language
 node test/harness/run-lessons.mjs --screens=/tmp/shots  # save a screenshot of each screen
+node test/harness/run-lessons.mjs 1.1.1 --width=430     # a wider phone (default 390)
 ```
 
 A lesson that has a file but is not in `lessons/index.json` still runs
