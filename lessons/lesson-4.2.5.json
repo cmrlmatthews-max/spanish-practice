@@ -1,0 +1,349 @@
+{
+  "lessonId": "4.2.5",
+  "level": 4,
+  "unit": 2,
+  "stage": 4,
+  "title": "Lectura en voz alta: plática y fin de semana",
+  "titleEn": "Read aloud: small talk and the weekend",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.2.5.1",
+      "type": "read_aloud",
+      "text": "¡Qué padre que ya sea viernes! Ojalá no llueva y podamos ir al parque.",
+      "meaningEn": "How great that it is already Friday! I hope it does not rain and we can go to the park.",
+      "glosses": {
+        "qué": "what; how (qué bueno que = how good that)",
+        "padre": "great, cool (Mexican slang: qué padre = how cool)",
+        "que": "that, which; so that, who (after antecedent)",
+        "ya": "already, now (ya que = since)",
+        "sea": "is — present subjunctive of ser, after qué padre que / qué bueno que",
+        "viernes": "Friday",
+        "ojalá": "I hope, hopefully (+ subjunctive)",
+        "no": "not, no",
+        "llueva": "(it) rains — present subjunctive of llover, after ojalá",
+        "y": "and",
+        "podamos": "(we) can — present subjunctive of poder, after ojalá",
+        "ir": "to go",
+        "al": "to the (a + el)",
+        "parque": "park"
+      },
+      "note": {
+        "en": "Qué padre means how nice in Mexico. It takes the subjunctive with que: que ya sea viernes.",
+        "es": "Qué padre significa qué bueno o qué chido en México. Con que + emoción, el verbo va en subjuntivo."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.2",
+      "type": "read_aloud",
+      "text": "Platícame cómo te fue en Xochimilco; dicen que, aunque haya mucha gente, el paseo en trajinera vale la pena.",
+      "meaningEn": "Tell me how it went in Xochimilco; they say that, even if there are a lot of people, the trajinera ride is worth it.",
+      "glosses": {
+        "platícame": "tell me, chat with me — command of platicar + me",
+        "cómo": "how",
+        "te": "you, to you (informal object)",
+        "fue": "went; was (te fue = it went for you)",
+        "en": "in, on, at",
+        "xochimilco": "Xochimilco (district of Mexico City; x sounds like s)",
+        "dicen": "(they) say",
+        "que": "that, which; so that, who (after antecedent)",
+        "aunque": "although, even if (+ subjunctive when uncertain)",
+        "haya": "there is — present subjunctive of haber",
+        "mucha": "a lot of (feminine)",
+        "gente": "people",
+        "el": "the (masculine)",
+        "paseo": "ride, outing, walk",
+        "trajinera": "trajinera (colorful flat boat of Xochimilco)",
+        "vale": "is worth (vale la pena = it is worth it)",
+        "la": "the (feminine); it, her (object)",
+        "pena": "effort, shame (vale la pena = it is worth it)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Platicar means to chat in Mexico. Say the x in Xochimilco as s: so-chi-MIL-co.",
+        "es": "Platicar es conversar en México. La x de Xochimilco suena como s, y se escribe así por el náhuatl."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.3",
+      "type": "listen_type",
+      "text": "Tal vez vayamos a Oaxaca en cuanto tengamos vacaciones, aunque quién sabe si alcancemos boletos baratos.",
+      "meaningEn": "Maybe we will go to Oaxaca as soon as we have vacation, though who knows if we will find cheap tickets.",
+      "note": {
+        "en": "Tal vez takes the subjunctive when the speaker is unsure.",
+        "es": "Tal vez lleva subjuntivo cuando el hablante no está seguro. Quién sabe si expresa duda."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.4",
+      "type": "read_aloud",
+      "text": "Si no tuviera que trabajar mañana, me quedaría platicando contigo toda la noche, pero mejor me voy a dormir.",
+      "meaningEn": "If I did not have to work tomorrow, I would stay up chatting with you all night, but I had better go to sleep.",
+      "glosses": {
+        "si": "if",
+        "no": "not, no",
+        "tuviera": "(I) had — imperfect subjunctive of tener, after si",
+        "que": "that, which; so that, who (after antecedent)",
+        "trabajar": "to work",
+        "mañana": "tomorrow",
+        "me": "me, to me (object pronoun)",
+        "quedaría": "(I) would stay — conditional of quedarse",
+        "platicando": "chatting — gerund of platicar",
+        "contigo": "with you",
+        "toda": "all, whole (feminine)",
+        "la": "the (feminine); it, her (object)",
+        "noche": "night",
+        "pero": "but",
+        "mejor": "better, rather (sería mejor que = it would be better if)",
+        "voy": "I go (voy a + infinitive = I am going to)",
+        "a": "to, at (also: personal a before people)",
+        "dormir": "to sleep"
+      },
+      "note": {
+        "en": "Si plus imperfect subjunctive, then the conditional: quedaría. Mejor me voy is a common way to end a talk.",
+        "es": "Si + imperfecto de subjuntivo, y luego el condicional: me quedaría. Mejor me voy es una forma natural de despedirse."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.5",
+      "type": "repeat",
+      "text": "Mi vecino hizo una carne asada el domingo y vinieron tantos amigos que se acabó el carbón.",
+      "meaningEn": "My neighbor had a barbecue on Sunday and so many friends came that the charcoal ran out.",
+      "glosses": {
+        "mi": "my",
+        "vecino": "neighbor",
+        "hizo": "(he) made, held — preterite of hacer (se me hizo tarde = I ran late)",
+        "una": "a, an (feminine)",
+        "carne": "meat",
+        "asada": "grilled, roasted (carne asada = grilled meat)",
+        "el": "the (masculine)",
+        "domingo": "Sunday",
+        "y": "and",
+        "vinieron": "(they) came — preterite of venir",
+        "tantos": "so many",
+        "amigos": "friends",
+        "que": "that, which; so that, who (after antecedent)",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "acabó": "(it) ran out, ended — preterite of acabarse",
+        "carbón": "charcoal"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Tantos … que shows a result in the indicative. Se acabó el carbón means the charcoal ran out, and nobody is blamed.",
+        "es": "Tantos … que presenta una consecuencia, en indicativo. Se acabó el carbón: la construcción con se evita nombrar al culpable."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.6",
+      "type": "read_aloud",
+      "text": "Cuando tengamos tiempo, vamos a recorrer los puestos del mercado y a probar los tacos de barbacoa.",
+      "meaningEn": "When we have time, we are going to walk through the market stalls and try the barbacoa tacos.",
+      "glosses": {
+        "cuando": "when (+ subjunctive for future events)",
+        "tengamos": "(we) have — present subjunctive of tener, after aunque / cuando",
+        "tiempo": "time",
+        "vamos": "we go (vamos a + infinitive = we are going to)",
+        "a": "to, at (also: personal a before people)",
+        "recorrer": "to walk through, to tour",
+        "los": "the (masculine plural)",
+        "puestos": "stalls, stands",
+        "del": "of the (de + el)",
+        "mercado": "market",
+        "y": "and",
+        "probar": "to try (food); to taste",
+        "tacos": "tacos",
+        "de": "of, from",
+        "barbacoa": "barbecued meat, slow-cooked in an underground oven"
+      },
+      "note": {
+        "en": "Cuando takes the subjunctive for a future event. Trill the rr in recorrer.",
+        "es": "Cuando + subjuntivo para el futuro. Cuida la rr de recorrer: la lengua vibra varias veces."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.7",
+      "type": "listen_type",
+      "text": "No creo que el partido empiece a tiempo, así que mejor llegamos un poco más tarde.",
+      "meaningEn": "I do not think the game will start on time, so we had better arrive a little later.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.2.5.8",
+      "type": "read_aloud",
+      "text": "Anímate a venir a la fiesta; no tienes que traer nada, solo ganas de pasarla bien y de convivir.",
+      "meaningEn": "Come on, join the party; you do not have to bring anything, just the wish to have a good time and mingle.",
+      "glosses": {
+        "anímate": "come on, go for it — informal command of animarse",
+        "a": "to, at (also: personal a before people)",
+        "venir": "to come",
+        "la": "the (feminine); it, her (object)",
+        "fiesta": "party",
+        "no": "not, no",
+        "tienes": "you have — 2nd person of tener (tienes que = you have to)",
+        "que": "that, which; so that, who (after antecedent)",
+        "traer": "to bring",
+        "nada": "nothing, anything",
+        "solo": "only, just",
+        "ganas": "desire, wish (ganas de = wish to)",
+        "de": "of, from",
+        "pasarla": "to have a time (pasarla bien = to have a good time)",
+        "bien": "well",
+        "y": "and",
+        "convivir": "to spend time together, to mingle"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Pasarla bien is a common phrase that means to have a good time. La refers to no noun in particular.",
+        "es": "Pasarla bien significa divertirse. El pronombre la no se refiere a nada concreto; es una forma fija."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.9",
+      "type": "repeat",
+      "text": "Me da gusto que hayas conseguido boletos para el concierto; yo quería ir, pero no encontré ninguno.",
+      "meaningEn": "I am happy you got tickets for the concert; I wanted to go, but I could not find any.",
+      "glosses": {
+        "me": "me, to me (object pronoun)",
+        "da": "gives (me da gusto = I am happy)",
+        "gusto": "pleasure (me da gusto = I am glad)",
+        "que": "that, which; so that, who (after antecedent)",
+        "hayas": "(you) have — present subjunctive of haber, after me da gusto que",
+        "conseguido": "gotten, obtained — past participle of conseguir",
+        "boletos": "tickets",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "el": "the (masculine)",
+        "concierto": "concert",
+        "yo": "I",
+        "quería": "I wanted — imperfect of querer",
+        "ir": "to go",
+        "pero": "but",
+        "no": "not, no",
+        "encontré": "I found — preterite of encontrar",
+        "ninguno": "none, not one (pronoun)"
+      },
+      "note": {
+        "en": "Me da gusto que takes the subjunctive. Ninguno keeps this form because no noun follows it.",
+        "es": "Me da gusto que lleva subjuntivo. Ninguno se queda así porque no acompaña a un sustantivo."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.10",
+      "type": "read_aloud",
+      "text": "Mi mamá dice que antes de que se acabe el domingo hay que descansar y llamar a los abuelos.",
+      "meaningEn": "My mom says that before Sunday is over, you have to rest and call your grandparents.",
+      "glosses": {
+        "mi": "my",
+        "mamá": "mom",
+        "dice": "says",
+        "que": "that, which; so that, who (after antecedent)",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of, from",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "acabe": "(it) ends — present subjunctive of acabar, after antes de que",
+        "el": "the (masculine)",
+        "domingo": "Sunday",
+        "hay": "there is, there are",
+        "descansar": "to rest",
+        "y": "and",
+        "llamar": "to call",
+        "a": "to, at (also: personal a before people)",
+        "los": "the (masculine plural)",
+        "abuelos": "grandparents"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Hay que plus infinitive means one must. It has no specific person as subject.",
+        "es": "Hay que + infinitivo expresa una obligación general, sin decir quién la cumple."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.11",
+      "type": "listen_type",
+      "text": "Si me prestaras tu carro el sábado, te lo devolvería con el tanque lleno, de verdad.",
+      "meaningEn": "If you lent me your car on Saturday, I would return it to you with a full tank, really."
+    },
+    {
+      "exerciseId": "4.2.5.12",
+      "type": "read_aloud",
+      "text": "Por si acaso hace frío en la noche, lleva una chamarra y avísame a qué hora regresas.",
+      "meaningEn": "Just in case it gets cold at night, take a jacket and let me know what time you come back.",
+      "glosses": {
+        "por": "for, because of, through",
+        "si": "if",
+        "acaso": "perhaps (por si acaso = just in case)",
+        "hace": "makes, does (hace frío = it is cold)",
+        "frío": "cold (hace frío = it is cold)",
+        "en": "in, on, at",
+        "la": "the (feminine); it, her (object)",
+        "noche": "night",
+        "lleva": "takes, carries — 3rd person of llevar (lleva una chamarra = take a jacket)",
+        "una": "a, an (feminine)",
+        "chamarra": "jacket (Mexican word)",
+        "y": "and",
+        "avísame": "let me know — command of avisar + me",
+        "a": "to, at (also: personal a before people)",
+        "qué": "what; how (qué bueno que = how good that)",
+        "hora": "hour, time",
+        "regresas": "you come back — 2nd person of regresar"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Chamarra is the Mexican word for jacket. Avísame has a written accent because the stress falls on the third syllable from the end.",
+        "es": "Chamarra es la palabra mexicana para chaqueta. Avísame lleva acento escrito por la regla de las palabras esdrújulas."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.13",
+      "type": "repeat",
+      "text": "Se me hizo tarde y ya no alcancé el camión, pero mis amigos dijeron que me esperan.",
+      "meaningEn": "I ran late and missed the bus, but my friends said they are waiting for me.",
+      "glosses": {
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "me": "me, to me (object pronoun)",
+        "hizo": "(he) made, held — preterite of hacer (se me hizo tarde = I ran late)",
+        "tarde": "late; afternoon",
+        "y": "and",
+        "ya": "already, now (ya que = since)",
+        "no": "not, no",
+        "alcancé": "I caught, made it to — preterite of alcanzar",
+        "el": "the (masculine)",
+        "camión": "bus (Mexico); truck",
+        "pero": "but",
+        "mis": "my (plural)",
+        "amigos": "friends",
+        "dijeron": "(they) said, told — preterite of decir",
+        "que": "that, which; so that, who (after antecedent)",
+        "esperan": "(they) wait for — 3rd person plural of esperar"
+      },
+      "note": {
+        "en": "Se me hizo tarde is the natural way to say I ran late. The event happens to me; I am not the cause.",
+        "es": "Se me hizo tarde es la forma natural de decir llegué tarde: el hecho le pasó a uno, sin culpa."
+      }
+    },
+    {
+      "exerciseId": "4.2.5.14",
+      "type": "read_aloud",
+      "text": "Parra tenía una perra, Guerra tenía una parra. La perra de Parra subió a la parra de Guerra.",
+      "meaningEn": "Parra had a dog, Guerra had a grapevine. Parra's dog climbed up Guerra's grapevine. (Tongue twister.)",
+      "glosses": {
+        "parra": "grapevine; also a surname in the tongue twister",
+        "tenía": "(she) had — imperfect of tener",
+        "una": "a, an (feminine)",
+        "perra": "female dog",
+        "guerra": "war; here a surname in the tongue twister",
+        "la": "the (feminine); it, her (object)",
+        "de": "of, from",
+        "subió": "(it) climbed — preterite of subir",
+        "a": "to, at (also: personal a before people)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Trill the rr in Parra, perra, parra, and Guerra. Start slowly and speed up.",
+        "es": "Trabalenguas tradicional. La rr es vibrante en parra, perra y guerra. Empieza despacio y ve acelerando."
+      }
+    }
+  ]
+}

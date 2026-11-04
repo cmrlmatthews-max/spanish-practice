@@ -1,0 +1,345 @@
+{
+  "lessonId": "4.2.4",
+  "level": 4,
+  "unit": 2,
+  "stage": 4,
+  "title": "Lectura en voz alta: conversaciones difíciles",
+  "titleEn": "Read aloud: difficult conversations",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.2.4.1",
+      "type": "read_aloud",
+      "text": "Me gustaría platicar contigo sobre la entrega de ayer, para que entendamos qué pasó y evitemos otro retraso.",
+      "meaningEn": "I would like to talk with you about yesterday's delivery, so that we understand what happened and avoid another delay.",
+      "glosses": {
+        "me": "me, to me (object pronoun)",
+        "gustaría": "would please — conditional of gustar (me gustaría = I would like)",
+        "platicar": "to chat (Mexican for conversar)",
+        "contigo": "with you",
+        "sobre": "about, on",
+        "la": "the (feminine); it, her (object)",
+        "entrega": "delivery",
+        "de": "of, from",
+        "ayer": "yesterday",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "entendamos": "(we) understand — present subjunctive of entender, after para que",
+        "qué": "what; how (qué bueno que = how good that)",
+        "pasó": "(it) happened — preterite of pasar",
+        "y": "and",
+        "evitemos": "(we) avoid — present subjunctive of evitar, after para que",
+        "otro": "another, other",
+        "retraso": "delay"
+      },
+      "note": {
+        "en": "Me gustaría is a polite way to start a hard talk. Say the rr in retraso with a trill.",
+        "es": "Me gustaría es una forma cortés de empezar una conversación difícil. La rr de retraso se pronuncia vibrante."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.2",
+      "type": "read_aloud",
+      "text": "Entiendo que estás frustrado, pero sería mejor que lo habláramos con calma antes de que la situación empeore.",
+      "meaningEn": "I understand that you are frustrated, but it would be better if we talked about it calmly before the situation gets worse.",
+      "glosses": {
+        "entiendo": "I understand — 1st person of entender (e → ie)",
+        "que": "that, which; so that, who (after antecedent)",
+        "estás": "you are (state) — 2nd person of estar",
+        "frustrado": "frustrated",
+        "pero": "but",
+        "sería": "would be — conditional of ser",
+        "mejor": "better, rather (sería mejor que = it would be better if)",
+        "lo": "it, him (object); lo posible = what is possible",
+        "habláramos": "(we) talked — imperfect subjunctive of hablar, after sería mejor que",
+        "con": "with",
+        "calma": "calm",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of, from",
+        "la": "the (feminine); it, her (object)",
+        "situación": "situation",
+        "empeore": "(it) gets worse — present subjunctive of empeorar, after antes de que"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Sería mejor que takes the imperfect subjunctive: habláramos. Entiendo que here takes the indicative.",
+        "es": "Sería mejor que va con imperfecto de subjuntivo (habláramos). Entiendo que, con el sentido de comprender un hecho, va con indicativo."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.3",
+      "type": "listen_type",
+      "text": "Lamento informarle que el pedido llegará tarde, pero haremos lo posible para que llegue cuanto antes.",
+      "meaningEn": "I am sorry to inform you that the order will arrive late, but we will do everything we can so that it arrives as soon as possible.",
+      "note": {
+        "en": "Use usted and a formal verb to give bad news with respect: lamento informarle.",
+        "es": "Para dar malas noticias con respeto usamos usted y fórmulas como lamento informarle."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.4",
+      "type": "read_aloud",
+      "text": "Si pudiera elegir, preferiría que me dieras tu opinión con franqueza, porque no quiero que haya malentendidos entre nosotros.",
+      "meaningEn": "If I could choose, I would prefer that you give me your opinion frankly, because I do not want there to be misunderstandings between us.",
+      "glosses": {
+        "si": "if",
+        "pudiera": "(I) could — imperfect subjunctive of poder, after si",
+        "elegir": "to choose",
+        "preferiría": "I would prefer — conditional of preferir (preferiría que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "me": "me, to me (object pronoun)",
+        "dieras": "(you) gave — imperfect subjunctive of dar, after preferiría que",
+        "tu": "your (informal)",
+        "opinión": "opinion",
+        "con": "with",
+        "franqueza": "frankness, honesty",
+        "porque": "because",
+        "no": "not, no",
+        "quiero": "I want — 1st person of querer",
+        "haya": "there is — present subjunctive of haber",
+        "malentendidos": "misunderstandings",
+        "entre": "between",
+        "nosotros": "we"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Preferiría que takes the imperfect subjunctive. Querer que takes the present subjunctive: haya.",
+        "es": "Preferiría que lleva imperfecto de subjuntivo (dieras) y no quiero que lleva presente (haya)."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.5",
+      "type": "repeat",
+      "text": "No es que no valoremos tu esfuerzo, es que necesitamos que cumplas con los tiempos de entrega.",
+      "meaningEn": "It is not that we do not value your effort; it is that we need you to meet the delivery times.",
+      "glosses": {
+        "no": "not, no",
+        "es": "is — 3rd person of ser",
+        "que": "that, which; so that, who (after antecedent)",
+        "valoremos": "(we) value — present subjunctive of valorar, after no es que",
+        "tu": "your (informal)",
+        "esfuerzo": "effort",
+        "necesitamos": "we need — necesitamos que + subjunctive",
+        "cumplas": "(you) meet — present subjunctive of cumplir, after necesitamos que",
+        "con": "with",
+        "los": "the (masculine plural)",
+        "tiempos": "times, deadlines",
+        "de": "of, from",
+        "entrega": "delivery"
+      },
+      "note": {
+        "en": "No es que takes the subjunctive, because it denies a possible reason. Es que then gives the real reason.",
+        "es": "No es que lleva subjuntivo (valoremos), porque se niega una causa posible."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.6",
+      "type": "read_aloud",
+      "text": "Quisiera que revisáramos juntos el reporte, porque creo que hay un error en las cifras.",
+      "meaningEn": "I would like us to review the report together, because I think there is an error in the figures.",
+      "glosses": {
+        "quisiera": "I would like — imperfect subjunctive of querer (polite)",
+        "que": "that, which; so that, who (after antecedent)",
+        "revisáramos": "(we) review — imperfect subjunctive of revisar, after quisiera que",
+        "juntos": "together",
+        "el": "the (masculine)",
+        "reporte": "report",
+        "porque": "because",
+        "creo": "I think, I believe (creo que + indicative)",
+        "hay": "there is, there are",
+        "un": "a, an (masculine)",
+        "error": "error, mistake",
+        "en": "in, on, at",
+        "las": "the (feminine plural)",
+        "cifras": "figures, numbers"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Creo que takes the indicative: hay. Quisiera que takes the imperfect subjunctive: revisáramos.",
+        "es": "Creo que lleva indicativo (hay); quisiera que lleva imperfecto de subjuntivo (revisáramos)."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.7",
+      "type": "listen_type",
+      "text": "Con todo respeto, no puedo aceptar ese plazo mientras no me asignen más gente.",
+      "meaningEn": "With all respect, I cannot accept that deadline until you assign me more people."
+    },
+    {
+      "exerciseId": "4.2.4.8",
+      "type": "read_aloud",
+      "text": "Presenté una queja por el problema de seguridad y espero que la atiendan antes de que ocurra un accidente.",
+      "meaningEn": "I filed a complaint about the safety problem and I hope they handle it before an accident happens.",
+      "glosses": {
+        "presenté": "I submitted, filed — preterite of presentar",
+        "una": "a, an (feminine)",
+        "queja": "complaint",
+        "por": "for, because of, through",
+        "el": "the (masculine)",
+        "problema": "problem",
+        "de": "of, from",
+        "seguridad": "safety, security",
+        "y": "and",
+        "espero": "I hope (espero que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "la": "the (feminine); it, her (object)",
+        "atiendan": "(they) handle, attend to — present subjunctive of atender, after espero que",
+        "antes": "before (antes de que + subjunctive)",
+        "ocurra": "(it) happens — present subjunctive of ocurrir, after antes de que",
+        "un": "a, an (masculine)",
+        "accidente": "accident"
+      },
+      "note": {
+        "en": "Espero que takes the subjunctive: atiendan. Say the pr in presenté and problema clearly.",
+        "es": "Espero que lleva subjuntivo (atiendan). Cuida el grupo pr en presenté y problema."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.9",
+      "type": "repeat",
+      "text": "Te agradezco que me hayas dicho la verdad, aunque no fuera lo que yo esperaba escuchar.",
+      "meaningEn": "I thank you for telling me the truth, even though it was not what I expected to hear.",
+      "glosses": {
+        "te": "you, to you (informal object)",
+        "agradezco": "I thank — 1st person of agradecer (te agradezco que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "me": "me, to me (object pronoun)",
+        "hayas": "(you) have — present subjunctive of haber, after me da gusto que",
+        "dicho": "said, told — past participle of decir (hayas dicho = you told)",
+        "la": "the (feminine); it, her (object)",
+        "verdad": "truth (de verdad = really)",
+        "aunque": "although, even if (+ subjunctive when uncertain)",
+        "no": "not, no",
+        "fuera": "(it) was — imperfect subjunctive of ser, after aunque",
+        "lo": "it, him (object); lo posible = what is possible",
+        "yo": "I",
+        "esperaba": "I expected — imperfect of esperar",
+        "escuchar": "to listen to, to hear"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Aunque takes the subjunctive when the fact is known but not important. Here it means even though.",
+        "es": "Aunque + subjuntivo puede introducir un hecho conocido al que no damos importancia: aunque no fuera lo que esperaba."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.10",
+      "type": "read_aloud",
+      "text": "Quisiera hablar con usted sobre un aumento, ya que he asumido más responsabilidades desde que cambió el equipo.",
+      "meaningEn": "I would like to talk with you about a raise, since I have taken on more responsibilities since the team changed.",
+      "glosses": {
+        "quisiera": "I would like — imperfect subjunctive of querer (polite)",
+        "hablar": "to talk",
+        "con": "with",
+        "usted": "you (formal)",
+        "sobre": "about, on",
+        "un": "a, an (masculine)",
+        "aumento": "raise, increase",
+        "ya": "already, now (ya que = since)",
+        "que": "that, which; so that, who (after antecedent)",
+        "he": "I have — 1st person of haber, used with a participle",
+        "asumido": "taken on — past participle of asumir (he asumido = I have taken on)",
+        "más": "more",
+        "responsabilidades": "responsibilities",
+        "desde": "since, from (desde que = since)",
+        "cambió": "(it) changed — preterite of cambiar",
+        "el": "the (masculine)",
+        "equipo": "team; equipment"
+      },
+      "note": {
+        "en": "Ya que means since or because. It takes the indicative.",
+        "es": "Ya que significa puesto que y lleva indicativo. Pronuncia con cuidado la -dad final de responsabilidades."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.11",
+      "type": "listen_type",
+      "text": "¿Sería posible que me autorizara el viernes libre para acompañar a mi mamá a una cita?",
+      "meaningEn": "Would it be possible for you to approve Friday off so I can go with my mom to an appointment?",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.2.4.12",
+      "type": "read_aloud",
+      "text": "Lo siento, pero no puedo trabajar horas extra este sábado, por más que me lo pidan.",
+      "meaningEn": "I am sorry, but I cannot work overtime this Saturday, no matter how much they ask me.",
+      "glosses": {
+        "lo": "it, him (object); lo posible = what is possible",
+        "siento": "I feel (lo siento = I am sorry)",
+        "pero": "but",
+        "no": "not, no",
+        "puedo": "I can — 1st person of poder",
+        "trabajar": "to work",
+        "horas": "hours",
+        "extra": "extra (horas extra = overtime)",
+        "este": "this (masculine)",
+        "sábado": "Saturday",
+        "por": "for, because of, through",
+        "más": "more",
+        "que": "that, which; so that, who (after antecedent)",
+        "me": "me, to me (object pronoun)",
+        "pidan": "(they) ask for — present subjunctive of pedir (e → i)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Por más que takes the subjunctive when it means no matter how much.",
+        "es": "Por más que + subjuntivo significa no importa cuánto: por más que me lo pidan."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.13",
+      "type": "repeat",
+      "text": "Ahorita no tengo la respuesta, pero déjame hablarlo con mi jefe y te contesto en cuanto sepa algo.",
+      "meaningEn": "Right now I do not have the answer, but let me talk to my boss and I will get back to you as soon as I know something.",
+      "glosses": {
+        "ahorita": "right now, in a moment (Mexican; time depends on context)",
+        "no": "not, no",
+        "tengo": "I have — 1st person of tener",
+        "la": "the (feminine); it, her (object)",
+        "respuesta": "answer",
+        "pero": "but",
+        "déjame": "let me — command of dejar + me",
+        "hablarlo": "to talk about it",
+        "con": "with",
+        "mi": "my",
+        "jefe": "boss",
+        "y": "and",
+        "te": "you, to you (informal object)",
+        "contesto": "I answer — 1st person of contestar",
+        "en": "in, on, at",
+        "cuanto": "as much as (en cuanto = as soon as, + subjunctive for future)",
+        "sepa": "(I) know — present subjunctive of saber, after en cuanto",
+        "algo": "something"
+      },
+      "note": {
+        "en": "En cuanto takes the subjunctive for a future event: sepa. Déjame has a written accent.",
+        "es": "En cuanto lleva subjuntivo si habla del futuro: en cuanto sepa. Déjame lleva acento escrito."
+      }
+    },
+    {
+      "exerciseId": "4.2.4.14",
+      "type": "read_aloud",
+      "text": "Compadre, cómpreme un coco. Compadre, no compro coco, porque como poco coco como, poco coco compro.",
+      "meaningEn": "Friend, buy me a coconut. Friend, I do not buy coconut, because I eat little coconut, so I buy little coconut. (Tongue twister.)",
+      "glosses": {
+        "compadre": "buddy, close friend; godfather of one's child",
+        "cómpreme": "buy me — formal command of comprar + me",
+        "un": "a, an (masculine)",
+        "coco": "coconut",
+        "no": "not, no",
+        "compro": "I buy — 1st person of comprar",
+        "porque": "because",
+        "como": "as; like; also I eat (comer); como si = as if",
+        "poco": "little, a little"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Keep each o short and clear. Como is the verb comer in the first person: I eat.",
+        "es": "Trabalenguas tradicional. Mantén cada o corta y clara. Como es el verbo comer en primera persona."
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "lessonId": "2.2.5",
+  "level": 2,
+  "unit": 2,
+  "stage": 2,
+  "title": "Ellos y ellas",
+  "titleEn": "They",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.2.5.1",
+      "type": "listen_choose",
+      "text": "Los trabajadores.",
+      "meaningEn": "The workers.",
+      "choices": [
+        {
+          "image": "images/trabajadores.webp",
+          "label": "three workers in hard hats",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Trabajador means worker. For a group, use los trabajadores. Add -es because the noun ends in a consonant.",
+        "es": "Trabajador significa \"worker\". Para un grupo se usa los trabajadores. Se agrega -es porque el sustantivo termina en consonante."
+      }
+    },
+    {
+      "exerciseId": "2.2.5.2",
+      "type": "listen_choose",
+      "text": "Los trabajadores llegan.",
+      "meaningEn": "The workers arrive.",
+      "choices": [
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": false
+        },
+        {
+          "image": "images/llegar.webp",
+          "label": "arriving",
+          "correct": true
+        },
+        {
+          "image": "images/ladrillo.webp",
+          "label": "one brick",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "For -ar verbs, the ending -an shows they: llegan. Compare llega (he, she) and llegan (they).",
+        "es": "En los verbos en -ar, la terminación -an indica ellos: llegan. Compara llega (él, ella) y llegan (ellos)."
+      }
+    },
+    {
+      "exerciseId": "2.2.5.3",
+      "type": "repeat",
+      "text": "Trabajo en la obra.",
+      "meaningEn": "I work at the construction site.",
+      "glosses": {
+        "trabajo": "I work — 1st person of trabajar",
+        "en": "in, on, at",
+        "la": "the (feminine)",
+        "obra": "construction site"
+      },
+      "note": {
+        "en": "Trabajar means to work. Trabajo means I work. The noun el trabajo (the job) looks the same.",
+        "es": "Trabajar significa \"to work\". Trabajo es yo. El sustantivo el trabajo se escribe igual."
+      }
+    },
+    {
+      "exerciseId": "2.2.5.4",
+      "type": "repeat",
+      "text": "Ellos trabajan.",
+      "meaningEn": "They work.",
+      "glosses": {
+        "ellos": "they (men, or a mixed group)",
+        "trabajan": "they work — 3rd person plural of trabajar"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Ellos means they. Use it for men or for a mixed group. Spanish often drops ellos, because the ending -an already shows they.",
+        "es": "Ellos significa \"they\". Se usa para hombres o para un grupo mixto. Casi siempre se omite, porque la terminación -an ya indica ellos."
+      }
+    },
+    {
+      "exerciseId": "2.2.5.5",
+      "type": "repeat",
+      "text": "Ellas llegan.",
+      "meaningEn": "They arrive.",
+      "glosses": {
+        "ellas": "they (women only)",
+        "llegan": "they arrive — 3rd person plural of llegar"
+      },
+      "note": {
+        "en": "Ellas means they for a group of only women. A group with one man or more uses ellos.",
+        "es": "Ellas significa \"they\" para un grupo de solo mujeres. Un grupo con al menos un hombre usa ellos."
+      }
+    },
+    {
+      "exerciseId": "2.2.5.6",
+      "type": "listen_choose",
+      "text": "Ellos trabajan con la grúa.",
+      "meaningEn": "They work with the crane.",
+      "choices": [
+        {
+          "image": "images/cafe.webp",
+          "label": "coffee",
+          "correct": false
+        },
+        {
+          "image": "images/grua.webp",
+          "label": "crane",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.5.7",
+      "type": "repeat",
+      "text": "Hablan con el cliente.",
+      "meaningEn": "They talk with the client.",
+      "glosses": {
+        "hablan": "they speak, they talk — 3rd person plural of hablar",
+        "con": "with",
+        "el": "the (masculine)",
+        "cliente": "client"
+      },
+      "image": "images/cliente.webp"
+    },
+    {
+      "exerciseId": "2.2.5.8",
+      "type": "listen_choose",
+      "text": "Los trabajadores trabajan.",
+      "meaningEn": "The workers work.",
+      "choices": [
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/bano.webp",
+          "label": "bathroom",
+          "correct": false
+        },
+        {
+          "image": "images/carpeta.webp",
+          "label": "folder",
+          "correct": false
+        },
+        {
+          "image": "images/trabajadores.webp",
+          "label": "three workers in hard hats",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.5.9",
+      "type": "listen_choose",
+      "text": "Ellas hablan con el cliente.",
+      "meaningEn": "They talk with the client.",
+      "choices": [
+        {
+          "image": "images/cliente.webp",
+          "label": "client",
+          "correct": true
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.5.10",
+      "type": "listen_type",
+      "text": "Ellos llegan.",
+      "meaningEn": "They arrive.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.5.11",
+      "type": "read_aloud",
+      "text": "Los trabajadores llegan a la obra.",
+      "meaningEn": "The workers arrive at the construction site.",
+      "glosses": {
+        "los": "the (masculine plural)",
+        "trabajadores": "workers (plural of trabajador)",
+        "llegan": "they arrive — 3rd person plural of llegar",
+        "a": "to",
+        "la": "the (feminine)",
+        "obra": "construction site"
+      },
+      "image": "images/trabajadores.webp"
+    },
+    {
+      "exerciseId": "2.2.5.12",
+      "type": "repeat",
+      "text": "Trabajo con el casco.",
+      "meaningEn": "I work with the hard hat.",
+      "glosses": {
+        "trabajo": "I work — 1st person of trabajar",
+        "con": "with",
+        "el": "the (masculine)",
+        "casco": "hard hat"
+      },
+      "image": "images/casco.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.5.13",
+      "type": "listen_type",
+      "text": "Ellas hablan en la reunión.",
+      "meaningEn": "They talk in the meeting."
+    },
+    {
+      "exerciseId": "2.2.5.14",
+      "type": "read_aloud",
+      "text": "Ellos hablan con el cliente en la reunión.",
+      "meaningEn": "They talk with the client in the meeting.",
+      "glosses": {
+        "ellos": "they (men, or a mixed group)",
+        "hablan": "they speak, they talk — 3rd person plural of hablar",
+        "con": "with",
+        "el": "the (masculine)",
+        "cliente": "client",
+        "en": "in, on, at",
+        "la": "the (feminine)",
+        "reunión": "meeting"
+      },
+      "image": "images/reunion.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.5.15",
+      "type": "listen_type",
+      "text": "Los trabajadores trabajan en la obra.",
+      "meaningEn": "The workers work at the construction site."
+    }
+  ]
+}

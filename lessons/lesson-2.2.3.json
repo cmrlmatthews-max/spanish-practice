@@ -1,0 +1,322 @@
+{
+  "lessonId": "2.2.3",
+  "level": 2,
+  "unit": 2,
+  "stage": 2,
+  "title": "En el restaurante",
+  "titleEn": "At the restaurant",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.2.3.1",
+      "type": "listen_choose",
+      "text": "La comida.",
+      "meaningEn": "The food.",
+      "choices": [
+        {
+          "image": "images/comida.webp",
+          "label": "plate of food",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/boleto.webp",
+          "label": "ticket",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.3.2",
+      "type": "listen_choose",
+      "text": "El jugo.",
+      "meaningEn": "The juice.",
+      "choices": [
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/jugo.webp",
+          "label": "glass of orange juice",
+          "correct": true
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, el jugo is juice. Spain uses el zumo. This course uses Latin American words.",
+        "es": "En México se dice el jugo. En España se dice el zumo. Este curso usa palabras de Latinoamérica."
+      }
+    },
+    {
+      "exerciseId": "2.2.3.3",
+      "type": "listen_choose",
+      "text": "La cerveza.",
+      "meaningEn": "The beer.",
+      "choices": [
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/cerveza.webp",
+          "label": "glass of beer",
+          "correct": true
+        },
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.3.4",
+      "type": "listen_choose",
+      "text": "La cuenta.",
+      "meaningEn": "The bill.",
+      "choices": [
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        },
+        {
+          "image": "images/grua.webp",
+          "label": "crane",
+          "correct": false
+        },
+        {
+          "image": "images/cuenta.webp",
+          "label": "restaurant bill",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "La cuenta is the bill at a restaurant. It also means the account, as in a bank account.",
+        "es": "La cuenta es la cuenta del restaurante. También significa \"the account\", por ejemplo una cuenta de banco."
+      }
+    },
+    {
+      "exerciseId": "2.2.3.5",
+      "type": "listen_choose",
+      "text": "Bebo agua.",
+      "meaningEn": "I drink water.",
+      "choices": [
+        {
+          "image": "images/agua.webp",
+          "label": "water",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Beber means to drink. Bebo means I drink. The ending -o shows I.",
+        "es": "Beber significa \"to drink\". Bebo es yo. La terminación -o indica yo."
+      }
+    },
+    {
+      "exerciseId": "2.2.3.6",
+      "type": "listen_choose",
+      "text": "Como en el restaurante.",
+      "meaningEn": "I eat at the restaurant.",
+      "choices": [
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        },
+        {
+          "image": "images/restaurante.webp",
+          "label": "restaurant",
+          "correct": true
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Como means I eat (from comer). In other sentences, como also means like or as. The sentence shows the meaning.",
+        "es": "Como significa \"I eat\" (de comer). En otras frases, como también significa \"like\" o \"as\". La frase muestra el significado."
+      }
+    },
+    {
+      "exerciseId": "2.2.3.7",
+      "type": "repeat",
+      "text": "Quiero un café.",
+      "meaningEn": "I want a coffee.",
+      "glosses": {
+        "quiero": "I want — 1st person of querer (irregular)",
+        "un": "a, an (masculine)",
+        "café": "coffee"
+      },
+      "image": "images/cafe.webp",
+      "note": {
+        "en": "Quiero means I want. Quiere means he or she wants. Querer is irregular: learn both forms.",
+        "es": "Quiero significa \"I want\". Quiere significa \"he/she wants\". Querer es irregular: aprende las dos formas."
+      }
+    },
+    {
+      "exerciseId": "2.2.3.8",
+      "type": "repeat",
+      "text": "Pido la cuenta.",
+      "meaningEn": "I ask for the bill.",
+      "glosses": {
+        "pido": "I ask for, I order — 1st person of pedir",
+        "la": "the (feminine)",
+        "cuenta": "bill, check"
+      },
+      "image": "images/cuenta.webp",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Pedir means to ask for or to order. Preguntar means to ask a question. Do not mix them.",
+        "es": "Pedir significa \"to ask for\" o \"to order\". Preguntar significa \"to ask a question\". No se mezclan."
+      }
+    },
+    {
+      "exerciseId": "2.2.3.9",
+      "type": "listen_choose",
+      "text": "El cliente quiere un jugo.",
+      "meaningEn": "The client wants a juice.",
+      "choices": [
+        {
+          "image": "images/jugo.webp",
+          "label": "glass of orange juice",
+          "correct": true
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/pared.webp",
+          "label": "wall",
+          "correct": false
+        },
+        {
+          "image": "images/lapiz.webp",
+          "label": "pencil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.3.10",
+      "type": "listen_type",
+      "text": "Bebo agua.",
+      "meaningEn": "I drink water.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.3.11",
+      "type": "read_aloud",
+      "text": "Quiero la cuenta.",
+      "meaningEn": "I want the bill.",
+      "glosses": {
+        "quiero": "I want — 1st person of querer (irregular)",
+        "la": "the (feminine)",
+        "cuenta": "bill, check"
+      },
+      "image": "images/cuenta.webp"
+    },
+    {
+      "exerciseId": "2.2.3.12",
+      "type": "repeat",
+      "text": "Quiero una cerveza.",
+      "meaningEn": "I want a beer.",
+      "glosses": {
+        "quiero": "I want — 1st person of querer (irregular)",
+        "una": "a, an (feminine)",
+        "cerveza": "beer"
+      },
+      "image": "images/cerveza.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.3.13",
+      "type": "listen_type",
+      "text": "Pido un jugo.",
+      "meaningEn": "I order a juice."
+    },
+    {
+      "exerciseId": "2.2.3.14",
+      "type": "read_aloud",
+      "text": "Quiero una mesa en el restaurante.",
+      "meaningEn": "I want a table at the restaurant.",
+      "glosses": {
+        "quiero": "I want — 1st person of querer (irregular)",
+        "una": "a, an (feminine)",
+        "mesa": "table",
+        "en": "in, on, at",
+        "el": "the (masculine)",
+        "restaurante": "restaurant"
+      },
+      "image": "images/mesa.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.3.15",
+      "type": "listen_type",
+      "text": "Pido la comida y el café.",
+      "meaningEn": "I order the food and the coffee."
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "lessonId": "4.2.2",
+  "level": 4,
+  "unit": 2,
+  "stage": 4,
+  "title": "Lectura en voz alta: en el médico",
+  "titleEn": "Read aloud: at the doctor",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.2.2.1",
+      "type": "read_aloud",
+      "text": "Quisiera una cita con el médico general para esta semana, a menos que no haya disponibilidad hasta el lunes.",
+      "meaningEn": "I would like an appointment with the general doctor this week, unless there is no availability until Monday.",
+      "glosses": {
+        "quisiera": "I would like — imperfect subjunctive of querer (polite)",
+        "una": "a, an (feminine)",
+        "cita": "appointment",
+        "con": "with",
+        "el": "the (masculine)",
+        "médico": "doctor (physician)",
+        "general": "general",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "esta": "this (feminine)",
+        "semana": "week",
+        "a": "to, at (also: personal a before people)",
+        "menos": "less (a menos que = unless)",
+        "que": "that, which; so that, who (after antecedent)",
+        "no": "not, no",
+        "haya": "there is — present subjunctive of haber",
+        "disponibilidad": "availability",
+        "hasta": "until (hasta que = until, + subjunctive for future)",
+        "lunes": "Monday"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "A menos que always takes the subjunctive. Haya is the present subjunctive of haber.",
+        "es": "A menos que siempre lleva subjuntivo. Haya es el presente de subjuntivo de haber (hay → haya)."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.2",
+      "type": "read_aloud",
+      "text": "Es necesario que llegue quince minutos antes de la cita para que alcance a llenar los formularios del seguro.",
+      "meaningEn": "You need to arrive fifteen minutes before the appointment so that you have time to fill out the insurance forms.",
+      "glosses": {
+        "es": "is — 3rd person of ser",
+        "necesario": "necessary",
+        "que": "that, which; so that, who (after antecedent)",
+        "llegue": "(you) arrive — present subjunctive of llegar, after es necesario que",
+        "quince": "fifteen",
+        "minutos": "minutes",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of, from",
+        "la": "the (feminine); it, her (object)",
+        "cita": "appointment",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "alcance": "(you) have time to — present subjunctive of alcanzar, after para que",
+        "a": "to, at (also: personal a before people)",
+        "llenar": "to fill out",
+        "los": "the (masculine plural)",
+        "formularios": "forms",
+        "del": "of the (de + el)",
+        "seguro": "insurance; sure"
+      },
+      "note": {
+        "en": "Es necesario que takes the subjunctive. Alcanzar a plus infinitive means to manage to do something in time.",
+        "es": "Es necesario que lleva subjuntivo. Alcanzar a + infinitivo significa tener tiempo suficiente para hacer algo."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.3",
+      "type": "listen_type",
+      "text": "Si le duele el estómago después de comer, tome este medicamento con un vaso de agua.",
+      "meaningEn": "If your stomach hurts after eating, take this medicine with a glass of water.",
+      "note": {
+        "en": "Doler works like gustar. The body part is the subject: le duele el estómago.",
+        "es": "Doler funciona como gustar: la parte del cuerpo es el sujeto (le duele el estómago, le duelen los pies)."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.4",
+      "type": "read_aloud",
+      "text": "Dudo que la receta incluya antibióticos, pero el doctor dijo que revisará los resultados de los análisis.",
+      "meaningEn": "I doubt the prescription includes antibiotics, but the doctor said he will review the lab results.",
+      "glosses": {
+        "dudo": "I doubt — 1st person of dudar (dudo que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "la": "the (feminine); it, her (object)",
+        "receta": "prescription (medical); recipe",
+        "incluya": "(it) includes — present subjunctive of incluir, after dudo que",
+        "antibióticos": "antibiotics",
+        "pero": "but",
+        "el": "the (masculine)",
+        "doctor": "doctor",
+        "dijo": "(he) said, told — preterite of decir",
+        "revisará": "(he) will check — future of revisar",
+        "los": "the (masculine plural)",
+        "resultados": "results",
+        "de": "of, from",
+        "análisis": "lab tests, analysis"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Dudo que takes the subjunctive. Creo que takes the indicative. The plan of the doctor uses the future: revisará.",
+        "es": "Dudo que lleva subjuntivo, pero creo que lleva indicativo. En la segunda parte, dijo que revisará va en indicativo."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.5",
+      "type": "repeat",
+      "text": "La enfermera me pidió que trajera mi credencial y la tarjeta del seguro, por si acaso falla el sistema.",
+      "meaningEn": "The nurse asked me to bring my ID and my insurance card, just in case the system fails.",
+      "glosses": {
+        "la": "the (feminine); it, her (object)",
+        "enfermera": "nurse (female)",
+        "me": "me, to me (object pronoun)",
+        "pidió": "(she) asked for — preterite of pedir",
+        "que": "that, which; so that, who (after antecedent)",
+        "trajera": "(I) brought — imperfect subjunctive of traer, after me pidió que",
+        "mi": "my",
+        "credencial": "ID card",
+        "y": "and",
+        "tarjeta": "card",
+        "del": "of the (de + el)",
+        "seguro": "insurance; sure",
+        "por": "for, because of, through",
+        "si": "if",
+        "acaso": "perhaps (por si acaso = just in case)",
+        "falla": "(it) fails — 3rd person of fallar",
+        "el": "the (masculine)",
+        "sistema": "system"
+      },
+      "note": {
+        "en": "Por si acaso means just in case. The verb after it is usually in the indicative.",
+        "es": "Por si acaso significa en caso de que. Después suele ir el indicativo (falla)."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.6",
+      "type": "read_aloud",
+      "text": "Cuando salga de la consulta, pase a la farmacia y pregunte si tienen una opción genérica más barata.",
+      "meaningEn": "When you leave the appointment, stop by the pharmacy and ask if they have a cheaper generic option.",
+      "glosses": {
+        "cuando": "when (+ subjunctive for future events)",
+        "salga": "(you) leave — present subjunctive of salir, after cuando",
+        "de": "of, from",
+        "la": "the (feminine); it, her (object)",
+        "consulta": "doctor's appointment, consultation",
+        "pase": "(you) stop by — formal command of pasar",
+        "a": "to, at (also: personal a before people)",
+        "farmacia": "pharmacy",
+        "y": "and",
+        "pregunte": "(you) ask — formal command of preguntar",
+        "si": "if",
+        "tienen": "(they) have — 3rd person plural of tener",
+        "una": "a, an (feminine)",
+        "opción": "option",
+        "genérica": "generic (feminine)",
+        "más": "more",
+        "barata": "cheap (feminine)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Pase and pregunte are formal commands (usted). They use the subjunctive form.",
+        "es": "Pase y pregunte son mandatos formales (usted) y usan la forma del subjuntivo."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.7",
+      "type": "listen_type",
+      "text": "Tome la pastilla cada ocho horas, con comida, y no maneje si le da sueño.",
+      "meaningEn": "Take the pill every eight hours, with food, and do not drive if it makes you sleepy."
+    },
+    {
+      "exerciseId": "4.2.2.8",
+      "type": "read_aloud",
+      "text": "Si la clínica abriera más temprano, mucha gente podría venir antes de trabajar y no tendría que pedir permiso.",
+      "meaningEn": "If the clinic opened earlier, many people could come before work and would not have to ask for time off.",
+      "glosses": {
+        "si": "if",
+        "la": "the (feminine); it, her (object)",
+        "clínica": "clinic",
+        "abriera": "(it) opened — imperfect subjunctive of abrir, after si",
+        "más": "more",
+        "temprano": "early",
+        "mucha": "a lot of (feminine)",
+        "gente": "people",
+        "podría": "(I) could — conditional of poder (podría repetirlo = could you repeat it)",
+        "venir": "to come",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of, from",
+        "trabajar": "to work",
+        "y": "and",
+        "no": "not, no",
+        "tendría": "(it) would have — conditional of tener",
+        "que": "that, which; so that, who (after antecedent)",
+        "pedir": "to ask for",
+        "permiso": "permit, permission"
+      },
+      "note": {
+        "en": "Si plus the imperfect subjunctive is followed by the conditional: podría, tendría.",
+        "es": "Con si + imperfecto de subjuntivo, la otra parte va en condicional: podría, tendría."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.9",
+      "type": "repeat",
+      "text": "El doctor dijo que no es grave, pero recomendó que regresen en caso de que los síntomas empeoren.",
+      "meaningEn": "The doctor said it is not serious, but he recommended that they come back in case the symptoms get worse.",
+      "glosses": {
+        "el": "the (masculine)",
+        "doctor": "doctor",
+        "dijo": "(he) said, told — preterite of decir",
+        "que": "that, which; so that, who (after antecedent)",
+        "no": "not, no",
+        "es": "is — 3rd person of ser",
+        "grave": "serious",
+        "pero": "but",
+        "recomendó": "(he) recommended — preterite of recomendar",
+        "regresen": "(they) come back — present subjunctive of regresar, after recomendó que",
+        "en": "in, on, at",
+        "caso": "case (en caso de que = in case)",
+        "de": "of, from",
+        "los": "the (masculine plural)",
+        "síntomas": "symptoms",
+        "empeoren": "(they) get worse — present subjunctive of empeorar, after en caso de que"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Recomendar que takes the subjunctive. En caso de que also takes the subjunctive.",
+        "es": "Recomendar que y en caso de que llevan subjuntivo (regresen, empeoren)."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.10",
+      "type": "read_aloud",
+      "text": "No creo que el seguro cubra todo el tratamiento, así que voy a pedir un presupuesto por escrito.",
+      "meaningEn": "I do not think the insurance covers the whole treatment, so I am going to ask for a written estimate.",
+      "glosses": {
+        "no": "not, no",
+        "creo": "I think, I believe (creo que + indicative)",
+        "que": "that, which; so that, who (after antecedent)",
+        "el": "the (masculine)",
+        "seguro": "insurance; sure",
+        "cubra": "(it) covers — present subjunctive of cubrir, after no creo que",
+        "todo": "all, everything",
+        "tratamiento": "treatment",
+        "así": "so, like this (así que = so)",
+        "voy": "I go (voy a + infinitive = I am going to)",
+        "a": "to, at (also: personal a before people)",
+        "pedir": "to ask for",
+        "un": "a, an (masculine)",
+        "presupuesto": "estimate, budget",
+        "por": "for, because of, through",
+        "escrito": "writing (por escrito = in writing)"
+      },
+      "note": {
+        "en": "No creo que takes the subjunctive. Say the group tr in tratamiento and the group pr in presupuesto clearly.",
+        "es": "No creo que lleva subjuntivo. Pronuncia bien el grupo tr de tratamiento y el pr de presupuesto."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.11",
+      "type": "listen_type",
+      "text": "Ahorita no hay lugar, pero si deja su teléfono, le avisamos en cuanto haya una cancelación.",
+      "meaningEn": "Right now there is no opening, but if you leave your phone number, we will let you know as soon as there is a cancellation.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.2.2.12",
+      "type": "read_aloud",
+      "text": "Qué bueno que la receta sea clara, porque la última vez no entendí bien las instrucciones.",
+      "meaningEn": "How good that the prescription is clear, because last time I did not understand the instructions well.",
+      "glosses": {
+        "qué": "what; how (qué bueno que = how good that)",
+        "bueno": "good",
+        "que": "that, which; so that, who (after antecedent)",
+        "la": "the (feminine); it, her (object)",
+        "receta": "prescription (in Mexico: la receta)",
+        "sea": "is — present subjunctive of ser, after qué padre que / qué bueno que",
+        "clara": "clear (feminine)",
+        "porque": "because",
+        "última": "last (feminine)",
+        "vez": "time, occasion (otra vez = again)",
+        "no": "not, no",
+        "entendí": "I understood — preterite of entender",
+        "bien": "well",
+        "las": "the (feminine plural)",
+        "instrucciones": "instructions"
+      },
+      "note": {
+        "en": "In Mexico, a doctor's prescription is la receta. Say the group nstr clearly: ins-truc-CIO-nes.",
+        "es": "En México decimos la receta, no la prescripción. Cuida el grupo nstr en instrucciones: pronuncia la s antes de la t."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.13",
+      "type": "repeat",
+      "text": "Para que el seguro pague la consulta, necesitamos que el médico firme el formulario y que traigan la factura.",
+      "meaningEn": "For the insurance to pay for the visit, we need the doctor to sign the form and you to bring the invoice.",
+      "glosses": {
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "el": "the (masculine)",
+        "seguro": "insurance; sure",
+        "pague": "(he) pays — present subjunctive of pagar, after para que",
+        "la": "the (feminine); it, her (object)",
+        "consulta": "doctor's appointment, consultation",
+        "necesitamos": "we need — necesitamos que + subjunctive",
+        "médico": "doctor (physician)",
+        "firme": "(he) signs — present subjunctive of firmar, after necesitamos que",
+        "formulario": "form",
+        "y": "and",
+        "traigan": "(they) bring — present subjunctive of traer, after necesitamos que",
+        "factura": "invoice, bill"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Para que and necesitar que both take the subjunctive: pague, firme, traigan.",
+        "es": "Para que y necesitar que llevan subjuntivo: pague, firme, traigan."
+      }
+    },
+    {
+      "exerciseId": "4.2.2.14",
+      "type": "read_aloud",
+      "text": "El hipopótamo Hipo está con hipo. ¿Quién le quita el hipo al hipopótamo Hipo?",
+      "meaningEn": "Hippo the hippopotamus has the hiccups. Who will cure Hippo the hippopotamus of his hiccups? (Tongue twister.)",
+      "glosses": {
+        "el": "the (masculine)",
+        "hipopótamo": "hippopotamus",
+        "hipo": "hiccups; also a name in the tongue twister",
+        "está": "is (location, state) — 3rd person of estar",
+        "con": "with",
+        "quién": "who",
+        "le": "to you, to him or her (indirect object)",
+        "quita": "(it) takes away — 3rd person of quitar (quitar el hipo = cure hiccups)",
+        "al": "to the (a + el)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "The letter h is silent in Spanish. Say the p clearly in hipo and hipopótamo.",
+        "es": "Trabalenguas tradicional. La h es muda; pronuncia bien la p de hipo y de hipopótamo."
+      }
+    }
+  ]
+}

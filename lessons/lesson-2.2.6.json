@@ -1,0 +1,256 @@
+{
+  "lessonId": "2.2.6",
+  "level": 2,
+  "unit": 2,
+  "stage": 2,
+  "title": "Repaso",
+  "titleEn": "Review",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.2.6.1",
+      "type": "listen_choose",
+      "text": "Pido la cuenta.",
+      "meaningEn": "I ask for the bill.",
+      "choices": [
+        {
+          "image": "images/cuenta.webp",
+          "label": "restaurant bill",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.6.2",
+      "type": "listen_choose",
+      "text": "Bajo la escalera.",
+      "meaningEn": "I go down the stairs.",
+      "choices": [
+        {
+          "image": "images/cemento.webp",
+          "label": "cement bag",
+          "correct": false
+        },
+        {
+          "image": "images/bajar.webp",
+          "label": "stairs going down",
+          "correct": true
+        },
+        {
+          "image": "images/gato.webp",
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "image": "images/telefono.webp",
+          "label": "telephone",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.6.3",
+      "type": "listen_choose",
+      "text": "Tengo una idea.",
+      "meaningEn": "I have an idea.",
+      "choices": [
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "image": "images/idea.webp",
+          "label": "light bulb",
+          "correct": true
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.6.4",
+      "type": "listen_choose",
+      "text": "Abro la puerta.",
+      "meaningEn": "I open the door.",
+      "choices": [
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        },
+        {
+          "image": "images/puerta-abierta.webp",
+          "label": "open door",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.6.5",
+      "type": "repeat",
+      "text": "Llegamos al hotel y hablamos con el cliente.",
+      "meaningEn": "We arrive at the hotel and we talk with the client.",
+      "glosses": {
+        "llegamos": "we arrive — 1st person plural of llegar",
+        "al": "to the (a + el)",
+        "hotel": "hotel",
+        "y": "and",
+        "hablamos": "we speak, we talk — 1st person plural of hablar",
+        "con": "with",
+        "el": "the (masculine)",
+        "cliente": "client"
+      },
+      "image": "images/hotel.webp",
+      "note": {
+        "en": "For -ar verbs: -o is I, -a is he or she, -amos is we, -an is they. Example: hablo, habla, hablamos, hablan.",
+        "es": "En los verbos en -ar: -o es yo, -a es él o ella, -amos es nosotros, -an es ellos. Ejemplo: hablo, habla, hablamos, hablan."
+      }
+    },
+    {
+      "exerciseId": "2.2.6.6",
+      "type": "listen_type",
+      "text": "Reviso los planos con el cliente.",
+      "meaningEn": "I check the plans with the client.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.6.7",
+      "type": "read_aloud",
+      "text": "Subo la escalera y veo el techo.",
+      "meaningEn": "I go up the stairs and I see the roof.",
+      "glosses": {
+        "subo": "I go up — 1st person of subir",
+        "la": "the (feminine)",
+        "escalera": "stairs, ladder",
+        "y": "and",
+        "veo": "I see — 1st person of ver (irregular)",
+        "el": "the (masculine)",
+        "techo": "roof, ceiling"
+      },
+      "image": "images/subir.webp"
+    },
+    {
+      "exerciseId": "2.2.6.8",
+      "type": "listen_type",
+      "text": "Ellos llegan a la obra.",
+      "meaningEn": "They arrive at the construction site.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.6.9",
+      "type": "repeat",
+      "text": "El cliente pregunta el precio.",
+      "meaningEn": "The client asks the price.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client",
+        "pregunta": "asks — he/she form of preguntar",
+        "precio": "price"
+      },
+      "image": "images/precio.webp"
+    },
+    {
+      "exerciseId": "2.2.6.10",
+      "type": "listen_type",
+      "text": "Pido un café y un jugo.",
+      "meaningEn": "I order a coffee and a juice.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.6.11",
+      "type": "read_aloud",
+      "text": "Necesitamos la llave del hotel.",
+      "meaningEn": "We need the hotel key.",
+      "glosses": {
+        "necesitamos": "we need — 1st person plural of necesitar",
+        "la": "the (feminine)",
+        "llave": "key",
+        "del": "of the, about the (de + el)",
+        "hotel": "hotel"
+      },
+      "image": "images/llave.webp"
+    },
+    {
+      "exerciseId": "2.2.6.12",
+      "type": "listen_type",
+      "text": "Hablo con los trabajadores en la obra.",
+      "meaningEn": "I talk with the workers at the construction site.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.6.13",
+      "type": "repeat",
+      "text": "Como en el restaurante y bebo agua.",
+      "meaningEn": "I eat at the restaurant and I drink water.",
+      "glosses": {
+        "como": "I eat — 1st person of comer",
+        "en": "in, on, at",
+        "el": "the (masculine)",
+        "restaurante": "restaurant",
+        "y": "and",
+        "bebo": "I drink — 1st person of beber",
+        "agua": "water (feminine, uses el)"
+      },
+      "image": "images/restaurante.webp"
+    },
+    {
+      "exerciseId": "2.2.6.14",
+      "type": "read_aloud",
+      "text": "Los trabajadores trabajan juntos.",
+      "meaningEn": "The workers work together.",
+      "glosses": {
+        "los": "the (masculine plural)",
+        "trabajadores": "workers (plural of trabajador)",
+        "trabajan": "they work — 3rd person plural of trabajar",
+        "juntos": "together"
+      },
+      "image": "images/trabajadores.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.6.15",
+      "type": "listen_type",
+      "text": "Tenemos una reunión con el cliente.",
+      "meaningEn": "We have a meeting with the client."
+    }
+  ]
+}

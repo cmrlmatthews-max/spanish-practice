@@ -1,0 +1,311 @@
+{
+  "lessonId": "2.2.2",
+  "level": 2,
+  "unit": 2,
+  "stage": 2,
+  "title": "Hablo con el cliente",
+  "titleEn": "I talk with the client",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.2.2.1",
+      "type": "listen_choose",
+      "text": "Hablo con el cliente.",
+      "meaningEn": "I talk with the client.",
+      "choices": [
+        {
+          "image": "images/cliente.webp",
+          "label": "client",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Hablar means to speak or to talk. Hablo means I speak. The ending -o shows I.",
+        "es": "Hablar significa \"to speak\" o \"to talk\". Hablo es yo. La terminación -o indica yo."
+      }
+    },
+    {
+      "exerciseId": "2.2.2.2",
+      "type": "listen_choose",
+      "text": "El precio.",
+      "meaningEn": "The price.",
+      "choices": [
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/precio.webp",
+          "label": "price tag",
+          "correct": true
+        },
+        {
+          "image": "images/casco.webp",
+          "label": "yellow hard hat",
+          "correct": false
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.2.3",
+      "type": "listen_choose",
+      "text": "Tengo una idea.",
+      "meaningEn": "I have an idea.",
+      "choices": [
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/idea.webp",
+          "label": "light bulb",
+          "correct": true
+        },
+        {
+          "image": "images/maleta.webp",
+          "label": "red suitcase",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Idea ends in -a and is feminine: una idea. Most nouns that end in -a are feminine, but not all. Example: el mapa is masculine.",
+        "es": "Idea termina en -a y es femenino: una idea. La mayoría de los sustantivos en -a son femeninos, pero no todos. Ejemplo: el mapa es masculino."
+      }
+    },
+    {
+      "exerciseId": "2.2.2.4",
+      "type": "repeat",
+      "text": "El diseño.",
+      "meaningEn": "The design.",
+      "glosses": {
+        "el": "the (masculine)",
+        "diseño": "design"
+      },
+      "image": "images/plano.webp",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Diseño means design. The letter ñ sounds like ny in canyon. It is not the same as n.",
+        "es": "Diseño significa \"design\". La letra ñ suena como \"ny\" en \"canyon\". No es lo mismo que n."
+      }
+    },
+    {
+      "exerciseId": "2.2.2.5",
+      "type": "repeat",
+      "text": "Explico el diseño.",
+      "meaningEn": "I explain the design.",
+      "glosses": {
+        "explico": "I explain — 1st person of explicar",
+        "el": "the (masculine)",
+        "diseño": "design"
+      },
+      "image": "images/plano.webp",
+      "note": {
+        "en": "Explicar means to explain. Explico means I explain.",
+        "es": "Explicar significa \"to explain\". Explico es yo."
+      }
+    },
+    {
+      "exerciseId": "2.2.2.6",
+      "type": "listen_choose",
+      "text": "El cliente quiere el contrato.",
+      "meaningEn": "The client wants the contract.",
+      "choices": [
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/contrato.webp",
+          "label": "contract",
+          "correct": true
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Quiere means he or she wants. Querer is irregular: the stem changes. The form is quiere, not quere.",
+        "es": "Quiere significa \"he/she wants\". Querer es irregular: cambia la raíz. La forma es quiere, no quere."
+      }
+    },
+    {
+      "exerciseId": "2.2.2.7",
+      "type": "repeat",
+      "text": "El cliente pregunta.",
+      "meaningEn": "The client asks.",
+      "glosses": {
+        "el": "the (masculine)",
+        "cliente": "client",
+        "pregunta": "asks — he/she form of preguntar"
+      },
+      "image": "images/cliente.webp",
+      "note": {
+        "en": "Preguntar means to ask a question. Pregunta means he or she asks. The noun la pregunta (the question) looks the same.",
+        "es": "Preguntar significa \"to ask a question\". Pregunta es él o ella. El sustantivo la pregunta se escribe igual."
+      }
+    },
+    {
+      "exerciseId": "2.2.2.8",
+      "type": "listen_choose",
+      "text": "El cliente quiere el plano.",
+      "meaningEn": "The client wants the plan.",
+      "choices": [
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/plano.webp",
+          "label": "plan",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.2.9",
+      "type": "repeat",
+      "text": "Hablo con el cliente.",
+      "meaningEn": "I talk with the client.",
+      "glosses": {
+        "hablo": "I speak, I talk — 1st person of hablar",
+        "con": "with",
+        "el": "the (masculine)",
+        "cliente": "client"
+      },
+      "image": "images/cliente.webp"
+    },
+    {
+      "exerciseId": "2.2.2.10",
+      "type": "listen_type",
+      "text": "Explico el diseño.",
+      "meaningEn": "I explain the design.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.2.11",
+      "type": "read_aloud",
+      "text": "Explico el precio al cliente.",
+      "meaningEn": "I explain the price to the client.",
+      "glosses": {
+        "explico": "I explain (explicar)",
+        "el": "the (masculine)",
+        "precio": "price",
+        "al": "to the (a + el)",
+        "cliente": "client"
+      },
+      "image": "images/precio.webp",
+      "note": {
+        "en": "Al means a + el. Spanish always joins these two words: al cliente, not a el cliente.",
+        "es": "Al es a + el. Siempre se unen: al cliente, no a el cliente."
+      }
+    },
+    {
+      "exerciseId": "2.2.2.12",
+      "type": "listen_choose",
+      "text": "El cliente tiene una idea.",
+      "meaningEn": "The client has an idea.",
+      "choices": [
+        {
+          "image": "images/carpeta.webp",
+          "label": "folder",
+          "correct": false
+        },
+        {
+          "image": "images/escalera.webp",
+          "label": "stairs",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        },
+        {
+          "image": "images/idea.webp",
+          "label": "light bulb",
+          "correct": true
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.2.13",
+      "type": "listen_type",
+      "text": "El cliente quiere el diseño.",
+      "meaningEn": "The client wants the design."
+    },
+    {
+      "exerciseId": "2.2.2.14",
+      "type": "read_aloud",
+      "text": "Explico los planos al cliente.",
+      "meaningEn": "I explain the plans to the client.",
+      "glosses": {
+        "explico": "I explain — 1st person of explicar",
+        "los": "the (masculine plural)",
+        "planos": "plans, drawings (plural of plano)",
+        "al": "to the (a + el)",
+        "cliente": "client"
+      },
+      "image": "images/plano.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.2.15",
+      "type": "listen_type",
+      "text": "Hablo con el cliente en la reunión.",
+      "meaningEn": "I talk with the client in the meeting."
+    }
+  ]
+}

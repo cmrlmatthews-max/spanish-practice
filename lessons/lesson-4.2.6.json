@@ -1,0 +1,364 @@
+{
+  "lessonId": "4.2.6",
+  "level": 4,
+  "unit": 2,
+  "stage": 4,
+  "title": "Lectura en voz alta: trámites y servicios",
+  "titleEn": "Read aloud: errands and services",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.2.6.1",
+      "type": "read_aloud",
+      "text": "Busco a alguien que me explique cómo abrir una cuenta de nómina y qué documentos necesito llevar al banco.",
+      "meaningEn": "I am looking for someone who can explain to me how to open a payroll account and what documents I need to bring to the bank.",
+      "glosses": {
+        "busco": "I look for — 1st person of buscar",
+        "a": "to, at (also: personal a before people)",
+        "alguien": "someone",
+        "que": "that, which; so that, who (after antecedent)",
+        "me": "me, to me (object pronoun)",
+        "explique": "(someone) explains — present subjunctive of explicar, after busco a alguien que",
+        "cómo": "how",
+        "abrir": "to open",
+        "una": "a, an (feminine)",
+        "cuenta": "account",
+        "de": "of, from",
+        "nómina": "payroll",
+        "y": "and",
+        "qué": "what; how (qué bueno que = how good that)",
+        "documentos": "documents",
+        "necesito": "I need — 1st person of necesitar",
+        "llevar": "to take, to bring along",
+        "al": "to the (a + el)",
+        "banco": "bank"
+      },
+      "note": {
+        "en": "Busco a alguien que takes the subjunctive, because the person is not known yet.",
+        "es": "Cuando buscamos a alguien que todavía no conocemos, el verbo va en subjuntivo: alguien que me explique."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.2",
+      "type": "read_aloud",
+      "text": "Es probable que el banco le pida una identificación oficial y el comprobante de pago para aprobar la transferencia.",
+      "meaningEn": "The bank will probably ask you for an official ID and proof of payment to approve the transfer.",
+      "glosses": {
+        "es": "is — 3rd person of ser",
+        "probable": "likely (es probable que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "el": "the (masculine)",
+        "banco": "bank",
+        "le": "to you, to him or her (indirect object)",
+        "pida": "(he) asks for — present subjunctive of pedir (e → i), after es probable que",
+        "una": "a, an (feminine)",
+        "identificación": "ID, identification",
+        "oficial": "official",
+        "y": "and",
+        "comprobante": "receipt, proof (of payment)",
+        "de": "of, from",
+        "pago": "payment",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "aprobar": "to approve",
+        "la": "the (feminine); it, her (object)",
+        "transferencia": "transfer (bank transfer)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Es probable que takes the subjunctive. Pida comes from pedir, with e changing to i.",
+        "es": "Es probable que lleva subjuntivo. Pida viene de pedir (e → i)."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.3",
+      "type": "listen_type",
+      "text": "Si el inquilino pagara la renta a tiempo, el casero no le cobraría ningún recargo.",
+      "meaningEn": "If the tenant paid the rent on time, the landlord would not charge him any late fee.",
+      "note": {
+        "en": "Casero is the common word for landlord in Mexico. Inquilino is the tenant.",
+        "es": "Casero es el dueño de la casa o del departamento que se renta. El inquilino es quien paga la renta."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.4",
+      "type": "read_aloud",
+      "text": "Llamé a la compañía de teléfono para que me explicaran por qué el recibo salió tan caro.",
+      "meaningEn": "I called the phone company so that they would explain to me why the bill came out so expensive.",
+      "glosses": {
+        "llamé": "I called — preterite of llamar",
+        "a": "to, at (also: personal a before people)",
+        "la": "the (feminine); it, her (object)",
+        "compañía": "company",
+        "de": "of, from",
+        "teléfono": "telephone, phone",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "me": "me, to me (object pronoun)",
+        "explicaran": "(they) would explain — imperfect subjunctive of explicar, after a past verb",
+        "por": "for, because of, through",
+        "qué": "what; how (qué bueno que = how good that)",
+        "el": "the (masculine)",
+        "recibo": "bill, receipt",
+        "salió": "(it) came out — preterite of salir (salió caro = it came out expensive)",
+        "tan": "so, as (tan caro = so expensive; tan pronto como = as soon as)",
+        "caro": "expensive"
+      },
+      "note": {
+        "en": "After a past verb, para que takes the imperfect subjunctive: llamé para que me explicaran. In Mexico, recibo is the usual word for a bill.",
+        "es": "Después de un verbo en pasado, para que lleva el imperfecto de subjuntivo: llamé para que me explicaran. En México, recibo es la palabra común para la factura del teléfono o de la luz."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.5",
+      "type": "repeat",
+      "text": "Tan pronto como pague los derechos, podrá imprimir el comprobante que necesita para renovar las placas del carro.",
+      "meaningEn": "As soon as you pay the fees, you will be able to print the receipt you need to renew the car's license plates.",
+      "glosses": {
+        "tan": "so, as (tan caro = so expensive; tan pronto como = as soon as)",
+        "pronto": "soon (tan pronto como = as soon as, + subjunctive for future)",
+        "como": "as; like; also I eat (comer); como si = as if",
+        "pague": "(he) pays — present subjunctive of pagar, after para que",
+        "los": "the (masculine plural)",
+        "derechos": "fees (government fees, trámite costs); rights",
+        "podrá": "(you) will be able to — future of poder",
+        "imprimir": "to print",
+        "el": "the (masculine)",
+        "comprobante": "receipt, proof (of payment)",
+        "que": "that, which; so that, who (after antecedent)",
+        "necesita": "(you) need — 3rd person of necesitar, formal usted",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "renovar": "to renew",
+        "las": "the (feminine plural)",
+        "placas": "license plates",
+        "del": "of the (de + el)",
+        "carro": "car (Latin American word)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Tan pronto como takes the subjunctive for a future event. Placas means license plates.",
+        "es": "Tan pronto como + subjuntivo para el futuro. Las placas son la matrícula del carro; los derechos son las cuotas del trámite."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.6",
+      "type": "read_aloud",
+      "text": "Debe llevar el original y dos copias de cada documento, en caso de que le pidan verificar la información.",
+      "meaningEn": "You must bring the original and two copies of each document, in case they ask you to verify the information.",
+      "glosses": {
+        "debe": "must, should — 3rd person of deber",
+        "llevar": "to take, to bring along",
+        "el": "the (masculine)",
+        "original": "original",
+        "y": "and",
+        "dos": "two",
+        "copias": "copies",
+        "de": "of, from",
+        "cada": "each, every",
+        "documento": "document",
+        "en": "in, on, at",
+        "caso": "case (en caso de que = in case)",
+        "que": "that, which; so that, who (after antecedent)",
+        "le": "to you, to him or her (indirect object)",
+        "pidan": "(they) ask for — present subjunctive of pedir (e → i)",
+        "verificar": "to verify, to check",
+        "la": "the (feminine); it, her (object)",
+        "información": "information"
+      },
+      "note": {
+        "en": "En caso de que always takes the subjunctive: pidan. Stress the last syllable of información.",
+        "es": "En caso de que siempre lleva subjuntivo. Cuida la -ción de información: in-for-ma-CIÓN."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.7",
+      "type": "listen_type",
+      "text": "El cartero dejó un aviso para que pase a recoger el paquete a la oficina.",
+      "meaningEn": "The mail carrier left a notice so that you stop by to pick up the package at the office.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.2.6.8",
+      "type": "read_aloud",
+      "text": "Si tuviera que repetir el trámite, llegaría muy temprano, porque en las oficinas de gobierno siempre hay una fila.",
+      "meaningEn": "If I had to repeat the process, I would arrive very early, because in government offices there is always a line.",
+      "glosses": {
+        "si": "if",
+        "tuviera": "(I) had — imperfect subjunctive of tener, after si",
+        "que": "that, which; so that, who (after antecedent)",
+        "repetir": "to repeat",
+        "el": "the (masculine)",
+        "trámite": "official procedure, errand",
+        "llegaría": "(I) would arrive — conditional of llegar",
+        "muy": "very",
+        "temprano": "early",
+        "porque": "because",
+        "en": "in, on, at",
+        "las": "the (feminine plural)",
+        "oficinas": "offices",
+        "de": "of, from",
+        "gobierno": "government",
+        "siempre": "always (siempre y cuando = as long as)",
+        "hay": "there is, there are",
+        "una": "a, an (feminine)",
+        "fila": "line, queue (hacer fila = to wait in line)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Trámite means an official procedure. Hacer fila means to wait in line in Mexico.",
+        "es": "Un trámite es un procedimiento oficial. En México decimos hacer fila (no cola) para esperar turno."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.9",
+      "type": "repeat",
+      "text": "No hay nadie que pueda firmar el contrato hasta que regrese el gerente, así que tendrá que esperar.",
+      "meaningEn": "There is nobody who can sign the contract until the manager returns, so you will have to wait.",
+      "glosses": {
+        "no": "not, no",
+        "hay": "there is, there are",
+        "nadie": "nobody",
+        "que": "that, which; so that, who (after antecedent)",
+        "pueda": "(he) can — present subjunctive of poder (o → ue)",
+        "firmar": "to sign",
+        "el": "the (masculine)",
+        "contrato": "contract",
+        "hasta": "until (hasta que = until, + subjunctive for future)",
+        "regrese": "(he) comes back — present subjunctive of regresar, after hasta que",
+        "gerente": "manager",
+        "así": "so, like this (así que = so)",
+        "tendrá": "(you) will have — future of tener (tendrá que = you will have to)",
+        "esperar": "to wait"
+      },
+      "note": {
+        "en": "No hay nadie que takes the subjunctive. Hasta que takes the subjunctive for a future event.",
+        "es": "No hay nadie que lleva subjuntivo (pueda), y hasta que también (regrese), porque se habla de algo que todavía no pasa."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.10",
+      "type": "read_aloud",
+      "text": "Con tal de que me devuelvan el depósito completo, entrego el departamento hoy mismo y lo dejo limpio.",
+      "meaningEn": "As long as they return my full deposit, I will hand over the apartment today and leave it clean.",
+      "glosses": {
+        "con": "with",
+        "tal": "such (tal vez = maybe)",
+        "de": "of, from",
+        "que": "that, which; so that, who (after antecedent)",
+        "me": "me, to me (object pronoun)",
+        "devuelvan": "(they) return — present subjunctive of devolver (o → ue), after con tal de que",
+        "el": "the (masculine)",
+        "depósito": "deposit",
+        "completo": "complete, whole",
+        "entrego": "I hand over — 1st person of entregar",
+        "departamento": "apartment (Mexico)",
+        "hoy": "today",
+        "mismo": "same (hoy mismo = today, right away)",
+        "y": "and",
+        "lo": "it, him (object); lo posible = what is possible",
+        "dejo": "I leave — 1st person of dejar",
+        "limpio": "clean"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Con tal de que always takes the subjunctive. It means as long as.",
+        "es": "Con tal de que siempre lleva subjuntivo y significa siempre que, con la condición de que."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.11",
+      "type": "listen_type",
+      "text": "Ya mandé el paquete por correo certificado, y me dijeron que llegará en cinco días hábiles.",
+      "meaningEn": "I already sent the package by certified mail, and they told me it will arrive in five business days."
+    },
+    {
+      "exerciseId": "4.2.6.12",
+      "type": "read_aloud",
+      "text": "¿Mande? No alcancé a escuchar mi número de turno; ¿podría repetirlo para que lo anote en el formulario?",
+      "meaningEn": "Pardon? I did not catch my turn number; could you repeat it so that I can write it down on the form?",
+      "glosses": {
+        "mande": "pardon? what did you say? (polite Mexican reply, literally: command me)",
+        "no": "not, no",
+        "alcancé": "I caught, made it to — preterite of alcanzar",
+        "a": "to, at (also: personal a before people)",
+        "escuchar": "to listen to, to hear",
+        "mi": "my",
+        "número": "number",
+        "de": "of, from",
+        "turno": "shift; turn",
+        "podría": "(I) could — conditional of poder (podría repetirlo = could you repeat it)",
+        "repetirlo": "to repeat it",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "lo": "it, him (object); lo posible = what is possible",
+        "anote": "(I) write down — present subjunctive of anotar, after para que",
+        "en": "in, on, at",
+        "el": "the (masculine)",
+        "formulario": "form"
+      },
+      "note": {
+        "en": "Mande is a polite Mexican way to say pardon. It is more common in the center and south of Mexico.",
+        "es": "¿Mande? es una forma cortés de pedir que repitan algo. Se usa mucho en el centro y sur de México."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.13",
+      "type": "repeat",
+      "text": "Siempre y cuando traiga todos los documentos completos, puede entregar la solicitud en cualquier ventanilla de la oficina.",
+      "meaningEn": "As long as you bring all the documents complete, you can submit the application at any window in the office.",
+      "glosses": {
+        "siempre": "always (siempre y cuando = as long as)",
+        "y": "and",
+        "cuando": "when (+ subjunctive for future events)",
+        "traiga": "(you) bring — present subjunctive of traer, after siempre y cuando",
+        "todos": "everyone, all",
+        "los": "the (masculine plural)",
+        "documentos": "documents",
+        "completos": "complete (masculine plural)",
+        "puede": "(you) can — formal usted of poder",
+        "entregar": "to hand in, to deliver",
+        "la": "the (feminine); it, her (object)",
+        "solicitud": "application, request",
+        "en": "in, on, at",
+        "cualquier": "any",
+        "ventanilla": "service window, counter",
+        "de": "of, from",
+        "oficina": "office"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Siempre y cuando takes the subjunctive. It sets a condition: traiga.",
+        "es": "Siempre y cuando lleva subjuntivo y marca una condición. Ventanilla es el mostrador con vidrio para atender al público."
+      }
+    },
+    {
+      "exerciseId": "4.2.6.14",
+      "type": "read_aloud",
+      "text": "Pedro Pérez Pereira, pobre pintor portugués, pinta preciosos paisajes para poder pasar por París.",
+      "meaningEn": "Pedro Pérez Pereira, a poor Portuguese painter, paints beautiful landscapes so he can travel through Paris. (Tongue twister.)",
+      "glosses": {
+        "pedro": "the first name Pedro",
+        "pérez": "a surname",
+        "pereira": "a surname in the tongue twister",
+        "pobre": "poor",
+        "pintor": "painter",
+        "portugués": "Portuguese",
+        "pinta": "paints — 3rd person of pintar",
+        "preciosos": "beautiful, precious (masculine plural)",
+        "paisajes": "landscapes",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "poder": "to be able to (para poder = in order to be able to)",
+        "pasar": "to pass, to go through",
+        "por": "for, because of, through",
+        "parís": "Paris"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Say p without a puff of air. Spanish p is softer than English p.",
+        "es": "Trabalenguas tradicional. La p en español es más suave que en inglés: sin soplo de aire."
+      }
+    }
+  ]
+}

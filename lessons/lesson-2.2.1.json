@@ -1,0 +1,309 @@
+{
+  "lessonId": "2.2.1",
+  "level": 2,
+  "unit": 2,
+  "stage": 2,
+  "title": "En la visita de obra",
+  "titleEn": "On the site visit",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.2.1.1",
+      "type": "listen_choose",
+      "text": "Subo la escalera.",
+      "meaningEn": "I go up the stairs.",
+      "choices": [
+        {
+          "image": "images/subir.webp",
+          "label": "stairs going up",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Subir means to go up. Subo means I go up. The ending -o shows I, as in necesito.",
+        "es": "Subir significa \"to go up\". Subo es yo. La terminación -o indica yo, igual que en necesito."
+      }
+    },
+    {
+      "exerciseId": "2.2.1.2",
+      "type": "listen_choose",
+      "text": "Bajo la escalera.",
+      "meaningEn": "I go down the stairs.",
+      "choices": [
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "image": "images/bajar.webp",
+          "label": "stairs going down",
+          "correct": true
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Bajar means to go down. Bajo means I go down. In other sentences, bajo can also mean low or under.",
+        "es": "Bajar significa \"to go down\". Bajo es yo. En otras frases, bajo también puede significar \"low\" o \"under\"."
+      }
+    },
+    {
+      "exerciseId": "2.2.1.3",
+      "type": "listen_choose",
+      "text": "Camino en la calle.",
+      "meaningEn": "I walk in the street.",
+      "choices": [
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        },
+        {
+          "image": "images/caminar.webp",
+          "label": "shoe prints",
+          "correct": true
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Caminar means to walk. Camino means I walk. The noun el camino (the road) looks the same, but the sentence shows the meaning.",
+        "es": "Caminar significa \"to walk\". Camino es yo. El sustantivo el camino se escribe igual, pero la frase muestra el significado."
+      }
+    },
+    {
+      "exerciseId": "2.2.1.4",
+      "type": "repeat",
+      "text": "Subo la escalera.",
+      "meaningEn": "I go up the stairs.",
+      "glosses": {
+        "subo": "I go up — 1st person of subir",
+        "la": "the (feminine)",
+        "escalera": "stairs, ladder"
+      },
+      "image": "images/subir.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.1.5",
+      "type": "listen_choose",
+      "text": "Veo el techo.",
+      "meaningEn": "I see the roof.",
+      "choices": [
+        {
+          "image": "images/techo.webp",
+          "label": "roof",
+          "correct": true
+        },
+        {
+          "image": "images/puerta.webp",
+          "label": "door",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "Ver means to see. Veo means I see. This verb is irregular. Learn veo as it is.",
+        "es": "Ver significa \"to see\". Veo es yo. Este verbo es irregular. Aprende veo tal como es."
+      }
+    },
+    {
+      "exerciseId": "2.2.1.6",
+      "type": "listen_choose",
+      "text": "Busco el elevador.",
+      "meaningEn": "I'm looking for the elevator.",
+      "choices": [
+        {
+          "image": "images/bano.webp",
+          "label": "bathroom",
+          "correct": false
+        },
+        {
+          "image": "images/elevador.webp",
+          "label": "elevator",
+          "correct": true
+        },
+        {
+          "image": "images/boleto.webp",
+          "label": "ticket",
+          "correct": false
+        },
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "In Mexico, el elevador is the elevator. Other countries also say el ascensor.",
+        "es": "En México se dice el elevador. En otros países también se dice el ascensor."
+      }
+    },
+    {
+      "exerciseId": "2.2.1.7",
+      "type": "repeat",
+      "text": "Arriba y abajo.",
+      "meaningEn": "Up and down.",
+      "glosses": {
+        "arriba": "up, above, upstairs",
+        "y": "and",
+        "abajo": "down, below, downstairs"
+      },
+      "note": {
+        "en": "Arriba means up or above. Abajo means down or below. They are opposites. Abajo is a place word. Bajo is a verb.",
+        "es": "Arriba significa \"up\" o \"above\". Abajo significa \"down\" o \"below\". Son opuestos. Abajo indica lugar; bajo es un verbo."
+      }
+    },
+    {
+      "exerciseId": "2.2.1.8",
+      "type": "repeat",
+      "text": "Camino al elevador.",
+      "meaningEn": "I walk to the elevator.",
+      "glosses": {
+        "camino": "I walk — 1st person of caminar",
+        "al": "to the (a + el)",
+        "elevador": "elevator"
+      },
+      "image": "images/elevador.webp",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Al is a + el. Use al before a masculine noun: al elevador. Before a feminine noun, use a la: a la reunión.",
+        "es": "Al es a + el. Se usa antes de un sustantivo masculino: al elevador. Antes de uno femenino se usa a la: a la reunión."
+      }
+    },
+    {
+      "exerciseId": "2.2.1.9",
+      "type": "listen_choose",
+      "text": "Veo la grúa arriba.",
+      "meaningEn": "I see the crane above.",
+      "choices": [
+        {
+          "image": "images/grua.webp",
+          "label": "crane",
+          "correct": true
+        },
+        {
+          "image": "images/cafe.webp",
+          "label": "coffee",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.1.10",
+      "type": "listen_type",
+      "text": "Subo la escalera.",
+      "meaningEn": "I go up the stairs.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.1.11",
+      "type": "read_aloud",
+      "text": "Subo al piso cinco.",
+      "meaningEn": "I go up to the fifth floor.",
+      "glosses": {
+        "subo": "I go up — 1st person of subir",
+        "al": "to the (a + el)",
+        "piso": "floor",
+        "cinco": "five"
+      },
+      "image": "images/elevador.webp"
+    },
+    {
+      "exerciseId": "2.2.1.12",
+      "type": "repeat",
+      "text": "Subo con el casco.",
+      "meaningEn": "I go up with the hard hat.",
+      "glosses": {
+        "subo": "I go up — 1st person of subir",
+        "con": "with",
+        "el": "the (masculine)",
+        "casco": "hard hat"
+      },
+      "image": "images/casco.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.1.13",
+      "type": "listen_type",
+      "text": "Veo el techo.",
+      "meaningEn": "I see the roof."
+    },
+    {
+      "exerciseId": "2.2.1.14",
+      "type": "read_aloud",
+      "text": "Veo la viga arriba.",
+      "meaningEn": "I see the beam above.",
+      "glosses": {
+        "veo": "I see — 1st person of ver (irregular)",
+        "la": "the (feminine)",
+        "viga": "beam",
+        "arriba": "up, above, upstairs"
+      },
+      "image": "images/viga.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.1.15",
+      "type": "listen_type",
+      "text": "Veo la columna.",
+      "meaningEn": "I see the column."
+    }
+  ]
+}
