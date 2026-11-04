@@ -1,0 +1,362 @@
+{
+  "lessonId": "4.2.1",
+  "level": 4,
+  "unit": 2,
+  "stage": 4,
+  "title": "Lectura en voz alta: la familia y las fiestas",
+  "titleEn": "Read aloud: family and celebrations",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.2.1.1",
+      "type": "read_aloud",
+      "text": "Ojalá que toda la familia pueda reunirse en Navidad, para que los niños conozcan a sus primos de Monterrey.",
+      "meaningEn": "I hope the whole family can get together at Christmas, so that the children meet their cousins from Monterrey.",
+      "glosses": {
+        "ojalá": "I hope, hopefully (+ subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "toda": "all, whole (feminine)",
+        "la": "the (feminine); it, her (object)",
+        "familia": "family",
+        "pueda": "(he) can — present subjunctive of poder (o → ue)",
+        "reunirse": "to get together",
+        "en": "in, on, at",
+        "navidad": "Christmas",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "los": "the (masculine plural)",
+        "niños": "children",
+        "conozcan": "(they) meet, get to know — present subjunctive of conocer, after para que",
+        "a": "to, at (also: personal a before people)",
+        "sus": "his, her, their (plural)",
+        "primos": "cousins",
+        "de": "of, from",
+        "monterrey": "Monterrey (city in northern Mexico)"
+      },
+      "note": {
+        "en": "Ojalá que takes the present subjunctive. Para que also takes the subjunctive, because it states a purpose.",
+        "es": "Ojalá que y para que siempre llevan subjuntivo: el primero expresa un deseo y el segundo, una finalidad."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.2",
+      "type": "read_aloud",
+      "text": "Mi abuela quiere que preparemos los tamales antes de que lleguen los invitados, aunque tengamos poco tiempo.",
+      "meaningEn": "My grandmother wants us to make the tamales before the guests arrive, even if we have little time.",
+      "glosses": {
+        "mi": "my",
+        "abuela": "grandmother",
+        "quiere": "(he) wants — 3rd person of querer (quiere que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "preparemos": "(we) prepare — present subjunctive of preparar, after quiere que",
+        "los": "the (masculine plural)",
+        "tamales": "tamales",
+        "antes": "before (antes de que + subjunctive)",
+        "de": "of, from",
+        "lleguen": "(they) arrive — present subjunctive of llegar, after antes de que",
+        "invitados": "guests",
+        "aunque": "although, even if (+ subjunctive when uncertain)",
+        "tengamos": "(we) have — present subjunctive of tener, after aunque / cuando",
+        "poco": "little, a little",
+        "tiempo": "time"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Antes de que always takes the subjunctive. Aunque takes the subjunctive when the fact is uncertain or not yet true.",
+        "es": "Antes de que siempre lleva subjuntivo. Aunque lleva subjuntivo cuando el hecho es hipotético o no se conoce todavía."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.3",
+      "type": "listen_type",
+      "text": "Me alegra que mis tíos hayan venido desde Guadalajara para celebrar el cumpleaños de mi mamá.",
+      "meaningEn": "I am glad my aunts and uncles came from Guadalajara to celebrate my mom's birthday.",
+      "note": {
+        "en": "Me alegra que states an emotion. The verb after it takes the subjunctive: hayan venido.",
+        "es": "Me alegra que expresa emoción, por eso el verbo que sigue va en subjuntivo (aquí, pretérito perfecto: hayan venido)."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.4",
+      "type": "read_aloud",
+      "text": "Si tuviéramos una casa más grande, haríamos la posada aquí e invitaríamos a todos los vecinos de la colonia.",
+      "meaningEn": "If we had a bigger house, we would hold the posada here and invite all the neighbors in the neighborhood.",
+      "glosses": {
+        "si": "if",
+        "tuviéramos": "(we) had — imperfect subjunctive of tener, after si",
+        "una": "a, an (feminine)",
+        "casa": "house",
+        "más": "more",
+        "grande": "big",
+        "haríamos": "(we) would do or hold — conditional of hacer",
+        "la": "the (feminine); it, her (object)",
+        "posada": "posada (traditional Christmas party in Mexico)",
+        "aquí": "here",
+        "e": "and (y changes to e before a word that starts with i-)",
+        "invitaríamos": "(we) would invite — conditional of invitar",
+        "a": "to, at (also: personal a before people)",
+        "todos": "everyone, all",
+        "los": "the (masculine plural)",
+        "vecinos": "neighbors",
+        "de": "of, from",
+        "colonia": "neighborhood (Mexico)"
+      },
+      "note": {
+        "en": "Si plus the imperfect subjunctive gives a condition that is unlikely. The result uses the conditional.",
+        "es": "Si + imperfecto de subjuntivo plantea una condición poco probable; el resultado va en condicional (haríamos, invitaríamos)."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.5",
+      "type": "repeat",
+      "text": "Mi hermano organizó la fiesta sorpresa sin que mi papá sospechara nada hasta la hora de la cena.",
+      "meaningEn": "My brother organized the surprise party without my dad suspecting anything until dinner time.",
+      "glosses": {
+        "mi": "my",
+        "hermano": "brother",
+        "organizó": "(he) organized — preterite of organizar",
+        "la": "the (feminine); it, her (object)",
+        "fiesta": "party",
+        "sorpresa": "surprise",
+        "sin": "without (sin que = without, + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "papá": "dad",
+        "sospechara": "(he) suspected — imperfect subjunctive of sospechar, after sin que",
+        "nada": "nothing, anything",
+        "hasta": "until (hasta que = until, + subjunctive for future)",
+        "hora": "hour, time",
+        "de": "of, from",
+        "cena": "dinner"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Sin que always takes the subjunctive. Here the past tense of the main verb gives the imperfect subjunctive.",
+        "es": "Sin que siempre lleva subjuntivo. Como el verbo principal está en pasado, usamos el imperfecto: sospechara."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.6",
+      "type": "read_aloud",
+      "text": "Los niños corrieron por el jardín como si nunca hubieran visto una piñata tan grande y tan colorida.",
+      "meaningEn": "The children ran around the garden as if they had never seen such a big and colorful piñata.",
+      "glosses": {
+        "los": "the (masculine plural)",
+        "niños": "children",
+        "corrieron": "(they) ran — preterite of correr",
+        "por": "for, because of, through",
+        "el": "the (masculine)",
+        "jardín": "garden",
+        "como": "as; like; also I eat (comer); como si = as if",
+        "si": "if",
+        "nunca": "never",
+        "hubieran": "(they) had — imperfect subjunctive of haber, after como si",
+        "visto": "seen — past participle of ver (hubieran visto = they had seen)",
+        "una": "a, an (feminine)",
+        "piñata": "piñata (ñ is not the same as n)",
+        "tan": "so, as (tan caro = so expensive; tan pronto como = as soon as)",
+        "grande": "big",
+        "y": "and",
+        "colorida": "colorful (feminine)"
+      },
+      "note": {
+        "en": "Como si always takes the imperfect or pluperfect subjunctive. It compares with something unreal.",
+        "es": "Como si siempre se usa con imperfecto o pluscuamperfecto de subjuntivo, porque la comparación es irreal."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.7",
+      "type": "listen_type",
+      "text": "Cuando nazca el bebé, mis papás van a organizar una comida para presentarlo a la familia.",
+      "meaningEn": "When the baby is born, my parents are going to hold a meal to introduce him to the family.",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Cuando takes the subjunctive when it refers to a future event.",
+        "es": "Cuando lleva subjuntivo si se refiere al futuro: cuando nazca, no cuando nace."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.8",
+      "type": "read_aloud",
+      "text": "Es una lástima que Xóchitl no haya podido venir de México a la boda de su prima.",
+      "meaningEn": "It is a shame that Xóchitl could not come from Mexico to her cousin's wedding.",
+      "glosses": {
+        "es": "is — 3rd person of ser",
+        "una": "a, an (feminine)",
+        "lástima": "shame, pity (es una lástima = it is a shame)",
+        "que": "that, which; so that, who (after antecedent)",
+        "xóchitl": "Xóchitl (woman's name; x sounds like s)",
+        "no": "not, no",
+        "haya": "there is — present subjunctive of haber",
+        "podido": "been able — past participle of poder (haya podido = was able)",
+        "venir": "to come",
+        "de": "of, from",
+        "méxico": "Mexico (x sounds like j)",
+        "a": "to, at (also: personal a before people)",
+        "la": "the (feminine); it, her (object)",
+        "boda": "wedding",
+        "su": "his, her, their, your (formal)",
+        "prima": "female cousin"
+      },
+      "note": {
+        "en": "Pronounce the x in Xóchitl as s. Pronounce the x in México as j.",
+        "es": "La x de Xóchitl suena como s, y la x de México suena como j: dos sonidos distintos para la misma letra."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.9",
+      "type": "repeat",
+      "text": "Mi tía celebró la graduación de sus hijos con una comida enorme, y todos se llevaron un plato.",
+      "meaningEn": "My aunt celebrated her children's graduation with a huge meal, and everyone took a plate home.",
+      "glosses": {
+        "mi": "my",
+        "tía": "aunt",
+        "celebró": "(she) celebrated — preterite of celebrar",
+        "la": "the (feminine); it, her (object)",
+        "graduación": "graduation",
+        "de": "of, from",
+        "sus": "his, her, their (plural)",
+        "hijos": "children, sons",
+        "con": "with",
+        "una": "a, an (feminine)",
+        "comida": "meal, food",
+        "enorme": "huge",
+        "y": "and",
+        "todos": "everyone, all",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "llevaron": "(they) took — preterite of llevar",
+        "un": "a, an (masculine)",
+        "plato": "plate, dish"
+      },
+      "note": {
+        "en": "In -ción words, stress the last syllable: gra-dua-CIÓN. Say the ci as si.",
+        "es": "En las palabras terminadas en -ción el acento cae en la última sílaba: gra-dua-CIÓN."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.10",
+      "type": "read_aloud",
+      "text": "Quisiera que mis abuelos vivieran más cerca, porque extraño las pláticas de sobremesa y el café con pan dulce.",
+      "meaningEn": "I wish my grandparents lived closer, because I miss the after-meal chats and the coffee with sweet bread.",
+      "glosses": {
+        "quisiera": "I would like — imperfect subjunctive of querer (polite)",
+        "que": "that, which; so that, who (after antecedent)",
+        "mis": "my (plural)",
+        "abuelos": "grandparents",
+        "vivieran": "(they) lived — imperfect subjunctive of vivir, after quisiera que",
+        "más": "more",
+        "cerca": "near, close",
+        "porque": "because",
+        "extraño": "I miss — 1st person of extrañar",
+        "las": "the (feminine plural)",
+        "pláticas": "chats, conversations",
+        "de": "of, from",
+        "sobremesa": "chat at the table after a meal",
+        "y": "and",
+        "el": "the (masculine)",
+        "café": "coffee",
+        "con": "with",
+        "pan": "bread",
+        "dulce": "sweet (pan dulce = sweet bread)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Quisiera que takes the imperfect subjunctive. It is a polite and soft way to state a wish.",
+        "es": "Quisiera que + imperfecto de subjuntivo es una forma suave de expresar un deseo. La sobremesa es la plática después de comer."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.11",
+      "type": "listen_type",
+      "text": "Dile a tu hermana que me avise antes de que compre el regalo de mi abuela.",
+      "meaningEn": "Tell your sister to let me know before I buy my grandmother's gift."
+    },
+    {
+      "exerciseId": "4.2.1.12",
+      "type": "read_aloud",
+      "text": "Ándale, ven a ayudarme con la mesa; ahorita llegan los invitados y todavía falta poner los platos.",
+      "meaningEn": "Come on, come help me with the table; the guests are arriving any minute and we still need to set out the plates.",
+      "glosses": {
+        "ándale": "come on, go ahead (Mexican, informal)",
+        "ven": "come — informal command of venir",
+        "a": "to, at (also: personal a before people)",
+        "ayudarme": "to help me",
+        "con": "with",
+        "la": "the (feminine); it, her (object)",
+        "mesa": "table",
+        "ahorita": "right now, in a moment (Mexican; time depends on context)",
+        "llegan": "(they) arrive — 3rd person plural of llegar",
+        "los": "the (masculine plural)",
+        "invitados": "guests",
+        "y": "and",
+        "todavía": "still, yet",
+        "falta": "is missing, is still needed (falta poner = still needs to be set)",
+        "poner": "to put, to set",
+        "platos": "plates, dishes"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Ándale and ahorita are common in Mexico. Ahorita can mean now, soon, or a little later, from context.",
+        "es": "Ándale y ahorita son muy mexicanos. Ahorita puede significar ya, en un momento o más tarde, según el contexto."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.13",
+      "type": "repeat",
+      "text": "Mi abuelo siempre nos contaba cómo conoció a mi abuela en una fiesta del pueblo, y todos nos reíamos.",
+      "meaningEn": "My grandfather always told us how he met my grandmother at a town party, and we all laughed.",
+      "glosses": {
+        "mi": "my",
+        "abuelo": "grandfather",
+        "siempre": "always (siempre y cuando = as long as)",
+        "nos": "us, to us; we (reflexive)",
+        "contaba": "(he) used to tell — imperfect of contar (o → ue)",
+        "cómo": "how",
+        "conoció": "(he) met — preterite of conocer",
+        "a": "to, at (also: personal a before people)",
+        "abuela": "grandmother",
+        "en": "in, on, at",
+        "una": "a, an (feminine)",
+        "fiesta": "party",
+        "del": "of the (de + el)",
+        "pueblo": "town, village",
+        "y": "and",
+        "todos": "everyone, all",
+        "reíamos": "(we) laughed — imperfect of reír (nos reíamos = we laughed)"
+      },
+      "note": {
+        "en": "Use the imperfect for habits in the past: contaba, reíamos. Use the preterite for a single event: conoció.",
+        "es": "El imperfecto describe hábitos del pasado (contaba, reíamos). El pretérito marca un hecho puntual (conoció)."
+      }
+    },
+    {
+      "exerciseId": "4.2.1.14",
+      "type": "read_aloud",
+      "text": "María Chucena techaba su choza y un techador le dijo: ¿techas tu choza o techas la ajena?",
+      "meaningEn": "María Chucena was roofing her hut, and a roofer said to her: do you roof your hut or someone else's? (Tongue twister.)",
+      "glosses": {
+        "maría": "the first name María",
+        "chucena": "part of the name María Chucena (traditional rhyme)",
+        "techaba": "(she) was roofing — imperfect of techar",
+        "su": "his, her, their, your (formal)",
+        "choza": "hut",
+        "y": "and",
+        "un": "a, an (masculine)",
+        "techador": "roofer",
+        "le": "to you, to him or her (indirect object)",
+        "dijo": "(he) said, told — preterite of decir",
+        "techas": "you roof — 2nd person of techar",
+        "tu": "your (informal)",
+        "o": "or",
+        "la": "the (feminine); it, her (object)",
+        "ajena": "someone else's (la ajena = the other person's one)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "The ch sound is the same as in English chair. Keep the e clear in each techas.",
+        "es": "Trabalenguas tradicional. Cuida la ch y mantén la e clara en cada techas. Empieza despacio."
+      }
+    }
+  ]
+}

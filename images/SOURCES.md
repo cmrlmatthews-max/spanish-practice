@@ -68,3 +68,15 @@ Style: flat drawings, approved by Cade on 2026-10-12. Background #F6F1E8, 6 px d
 | reunion.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-10-13, lesson batch 2). | No copyright claim. Free to use. |
 | revisar.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-10-13, lesson batch 2). | No copyright claim. Free to use. |
 | viga.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-10-13, lesson batch 2). | No copyright claim. Free to use. |
+| subir.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| bajar.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| caminar.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| techo.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| elevador.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| idea.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| precio.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| cuenta.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| comida.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| jugo.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| cerveza.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |
+| trabajadores.webp | Drawn by Claude (Anthropic) as SVG flat shapes, rendered to WebP (2026-11-03, lesson batch 3). | No copyright claim. Free to use. |

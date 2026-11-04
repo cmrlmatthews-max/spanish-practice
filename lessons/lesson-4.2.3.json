@@ -1,0 +1,358 @@
+{
+  "lessonId": "4.2.3",
+  "level": 4,
+  "unit": 2,
+  "stage": 4,
+  "title": "Lectura en voz alta: producción y mantenimiento",
+  "titleEn": "Read aloud: production and maintenance",
+  "audience": [
+    "casey"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "4.2.3.1",
+      "type": "read_aloud",
+      "text": "Es necesario que la planta cumpla con el programa de mantenimiento preventivo para que no se detenga la producción.",
+      "meaningEn": "The plant needs to follow the preventive maintenance program so that production does not stop.",
+      "glosses": {
+        "es": "is — 3rd person of ser",
+        "necesario": "necessary",
+        "que": "that, which; so that, who (after antecedent)",
+        "la": "the (feminine); it, her (object)",
+        "planta": "plant, factory",
+        "cumpla": "(it) follows, meets — present subjunctive of cumplir, after es necesario que",
+        "con": "with",
+        "el": "the (masculine)",
+        "programa": "program, schedule",
+        "de": "of, from",
+        "mantenimiento": "maintenance",
+        "preventivo": "preventive",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "no": "not, no",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "detenga": "(it) stops — present subjunctive of detenerse, after para que",
+        "producción": "production"
+      },
+      "note": {
+        "en": "Es necesario que and para que both take the subjunctive. Stress -CIÓN in producción.",
+        "es": "Es necesario que y para que llevan subjuntivo. En producción el acento cae en la última sílaba: pro-duc-CIÓN."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.2",
+      "type": "read_aloud",
+      "text": "Aunque haya exceso de pedidos, no podemos saltarnos la inspección ni cambiar las instrucciones de trabajo sin autorización.",
+      "meaningEn": "Even if there are too many orders, we cannot skip the inspection or change the work instructions without authorization.",
+      "glosses": {
+        "aunque": "although, even if (+ subjunctive when uncertain)",
+        "haya": "there is — present subjunctive of haber",
+        "exceso": "excess, too much",
+        "de": "of, from",
+        "pedidos": "orders",
+        "no": "not, no",
+        "podemos": "we can — 1st person plural of poder",
+        "saltarnos": "to skip (for us) — saltarse + nos",
+        "la": "the (feminine); it, her (object)",
+        "inspección": "inspection",
+        "ni": "nor, or (ni … ni = neither … nor)",
+        "cambiar": "to change",
+        "las": "the (feminine plural)",
+        "instrucciones": "instructions",
+        "trabajo": "work",
+        "sin": "without (sin que = without, + subjunctive)",
+        "autorización": "authorization"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Say the x in exceso as ks. Say the group nstr in instrucciones clearly.",
+        "es": "La x de exceso suena como ks (ek-SE-so). En instrucciones pronuncia con claridad el grupo nstr."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.3",
+      "type": "listen_type",
+      "text": "Cuando termine la reparación, avísenme para que arranquemos la línea antes del turno de la tarde.",
+      "meaningEn": "When the repair is finished, let me know so that we can start the line before the afternoon shift.",
+      "note": {
+        "en": "Cuando takes the subjunctive here, because the repair has not finished yet.",
+        "es": "Cuando lleva subjuntivo aquí porque la reparación todavía no termina: es un hecho futuro."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.4",
+      "type": "read_aloud",
+      "text": "Si el montacargas no tuviera una fuga de aceite, ya habríamos terminado de mover las tarimas del cuarto frío.",
+      "meaningEn": "If the forklift did not have an oil leak, we would already have finished moving the pallets from the cold room.",
+      "glosses": {
+        "si": "if",
+        "el": "the (masculine)",
+        "montacargas": "forklift",
+        "no": "not, no",
+        "tuviera": "(I) had — imperfect subjunctive of tener, after si",
+        "una": "a, an (feminine)",
+        "fuga": "leak",
+        "de": "of, from",
+        "aceite": "oil",
+        "ya": "already, now (ya que = since)",
+        "habríamos": "(we) would have — conditional of haber",
+        "terminado": "finished — past participle of terminar (habríamos terminado = we would have)",
+        "mover": "to move",
+        "las": "the (feminine plural)",
+        "tarimas": "pallets",
+        "del": "of the (de + el)",
+        "cuarto": "room",
+        "frío": "cold (hace frío = it is cold)"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "This sentence mixes the imperfect subjunctive with the conditional perfect. It shows a present cause for a past result.",
+        "es": "Aquí se mezclan tiempos: si + imperfecto de subjuntivo (tuviera) y condicional perfecto (habríamos terminado)."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.5",
+      "type": "repeat",
+      "text": "Cuando cambien el cilindro, limpien bien la superficie y comprueben que no quede ninguna rebaba dentro del sistema.",
+      "meaningEn": "When you change the cylinder, clean the surface well and check that no burr is left inside the system.",
+      "glosses": {
+        "cuando": "when (+ subjunctive for future events)",
+        "cambien": "(you all) change — command of cambiar",
+        "el": "the (masculine)",
+        "cilindro": "cylinder",
+        "limpien": "(you all) clean — command of limpiar",
+        "bien": "well",
+        "la": "the (feminine); it, her (object)",
+        "superficie": "surface",
+        "y": "and",
+        "comprueben": "(you all) check — present subjunctive of comprobar (o → ue)",
+        "que": "that, which; so that, who (after antecedent)",
+        "no": "not, no",
+        "quede": "(it) remains — present subjunctive of quedar, after comprueben que",
+        "ninguna": "no, none (feminine)",
+        "rebaba": "burr, rough metal edge",
+        "dentro": "inside",
+        "del": "of the (de + el)",
+        "sistema": "system"
+      },
+      "note": {
+        "en": "After a command like comprueben que, the next verb takes the subjunctive: quede. Say the group ndr in cilindro clearly.",
+        "es": "Después de un mandato como comprueben que, el verbo siguiente va en subjuntivo (quede). Cuida el grupo ndr de cilindro."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.6",
+      "type": "read_aloud",
+      "text": "Nadie debe entrar al área de la prensa sin que el supervisor firme el permiso de trabajo.",
+      "meaningEn": "Nobody should enter the press area without the supervisor signing the work permit.",
+      "glosses": {
+        "nadie": "nobody",
+        "debe": "must, should — 3rd person of deber",
+        "entrar": "to enter",
+        "al": "to the (a + el)",
+        "área": "area (feminine noun, but el área)",
+        "de": "of, from",
+        "la": "the (feminine); it, her (object)",
+        "prensa": "press (industrial press)",
+        "sin": "without (sin que = without, + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "el": "the (masculine)",
+        "supervisor": "supervisor",
+        "firme": "(he) signs — present subjunctive of firmar, after necesitamos que",
+        "permiso": "permit, permission",
+        "trabajo": "work"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Sin que always takes the subjunctive. The r in prensa and permiso is a single tap, not a trill.",
+        "es": "Sin que siempre lleva subjuntivo. En prensa y permiso, la r suena simple (un golpe de lengua)."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.7",
+      "type": "listen_type",
+      "text": "Es extraordinario que la nueva máquina produzca el doble sin que aumente el consumo de energía.",
+      "meaningEn": "It is extraordinary that the new machine produces double without the energy consumption going up."
+    },
+    {
+      "exerciseId": "4.2.3.8",
+      "type": "read_aloud",
+      "text": "Si no hubiéramos revisado el sistema de refrigeración, el motor se habría sobrecalentado y habríamos perdido toda la producción.",
+      "meaningEn": "If we had not checked the cooling system, the engine would have overheated and we would have lost all the production.",
+      "glosses": {
+        "si": "if",
+        "no": "not, no",
+        "hubiéramos": "(we) had — imperfect subjunctive of haber, after si",
+        "revisado": "checked — past participle of revisar (hubiéramos revisado = we had checked)",
+        "el": "the (masculine)",
+        "sistema": "system",
+        "de": "of, from",
+        "refrigeración": "cooling, refrigeration",
+        "motor": "engine, motor",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "habría": "would have — conditional of haber",
+        "sobrecalentado": "overheated — past participle of sobrecalentarse",
+        "y": "and",
+        "habríamos": "(we) would have — conditional of haber",
+        "perdido": "lost — past participle of perder (habríamos perdido = we would have lost)",
+        "toda": "all, whole (feminine)",
+        "la": "the (feminine); it, her (object)",
+        "producción": "production"
+      },
+      "note": {
+        "en": "Si plus the pluperfect subjunctive talks about the past that did not happen. The result uses the conditional perfect.",
+        "es": "Si + pluscuamperfecto de subjuntivo habla de algo que no pasó en el pasado; el resultado va en condicional perfecto."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.9",
+      "type": "repeat",
+      "text": "En cuanto instalen el tablero nuevo, necesitamos que capaciten a los operadores para que sepan interpretar las alarmas.",
+      "meaningEn": "As soon as they install the new panel, we need them to train the operators so that they know how to read the alarms.",
+      "glosses": {
+        "en": "in, on, at",
+        "cuanto": "as much as (en cuanto = as soon as, + subjunctive for future)",
+        "instalen": "(they) install — present subjunctive of instalar, after en cuanto",
+        "el": "the (masculine)",
+        "tablero": "panel, board",
+        "nuevo": "new",
+        "necesitamos": "we need — necesitamos que + subjunctive",
+        "que": "that, which; so that, who (after antecedent)",
+        "capaciten": "(you all) train — present subjunctive of capacitar, after necesitamos que",
+        "a": "to, at (also: personal a before people)",
+        "los": "the (masculine plural)",
+        "operadores": "operators",
+        "para": "for, in order to (para que = so that, + subjunctive)",
+        "sepan": "(they) know — present subjunctive of saber, after para que",
+        "interpretar": "to interpret, to understand",
+        "las": "the (feminine plural)",
+        "alarmas": "alarms"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "En cuanto takes the subjunctive for future events. In instalen, say the n and the s clearly before the t.",
+        "es": "En cuanto lleva subjuntivo si habla del futuro. En instalen se pronuncian la n y la s antes de la t."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.10",
+      "type": "read_aloud",
+      "text": "Dudo que podamos cumplir con el pedido si la trituradora sigue obstruida y no hay refacciones en el almacén.",
+      "meaningEn": "I doubt we can fill the order if the shredder stays blocked and there are no spare parts in the warehouse.",
+      "glosses": {
+        "dudo": "I doubt — 1st person of dudar (dudo que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "podamos": "(we) can — present subjunctive of poder, after ojalá",
+        "cumplir": "to fulfill, to meet (cumplir con = to comply with)",
+        "con": "with",
+        "el": "the (masculine)",
+        "pedido": "order (purchase order)",
+        "si": "if",
+        "la": "the (feminine); it, her (object)",
+        "trituradora": "shredder, crusher",
+        "sigue": "(it) continues, stays — 3rd person of seguir (e → i)",
+        "obstruida": "blocked (feminine)",
+        "y": "and",
+        "no": "not, no",
+        "hay": "there is, there are",
+        "refacciones": "spare parts (Mexico)",
+        "en": "in, on, at",
+        "almacén": "warehouse, storeroom"
+      },
+      "note": {
+        "en": "Dudo que takes the subjunctive. Refacciones means spare parts in Mexico.",
+        "es": "Dudo que lleva subjuntivo. En México, refacciones significa repuestos o piezas de repuesto."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.11",
+      "type": "listen_type",
+      "text": "Aunque la máquina parezca nueva, hay que lubricar los baleros para que no se desgasten.",
+      "meaningEn": "Even if the machine looks new, you have to lubricate the bearings so that they do not wear out.",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "4.2.3.12",
+      "type": "read_aloud",
+      "text": "Ándale, trae la llave de tuercas y ayúdame a ajustar la banda antes de que se rompa.",
+      "meaningEn": "Come on, bring the wrench and help me adjust the belt before it breaks.",
+      "glosses": {
+        "ándale": "come on, go ahead (Mexican, informal)",
+        "trae": "bring — informal command of traer",
+        "la": "the (feminine); it, her (object)",
+        "llave": "wrench, key (llave de tuercas = wrench)",
+        "de": "of, from",
+        "tuercas": "nuts (hardware; llave de tuercas = wrench)",
+        "y": "and",
+        "ayúdame": "help me — command of ayudar + me",
+        "a": "to, at (also: personal a before people)",
+        "ajustar": "to adjust",
+        "banda": "belt, band",
+        "antes": "before (antes de que + subjunctive)",
+        "que": "that, which; so that, who (after antecedent)",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "rompa": "(it) breaks — present subjunctive of romper, after antes de que"
+      },
+      "note": {
+        "en": "Ándale is informal. Ayúdame is a command with the pronoun joined to the verb, and it keeps the written accent.",
+        "es": "Ándale es informal. En ayúdame el pronombre va pegado al verbo y lleva acento escrito."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.13",
+      "type": "repeat",
+      "text": "Híjole, el sensor se descompuso otra vez; tendremos que detener la línea y reprogramar toda la producción del día.",
+      "meaningEn": "Oh no, the sensor broke down again; we will have to stop the line and reschedule all of the day's production.",
+      "glosses": {
+        "híjole": "oh no, wow (Mexican exclamation of surprise or worry)",
+        "el": "the (masculine)",
+        "sensor": "sensor",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "descompuso": "(it) broke down — preterite of descomponerse",
+        "otra": "another, other (feminine; otra vez = again)",
+        "vez": "time, occasion (otra vez = again)",
+        "tendremos": "we will have — future of tener (tendremos que = we will have to)",
+        "que": "that, which; so that, who (after antecedent)",
+        "detener": "to stop",
+        "la": "the (feminine); it, her (object)",
+        "línea": "line (production line)",
+        "y": "and",
+        "reprogramar": "to reschedule",
+        "toda": "all, whole (feminine)",
+        "producción": "production",
+        "del": "of the (de + el)",
+        "día": "day"
+      },
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Híjole is a Mexican expression of surprise or worry. The h is silent.",
+        "es": "Híjole expresa sorpresa o preocupación. La h es muda y la j suena fuerte: i-JO-le."
+      }
+    },
+    {
+      "exerciseId": "4.2.3.14",
+      "type": "read_aloud",
+      "text": "El arzobispo de Constantinopla se quiere desarzobispoconstantinopolitanizar. El que lo desarzobispoconstantinopolitanice, buen desarzobispoconstantinopolitanizador será.",
+      "meaningEn": "The archbishop of Constantinople wants to un-archbishop-of-Constantinople himself. Whoever does it will be a good un-archbishop-of-Constantinople-izer. (Tongue twister.)",
+      "glosses": {
+        "el": "the (masculine)",
+        "arzobispo": "archbishop",
+        "de": "of, from",
+        "constantinopla": "Constantinople",
+        "se": "himself, itself; (le → se); se acabó = it ran out",
+        "quiere": "(he) wants — 3rd person of querer (quiere que + subjunctive)",
+        "desarzobispoconstantinopolitanizar": "to un-archbishop (tongue-twister word)",
+        "que": "that, which; so that, who (after antecedent)",
+        "lo": "it, him (object); lo posible = what is possible",
+        "desarzobispoconstantinopolitanice": "(someone) un-archbishop — present subjunctive, made-up tongue-twister word",
+        "buen": "good (short form before a masculine noun)",
+        "desarzobispoconstantinopolitanizador": "the one who un-archbishops (tongue-twister word)",
+        "será": "will be — future of ser"
+      },
+      "note": {
+        "en": "Say the group nst in Constantinopla clearly. Read the long word in parts.",
+        "es": "Trabalenguas tradicional. Divide la palabra larga en partes: des-ar-zo-bis-po-cons-tan-ti-no-po-li-ta-ni-zar."
+      }
+    }
+  ]
+}

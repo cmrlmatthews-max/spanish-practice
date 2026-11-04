@@ -1,0 +1,288 @@
+{
+  "lessonId": "2.2.4",
+  "level": 2,
+  "unit": 2,
+  "stage": 2,
+  "title": "Nosotros",
+  "titleEn": "We",
+  "audience": [
+    "cade"
+  ],
+  "language": "es-MX",
+  "exercises": [
+    {
+      "exerciseId": "2.2.4.1",
+      "type": "listen_choose",
+      "text": "Llegamos al hotel.",
+      "meaningEn": "We arrive at the hotel.",
+      "choices": [
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": true
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": false
+        },
+        {
+          "image": "images/mapa.webp",
+          "label": "map",
+          "correct": false
+        },
+        {
+          "image": "images/perro.webp",
+          "label": "dog",
+          "correct": false
+        }
+      ],
+      "note": {
+        "en": "For -ar verbs, the ending -amos shows we: llegamos. The ending -o shows I: llego.",
+        "es": "En los verbos en -ar, la terminación -amos indica nosotros: llegamos. La terminación -o indica yo: llego."
+      }
+    },
+    {
+      "exerciseId": "2.2.4.2",
+      "type": "listen_choose",
+      "text": "Revisamos los planos.",
+      "meaningEn": "We check the plans.",
+      "choices": [
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/revisar.webp",
+          "label": "checking a blueprint",
+          "correct": true
+        },
+        {
+          "image": "images/silla.webp",
+          "label": "chair",
+          "correct": false
+        },
+        {
+          "image": "images/casa.webp",
+          "label": "house",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.4.3",
+      "type": "listen_choose",
+      "text": "Llegamos a la reunión.",
+      "meaningEn": "We arrive at the meeting.",
+      "choices": [
+        {
+          "image": "images/carro.webp",
+          "label": "car",
+          "correct": false
+        },
+        {
+          "image": "images/cemento.webp",
+          "label": "cement bag",
+          "correct": false
+        },
+        {
+          "image": "images/reunion.webp",
+          "label": "meeting",
+          "correct": true
+        },
+        {
+          "image": "images/ventana.webp",
+          "label": "window",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "exerciseId": "2.2.4.4",
+      "type": "repeat",
+      "text": "Llegamos al hotel.",
+      "meaningEn": "We arrive at the hotel.",
+      "glosses": {
+        "llegamos": "we arrive — 1st person plural of llegar",
+        "al": "to the (a + el)",
+        "hotel": "hotel"
+      },
+      "image": "images/hotel.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.4.5",
+      "type": "repeat",
+      "text": "Tenemos un contrato.",
+      "meaningEn": "We have a contract.",
+      "glosses": {
+        "tenemos": "we have — 1st person plural of tener",
+        "un": "a, an (masculine)",
+        "contrato": "contract"
+      },
+      "image": "images/contrato.webp",
+      "note": {
+        "en": "For -er verbs, the ending -emos shows we: tenemos. Tener is irregular for I (tengo), but tenemos is regular.",
+        "es": "En los verbos en -er, la terminación -emos indica nosotros: tenemos. Tener es irregular en yo (tengo), pero tenemos es regular."
+      }
+    },
+    {
+      "exerciseId": "2.2.4.6",
+      "type": "listen_choose",
+      "text": "Necesitamos la llave.",
+      "meaningEn": "We need the key.",
+      "choices": [
+        {
+          "image": "images/pluma.webp",
+          "label": "pen",
+          "correct": false
+        },
+        {
+          "image": "images/llave.webp",
+          "label": "key",
+          "correct": true
+        },
+        {
+          "image": "images/hotel.webp",
+          "label": "hotel",
+          "correct": false
+        },
+        {
+          "image": "images/gato.webp",
+          "label": "cat",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.4.7",
+      "type": "repeat",
+      "text": "Hablamos con el cliente.",
+      "meaningEn": "We talk with the client.",
+      "glosses": {
+        "hablamos": "we speak, we talk — 1st person plural of hablar",
+        "con": "with",
+        "el": "the (masculine)",
+        "cliente": "client"
+      },
+      "image": "images/cliente.webp"
+    },
+    {
+      "exerciseId": "2.2.4.8",
+      "type": "repeat",
+      "text": "Nosotros revisamos los planos.",
+      "meaningEn": "We check the plans.",
+      "glosses": {
+        "nosotros": "we",
+        "revisamos": "we check — 1st person plural of revisar",
+        "los": "the (masculine plural)",
+        "planos": "plans, drawings (plural of plano)"
+      },
+      "image": "images/revisar.webp",
+      "voice": "es-MX-JorgeNeural",
+      "note": {
+        "en": "Nosotros means we. Spanish often drops it, because the ending -amos already shows we. People add it for emphasis.",
+        "es": "Nosotros significa \"we\". Casi siempre se omite, porque la terminación -amos ya indica nosotros. Se agrega para dar énfasis."
+      }
+    },
+    {
+      "exerciseId": "2.2.4.9",
+      "type": "repeat",
+      "text": "Revisamos los planos juntos.",
+      "meaningEn": "We check the plans together.",
+      "glosses": {
+        "revisamos": "we check — 1st person plural of revisar",
+        "los": "the (masculine plural)",
+        "planos": "plans, drawings (plural of plano)",
+        "juntos": "together"
+      },
+      "image": "images/revisar.webp",
+      "note": {
+        "en": "Juntos means together. For a group of only women, use juntas.",
+        "es": "Juntos significa \"together\". Para un grupo de solo mujeres se usa juntas."
+      }
+    },
+    {
+      "exerciseId": "2.2.4.10",
+      "type": "listen_choose",
+      "text": "Hablamos del contrato.",
+      "meaningEn": "We talk about the contract.",
+      "choices": [
+        {
+          "image": "images/martillo.webp",
+          "label": "hammer",
+          "correct": false
+        },
+        {
+          "image": "images/contrato.webp",
+          "label": "contract",
+          "correct": true
+        },
+        {
+          "image": "images/avion.webp",
+          "label": "airplane",
+          "correct": false
+        },
+        {
+          "image": "images/mesa.webp",
+          "label": "table",
+          "correct": false
+        }
+      ],
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.4.11",
+      "type": "listen_type",
+      "text": "Revisamos los planos.",
+      "meaningEn": "We check the plans."
+    },
+    {
+      "exerciseId": "2.2.4.12",
+      "type": "read_aloud",
+      "text": "Tenemos una reunión con el cliente.",
+      "meaningEn": "We have a meeting with the client.",
+      "glosses": {
+        "tenemos": "we have — 1st person plural of tener",
+        "una": "a, an (feminine)",
+        "reunión": "meeting",
+        "con": "with",
+        "el": "the (masculine)",
+        "cliente": "client"
+      },
+      "image": "images/reunion.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.4.13",
+      "type": "listen_type",
+      "text": "Necesitamos el contrato.",
+      "meaningEn": "We need the contract."
+    },
+    {
+      "exerciseId": "2.2.4.14",
+      "type": "read_aloud",
+      "text": "Hablamos con el cliente en el hotel.",
+      "meaningEn": "We talk with the client at the hotel.",
+      "glosses": {
+        "hablamos": "we speak, we talk — 1st person plural of hablar",
+        "con": "with",
+        "el": "the (masculine)",
+        "cliente": "client",
+        "en": "in, on, at",
+        "hotel": "hotel"
+      },
+      "image": "images/hotel.webp",
+      "voice": "es-MX-JorgeNeural"
+    },
+    {
+      "exerciseId": "2.2.4.15",
+      "type": "listen_type",
+      "text": "Tenemos los planos.",
+      "meaningEn": "We have the plans."
+    }
+  ]
+}
